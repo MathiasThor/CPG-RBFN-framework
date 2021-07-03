@@ -19,9 +19,9 @@ except ImportError:
             break
     from catkin.environment_cache import generate_environment_script
 
-code = generate_environment_script('/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/interfaces/morf/sim/build_dir/devel/env.sh')
+code = generate_environment_script('/home/mat/workspace/CPG-RBFN-framework/interfaces/morf/sim/build_dir/devel/env.sh')
 
-output_filename = '/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/interfaces/morf/sim/build_dir/catkin_generated/setup_cached.sh'
+output_filename = '/home/mat/workspace/CPG-RBFN-framework/interfaces/morf/sim/build_dir/catkin_generated/setup_cached.sh'
 with open(output_filename, 'w') as f:
     # print('Generate script for cached setup "%s"' % output_filename)
     f.write('\n'.join(code))

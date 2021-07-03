@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/interfaces/morf/sim/build_dir
+CMAKE_SOURCE_DIR = /home/mat/workspace/CPG-RBFN-framework/interfaces/morf/sim/build_dir
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/interfaces/morf/sim/build_dir
+CMAKE_BINARY_DIR = /home/mat/workspace/CPG-RBFN-framework/interfaces/morf/sim/build_dir
 
 # Include any dependencies generated for this target.
 include CMakeFiles/morf_controller.dir/depend.make
@@ -57,636 +57,636 @@ include CMakeFiles/morf_controller.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/morf_controller.dir/flags.make
 
-CMakeFiles/morf_controller.dir/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/neural_controllers/morf/sim/main_hexapod_controller.cpp.o: CMakeFiles/morf_controller.dir/flags.make
-CMakeFiles/morf_controller.dir/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/neural_controllers/morf/sim/main_hexapod_controller.cpp.o: /home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/neural_controllers/morf/sim/main_hexapod_controller.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/interfaces/morf/sim/build_dir/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/morf_controller.dir/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/neural_controllers/morf/sim/main_hexapod_controller.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/morf_controller.dir/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/neural_controllers/morf/sim/main_hexapod_controller.cpp.o -c /home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/neural_controllers/morf/sim/main_hexapod_controller.cpp
+CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/main_hexapod_controller.cpp.o: CMakeFiles/morf_controller.dir/flags.make
+CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/main_hexapod_controller.cpp.o: /home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/main_hexapod_controller.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mat/workspace/CPG-RBFN-framework/interfaces/morf/sim/build_dir/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/main_hexapod_controller.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/main_hexapod_controller.cpp.o -c /home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/main_hexapod_controller.cpp
 
-CMakeFiles/morf_controller.dir/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/neural_controllers/morf/sim/main_hexapod_controller.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/morf_controller.dir/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/neural_controllers/morf/sim/main_hexapod_controller.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/neural_controllers/morf/sim/main_hexapod_controller.cpp > CMakeFiles/morf_controller.dir/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/neural_controllers/morf/sim/main_hexapod_controller.cpp.i
+CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/main_hexapod_controller.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/main_hexapod_controller.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/main_hexapod_controller.cpp > CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/main_hexapod_controller.cpp.i
 
-CMakeFiles/morf_controller.dir/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/neural_controllers/morf/sim/main_hexapod_controller.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/morf_controller.dir/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/neural_controllers/morf/sim/main_hexapod_controller.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/neural_controllers/morf/sim/main_hexapod_controller.cpp -o CMakeFiles/morf_controller.dir/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/neural_controllers/morf/sim/main_hexapod_controller.cpp.s
+CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/main_hexapod_controller.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/main_hexapod_controller.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/main_hexapod_controller.cpp -o CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/main_hexapod_controller.cpp.s
 
-CMakeFiles/morf_controller.dir/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/neural_controllers/morf/sim/main_hexapod_controller.cpp.o.requires:
+CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/main_hexapod_controller.cpp.o.requires:
 
-.PHONY : CMakeFiles/morf_controller.dir/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/neural_controllers/morf/sim/main_hexapod_controller.cpp.o.requires
+.PHONY : CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/main_hexapod_controller.cpp.o.requires
 
-CMakeFiles/morf_controller.dir/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/neural_controllers/morf/sim/main_hexapod_controller.cpp.o.provides: CMakeFiles/morf_controller.dir/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/neural_controllers/morf/sim/main_hexapod_controller.cpp.o.requires
-	$(MAKE) -f CMakeFiles/morf_controller.dir/build.make CMakeFiles/morf_controller.dir/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/neural_controllers/morf/sim/main_hexapod_controller.cpp.o.provides.build
-.PHONY : CMakeFiles/morf_controller.dir/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/neural_controllers/morf/sim/main_hexapod_controller.cpp.o.provides
+CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/main_hexapod_controller.cpp.o.provides: CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/main_hexapod_controller.cpp.o.requires
+	$(MAKE) -f CMakeFiles/morf_controller.dir/build.make CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/main_hexapod_controller.cpp.o.provides.build
+.PHONY : CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/main_hexapod_controller.cpp.o.provides
 
-CMakeFiles/morf_controller.dir/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/neural_controllers/morf/sim/main_hexapod_controller.cpp.o.provides.build: CMakeFiles/morf_controller.dir/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/neural_controllers/morf/sim/main_hexapod_controller.cpp.o
+CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/main_hexapod_controller.cpp.o.provides.build: CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/main_hexapod_controller.cpp.o
 
 
-CMakeFiles/morf_controller.dir/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/neural_controllers/morf/sim/simRosClass.cpp.o: CMakeFiles/morf_controller.dir/flags.make
-CMakeFiles/morf_controller.dir/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/neural_controllers/morf/sim/simRosClass.cpp.o: /home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/neural_controllers/morf/sim/simRosClass.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/interfaces/morf/sim/build_dir/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/morf_controller.dir/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/neural_controllers/morf/sim/simRosClass.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/morf_controller.dir/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/neural_controllers/morf/sim/simRosClass.cpp.o -c /home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/neural_controllers/morf/sim/simRosClass.cpp
+CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/simRosClass.cpp.o: CMakeFiles/morf_controller.dir/flags.make
+CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/simRosClass.cpp.o: /home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/simRosClass.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mat/workspace/CPG-RBFN-framework/interfaces/morf/sim/build_dir/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/simRosClass.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/simRosClass.cpp.o -c /home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/simRosClass.cpp
 
-CMakeFiles/morf_controller.dir/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/neural_controllers/morf/sim/simRosClass.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/morf_controller.dir/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/neural_controllers/morf/sim/simRosClass.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/neural_controllers/morf/sim/simRosClass.cpp > CMakeFiles/morf_controller.dir/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/neural_controllers/morf/sim/simRosClass.cpp.i
+CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/simRosClass.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/simRosClass.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/simRosClass.cpp > CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/simRosClass.cpp.i
 
-CMakeFiles/morf_controller.dir/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/neural_controllers/morf/sim/simRosClass.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/morf_controller.dir/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/neural_controllers/morf/sim/simRosClass.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/neural_controllers/morf/sim/simRosClass.cpp -o CMakeFiles/morf_controller.dir/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/neural_controllers/morf/sim/simRosClass.cpp.s
+CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/simRosClass.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/simRosClass.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/simRosClass.cpp -o CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/simRosClass.cpp.s
 
-CMakeFiles/morf_controller.dir/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/neural_controllers/morf/sim/simRosClass.cpp.o.requires:
+CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/simRosClass.cpp.o.requires:
 
-.PHONY : CMakeFiles/morf_controller.dir/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/neural_controllers/morf/sim/simRosClass.cpp.o.requires
+.PHONY : CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/simRosClass.cpp.o.requires
 
-CMakeFiles/morf_controller.dir/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/neural_controllers/morf/sim/simRosClass.cpp.o.provides: CMakeFiles/morf_controller.dir/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/neural_controllers/morf/sim/simRosClass.cpp.o.requires
-	$(MAKE) -f CMakeFiles/morf_controller.dir/build.make CMakeFiles/morf_controller.dir/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/neural_controllers/morf/sim/simRosClass.cpp.o.provides.build
-.PHONY : CMakeFiles/morf_controller.dir/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/neural_controllers/morf/sim/simRosClass.cpp.o.provides
+CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/simRosClass.cpp.o.provides: CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/simRosClass.cpp.o.requires
+	$(MAKE) -f CMakeFiles/morf_controller.dir/build.make CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/simRosClass.cpp.o.provides.build
+.PHONY : CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/simRosClass.cpp.o.provides
 
-CMakeFiles/morf_controller.dir/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/neural_controllers/morf/sim/simRosClass.cpp.o.provides.build: CMakeFiles/morf_controller.dir/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/neural_controllers/morf/sim/simRosClass.cpp.o
+CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/simRosClass.cpp.o.provides.build: CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/simRosClass.cpp.o
 
 
-CMakeFiles/morf_controller.dir/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/neural_controllers/morf/sim/modularController.cpp.o: CMakeFiles/morf_controller.dir/flags.make
-CMakeFiles/morf_controller.dir/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/neural_controllers/morf/sim/modularController.cpp.o: /home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/neural_controllers/morf/sim/modularController.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/interfaces/morf/sim/build_dir/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/morf_controller.dir/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/neural_controllers/morf/sim/modularController.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/morf_controller.dir/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/neural_controllers/morf/sim/modularController.cpp.o -c /home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/neural_controllers/morf/sim/modularController.cpp
+CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/modularController.cpp.o: CMakeFiles/morf_controller.dir/flags.make
+CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/modularController.cpp.o: /home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/modularController.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mat/workspace/CPG-RBFN-framework/interfaces/morf/sim/build_dir/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/modularController.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/modularController.cpp.o -c /home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/modularController.cpp
 
-CMakeFiles/morf_controller.dir/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/neural_controllers/morf/sim/modularController.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/morf_controller.dir/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/neural_controllers/morf/sim/modularController.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/neural_controllers/morf/sim/modularController.cpp > CMakeFiles/morf_controller.dir/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/neural_controllers/morf/sim/modularController.cpp.i
+CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/modularController.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/modularController.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/modularController.cpp > CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/modularController.cpp.i
 
-CMakeFiles/morf_controller.dir/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/neural_controllers/morf/sim/modularController.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/morf_controller.dir/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/neural_controllers/morf/sim/modularController.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/neural_controllers/morf/sim/modularController.cpp -o CMakeFiles/morf_controller.dir/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/neural_controllers/morf/sim/modularController.cpp.s
+CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/modularController.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/modularController.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/modularController.cpp -o CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/modularController.cpp.s
 
-CMakeFiles/morf_controller.dir/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/neural_controllers/morf/sim/modularController.cpp.o.requires:
+CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/modularController.cpp.o.requires:
 
-.PHONY : CMakeFiles/morf_controller.dir/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/neural_controllers/morf/sim/modularController.cpp.o.requires
+.PHONY : CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/modularController.cpp.o.requires
 
-CMakeFiles/morf_controller.dir/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/neural_controllers/morf/sim/modularController.cpp.o.provides: CMakeFiles/morf_controller.dir/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/neural_controllers/morf/sim/modularController.cpp.o.requires
-	$(MAKE) -f CMakeFiles/morf_controller.dir/build.make CMakeFiles/morf_controller.dir/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/neural_controllers/morf/sim/modularController.cpp.o.provides.build
-.PHONY : CMakeFiles/morf_controller.dir/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/neural_controllers/morf/sim/modularController.cpp.o.provides
+CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/modularController.cpp.o.provides: CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/modularController.cpp.o.requires
+	$(MAKE) -f CMakeFiles/morf_controller.dir/build.make CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/modularController.cpp.o.provides.build
+.PHONY : CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/modularController.cpp.o.provides
 
-CMakeFiles/morf_controller.dir/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/neural_controllers/morf/sim/modularController.cpp.o.provides.build: CMakeFiles/morf_controller.dir/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/neural_controllers/morf/sim/modularController.cpp.o
+CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/modularController.cpp.o.provides.build: CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/modularController.cpp.o
 
 
-CMakeFiles/morf_controller.dir/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/neural_controllers/morf/sim/dualIntegralLearner.cpp.o: CMakeFiles/morf_controller.dir/flags.make
-CMakeFiles/morf_controller.dir/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/neural_controllers/morf/sim/dualIntegralLearner.cpp.o: /home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/neural_controllers/morf/sim/dualIntegralLearner.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/interfaces/morf/sim/build_dir/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/morf_controller.dir/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/neural_controllers/morf/sim/dualIntegralLearner.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/morf_controller.dir/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/neural_controllers/morf/sim/dualIntegralLearner.cpp.o -c /home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/neural_controllers/morf/sim/dualIntegralLearner.cpp
+CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/dualIntegralLearner.cpp.o: CMakeFiles/morf_controller.dir/flags.make
+CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/dualIntegralLearner.cpp.o: /home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/dualIntegralLearner.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mat/workspace/CPG-RBFN-framework/interfaces/morf/sim/build_dir/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/dualIntegralLearner.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/dualIntegralLearner.cpp.o -c /home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/dualIntegralLearner.cpp
 
-CMakeFiles/morf_controller.dir/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/neural_controllers/morf/sim/dualIntegralLearner.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/morf_controller.dir/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/neural_controllers/morf/sim/dualIntegralLearner.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/neural_controllers/morf/sim/dualIntegralLearner.cpp > CMakeFiles/morf_controller.dir/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/neural_controllers/morf/sim/dualIntegralLearner.cpp.i
+CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/dualIntegralLearner.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/dualIntegralLearner.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/dualIntegralLearner.cpp > CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/dualIntegralLearner.cpp.i
 
-CMakeFiles/morf_controller.dir/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/neural_controllers/morf/sim/dualIntegralLearner.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/morf_controller.dir/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/neural_controllers/morf/sim/dualIntegralLearner.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/neural_controllers/morf/sim/dualIntegralLearner.cpp -o CMakeFiles/morf_controller.dir/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/neural_controllers/morf/sim/dualIntegralLearner.cpp.s
+CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/dualIntegralLearner.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/dualIntegralLearner.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/dualIntegralLearner.cpp -o CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/dualIntegralLearner.cpp.s
 
-CMakeFiles/morf_controller.dir/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/neural_controllers/morf/sim/dualIntegralLearner.cpp.o.requires:
+CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/dualIntegralLearner.cpp.o.requires:
 
-.PHONY : CMakeFiles/morf_controller.dir/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/neural_controllers/morf/sim/dualIntegralLearner.cpp.o.requires
+.PHONY : CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/dualIntegralLearner.cpp.o.requires
 
-CMakeFiles/morf_controller.dir/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/neural_controllers/morf/sim/dualIntegralLearner.cpp.o.provides: CMakeFiles/morf_controller.dir/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/neural_controllers/morf/sim/dualIntegralLearner.cpp.o.requires
-	$(MAKE) -f CMakeFiles/morf_controller.dir/build.make CMakeFiles/morf_controller.dir/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/neural_controllers/morf/sim/dualIntegralLearner.cpp.o.provides.build
-.PHONY : CMakeFiles/morf_controller.dir/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/neural_controllers/morf/sim/dualIntegralLearner.cpp.o.provides
+CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/dualIntegralLearner.cpp.o.provides: CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/dualIntegralLearner.cpp.o.requires
+	$(MAKE) -f CMakeFiles/morf_controller.dir/build.make CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/dualIntegralLearner.cpp.o.provides.build
+.PHONY : CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/dualIntegralLearner.cpp.o.provides
 
-CMakeFiles/morf_controller.dir/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/neural_controllers/morf/sim/dualIntegralLearner.cpp.o.provides.build: CMakeFiles/morf_controller.dir/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/neural_controllers/morf/sim/dualIntegralLearner.cpp.o
+CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/dualIntegralLearner.cpp.o.provides.build: CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/dualIntegralLearner.cpp.o
 
 
-CMakeFiles/morf_controller.dir/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/neural_controllers/morf/sim/neutronController.cpp.o: CMakeFiles/morf_controller.dir/flags.make
-CMakeFiles/morf_controller.dir/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/neural_controllers/morf/sim/neutronController.cpp.o: /home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/neural_controllers/morf/sim/neutronController.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/interfaces/morf/sim/build_dir/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/morf_controller.dir/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/neural_controllers/morf/sim/neutronController.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/morf_controller.dir/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/neural_controllers/morf/sim/neutronController.cpp.o -c /home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/neural_controllers/morf/sim/neutronController.cpp
+CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/neutronController.cpp.o: CMakeFiles/morf_controller.dir/flags.make
+CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/neutronController.cpp.o: /home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/neutronController.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mat/workspace/CPG-RBFN-framework/interfaces/morf/sim/build_dir/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/neutronController.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/neutronController.cpp.o -c /home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/neutronController.cpp
 
-CMakeFiles/morf_controller.dir/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/neural_controllers/morf/sim/neutronController.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/morf_controller.dir/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/neural_controllers/morf/sim/neutronController.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/neural_controllers/morf/sim/neutronController.cpp > CMakeFiles/morf_controller.dir/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/neural_controllers/morf/sim/neutronController.cpp.i
+CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/neutronController.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/neutronController.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/neutronController.cpp > CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/neutronController.cpp.i
 
-CMakeFiles/morf_controller.dir/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/neural_controllers/morf/sim/neutronController.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/morf_controller.dir/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/neural_controllers/morf/sim/neutronController.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/neural_controllers/morf/sim/neutronController.cpp -o CMakeFiles/morf_controller.dir/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/neural_controllers/morf/sim/neutronController.cpp.s
+CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/neutronController.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/neutronController.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/neutronController.cpp -o CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/neutronController.cpp.s
 
-CMakeFiles/morf_controller.dir/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/neural_controllers/morf/sim/neutronController.cpp.o.requires:
+CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/neutronController.cpp.o.requires:
 
-.PHONY : CMakeFiles/morf_controller.dir/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/neural_controllers/morf/sim/neutronController.cpp.o.requires
+.PHONY : CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/neutronController.cpp.o.requires
 
-CMakeFiles/morf_controller.dir/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/neural_controllers/morf/sim/neutronController.cpp.o.provides: CMakeFiles/morf_controller.dir/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/neural_controllers/morf/sim/neutronController.cpp.o.requires
-	$(MAKE) -f CMakeFiles/morf_controller.dir/build.make CMakeFiles/morf_controller.dir/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/neural_controllers/morf/sim/neutronController.cpp.o.provides.build
-.PHONY : CMakeFiles/morf_controller.dir/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/neural_controllers/morf/sim/neutronController.cpp.o.provides
+CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/neutronController.cpp.o.provides: CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/neutronController.cpp.o.requires
+	$(MAKE) -f CMakeFiles/morf_controller.dir/build.make CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/neutronController.cpp.o.provides.build
+.PHONY : CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/neutronController.cpp.o.provides
 
-CMakeFiles/morf_controller.dir/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/neural_controllers/morf/sim/neutronController.cpp.o.provides.build: CMakeFiles/morf_controller.dir/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/neural_controllers/morf/sim/neutronController.cpp.o
+CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/neutronController.cpp.o.provides.build: CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/neutronController.cpp.o
 
 
-CMakeFiles/morf_controller.dir/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/neural_controllers/morf/sim/postProcessing.cpp.o: CMakeFiles/morf_controller.dir/flags.make
-CMakeFiles/morf_controller.dir/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/neural_controllers/morf/sim/postProcessing.cpp.o: /home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/neural_controllers/morf/sim/postProcessing.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/interfaces/morf/sim/build_dir/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/morf_controller.dir/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/neural_controllers/morf/sim/postProcessing.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/morf_controller.dir/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/neural_controllers/morf/sim/postProcessing.cpp.o -c /home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/neural_controllers/morf/sim/postProcessing.cpp
+CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/postProcessing.cpp.o: CMakeFiles/morf_controller.dir/flags.make
+CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/postProcessing.cpp.o: /home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/postProcessing.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mat/workspace/CPG-RBFN-framework/interfaces/morf/sim/build_dir/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/postProcessing.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/postProcessing.cpp.o -c /home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/postProcessing.cpp
 
-CMakeFiles/morf_controller.dir/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/neural_controllers/morf/sim/postProcessing.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/morf_controller.dir/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/neural_controllers/morf/sim/postProcessing.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/neural_controllers/morf/sim/postProcessing.cpp > CMakeFiles/morf_controller.dir/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/neural_controllers/morf/sim/postProcessing.cpp.i
+CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/postProcessing.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/postProcessing.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/postProcessing.cpp > CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/postProcessing.cpp.i
 
-CMakeFiles/morf_controller.dir/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/neural_controllers/morf/sim/postProcessing.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/morf_controller.dir/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/neural_controllers/morf/sim/postProcessing.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/neural_controllers/morf/sim/postProcessing.cpp -o CMakeFiles/morf_controller.dir/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/neural_controllers/morf/sim/postProcessing.cpp.s
+CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/postProcessing.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/postProcessing.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/postProcessing.cpp -o CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/postProcessing.cpp.s
 
-CMakeFiles/morf_controller.dir/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/neural_controllers/morf/sim/postProcessing.cpp.o.requires:
+CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/postProcessing.cpp.o.requires:
 
-.PHONY : CMakeFiles/morf_controller.dir/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/neural_controllers/morf/sim/postProcessing.cpp.o.requires
+.PHONY : CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/postProcessing.cpp.o.requires
 
-CMakeFiles/morf_controller.dir/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/neural_controllers/morf/sim/postProcessing.cpp.o.provides: CMakeFiles/morf_controller.dir/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/neural_controllers/morf/sim/postProcessing.cpp.o.requires
-	$(MAKE) -f CMakeFiles/morf_controller.dir/build.make CMakeFiles/morf_controller.dir/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/neural_controllers/morf/sim/postProcessing.cpp.o.provides.build
-.PHONY : CMakeFiles/morf_controller.dir/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/neural_controllers/morf/sim/postProcessing.cpp.o.provides
+CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/postProcessing.cpp.o.provides: CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/postProcessing.cpp.o.requires
+	$(MAKE) -f CMakeFiles/morf_controller.dir/build.make CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/postProcessing.cpp.o.provides.build
+.PHONY : CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/postProcessing.cpp.o.provides
 
-CMakeFiles/morf_controller.dir/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/neural_controllers/morf/sim/postProcessing.cpp.o.provides.build: CMakeFiles/morf_controller.dir/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/neural_controllers/morf/sim/postProcessing.cpp.o
+CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/postProcessing.cpp.o.provides.build: CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/postProcessing.cpp.o
 
 
-CMakeFiles/morf_controller.dir/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/neural_controllers/morf/sim/cpg_rbfn.cpp.o: CMakeFiles/morf_controller.dir/flags.make
-CMakeFiles/morf_controller.dir/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/neural_controllers/morf/sim/cpg_rbfn.cpp.o: /home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/neural_controllers/morf/sim/cpg_rbfn.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/interfaces/morf/sim/build_dir/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/morf_controller.dir/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/neural_controllers/morf/sim/cpg_rbfn.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/morf_controller.dir/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/neural_controllers/morf/sim/cpg_rbfn.cpp.o -c /home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/neural_controllers/morf/sim/cpg_rbfn.cpp
+CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/cpg_rbfn.cpp.o: CMakeFiles/morf_controller.dir/flags.make
+CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/cpg_rbfn.cpp.o: /home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/cpg_rbfn.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mat/workspace/CPG-RBFN-framework/interfaces/morf/sim/build_dir/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/cpg_rbfn.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/cpg_rbfn.cpp.o -c /home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/cpg_rbfn.cpp
 
-CMakeFiles/morf_controller.dir/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/neural_controllers/morf/sim/cpg_rbfn.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/morf_controller.dir/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/neural_controllers/morf/sim/cpg_rbfn.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/neural_controllers/morf/sim/cpg_rbfn.cpp > CMakeFiles/morf_controller.dir/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/neural_controllers/morf/sim/cpg_rbfn.cpp.i
+CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/cpg_rbfn.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/cpg_rbfn.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/cpg_rbfn.cpp > CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/cpg_rbfn.cpp.i
 
-CMakeFiles/morf_controller.dir/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/neural_controllers/morf/sim/cpg_rbfn.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/morf_controller.dir/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/neural_controllers/morf/sim/cpg_rbfn.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/neural_controllers/morf/sim/cpg_rbfn.cpp -o CMakeFiles/morf_controller.dir/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/neural_controllers/morf/sim/cpg_rbfn.cpp.s
+CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/cpg_rbfn.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/cpg_rbfn.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/cpg_rbfn.cpp -o CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/cpg_rbfn.cpp.s
 
-CMakeFiles/morf_controller.dir/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/neural_controllers/morf/sim/cpg_rbfn.cpp.o.requires:
+CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/cpg_rbfn.cpp.o.requires:
 
-.PHONY : CMakeFiles/morf_controller.dir/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/neural_controllers/morf/sim/cpg_rbfn.cpp.o.requires
+.PHONY : CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/cpg_rbfn.cpp.o.requires
 
-CMakeFiles/morf_controller.dir/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/neural_controllers/morf/sim/cpg_rbfn.cpp.o.provides: CMakeFiles/morf_controller.dir/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/neural_controllers/morf/sim/cpg_rbfn.cpp.o.requires
-	$(MAKE) -f CMakeFiles/morf_controller.dir/build.make CMakeFiles/morf_controller.dir/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/neural_controllers/morf/sim/cpg_rbfn.cpp.o.provides.build
-.PHONY : CMakeFiles/morf_controller.dir/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/neural_controllers/morf/sim/cpg_rbfn.cpp.o.provides
+CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/cpg_rbfn.cpp.o.provides: CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/cpg_rbfn.cpp.o.requires
+	$(MAKE) -f CMakeFiles/morf_controller.dir/build.make CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/cpg_rbfn.cpp.o.provides.build
+.PHONY : CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/cpg_rbfn.cpp.o.provides
 
-CMakeFiles/morf_controller.dir/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/neural_controllers/morf/sim/cpg_rbfn.cpp.o.provides.build: CMakeFiles/morf_controller.dir/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/neural_controllers/morf/sim/cpg_rbfn.cpp.o
+CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/cpg_rbfn.cpp.o.provides.build: CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/cpg_rbfn.cpp.o
 
 
-CMakeFiles/morf_controller.dir/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/neural_controllers/morf/sim/rbfn.cpp.o: CMakeFiles/morf_controller.dir/flags.make
-CMakeFiles/morf_controller.dir/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/neural_controllers/morf/sim/rbfn.cpp.o: /home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/neural_controllers/morf/sim/rbfn.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/interfaces/morf/sim/build_dir/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/morf_controller.dir/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/neural_controllers/morf/sim/rbfn.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/morf_controller.dir/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/neural_controllers/morf/sim/rbfn.cpp.o -c /home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/neural_controllers/morf/sim/rbfn.cpp
+CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/rbfn.cpp.o: CMakeFiles/morf_controller.dir/flags.make
+CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/rbfn.cpp.o: /home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/rbfn.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mat/workspace/CPG-RBFN-framework/interfaces/morf/sim/build_dir/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/rbfn.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/rbfn.cpp.o -c /home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/rbfn.cpp
 
-CMakeFiles/morf_controller.dir/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/neural_controllers/morf/sim/rbfn.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/morf_controller.dir/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/neural_controllers/morf/sim/rbfn.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/neural_controllers/morf/sim/rbfn.cpp > CMakeFiles/morf_controller.dir/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/neural_controllers/morf/sim/rbfn.cpp.i
+CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/rbfn.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/rbfn.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/rbfn.cpp > CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/rbfn.cpp.i
 
-CMakeFiles/morf_controller.dir/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/neural_controllers/morf/sim/rbfn.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/morf_controller.dir/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/neural_controllers/morf/sim/rbfn.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/neural_controllers/morf/sim/rbfn.cpp -o CMakeFiles/morf_controller.dir/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/neural_controllers/morf/sim/rbfn.cpp.s
+CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/rbfn.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/rbfn.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/rbfn.cpp -o CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/rbfn.cpp.s
 
-CMakeFiles/morf_controller.dir/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/neural_controllers/morf/sim/rbfn.cpp.o.requires:
+CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/rbfn.cpp.o.requires:
 
-.PHONY : CMakeFiles/morf_controller.dir/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/neural_controllers/morf/sim/rbfn.cpp.o.requires
+.PHONY : CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/rbfn.cpp.o.requires
 
-CMakeFiles/morf_controller.dir/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/neural_controllers/morf/sim/rbfn.cpp.o.provides: CMakeFiles/morf_controller.dir/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/neural_controllers/morf/sim/rbfn.cpp.o.requires
-	$(MAKE) -f CMakeFiles/morf_controller.dir/build.make CMakeFiles/morf_controller.dir/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/neural_controllers/morf/sim/rbfn.cpp.o.provides.build
-.PHONY : CMakeFiles/morf_controller.dir/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/neural_controllers/morf/sim/rbfn.cpp.o.provides
+CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/rbfn.cpp.o.provides: CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/rbfn.cpp.o.requires
+	$(MAKE) -f CMakeFiles/morf_controller.dir/build.make CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/rbfn.cpp.o.provides.build
+.PHONY : CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/rbfn.cpp.o.provides
 
-CMakeFiles/morf_controller.dir/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/neural_controllers/morf/sim/rbfn.cpp.o.provides.build: CMakeFiles/morf_controller.dir/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/neural_controllers/morf/sim/rbfn.cpp.o
+CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/rbfn.cpp.o.provides.build: CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/rbfn.cpp.o
 
 
-CMakeFiles/morf_controller.dir/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/neural_controllers/morf/sim/input.cpp.o: CMakeFiles/morf_controller.dir/flags.make
-CMakeFiles/morf_controller.dir/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/neural_controllers/morf/sim/input.cpp.o: /home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/neural_controllers/morf/sim/input.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/interfaces/morf/sim/build_dir/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/morf_controller.dir/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/neural_controllers/morf/sim/input.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/morf_controller.dir/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/neural_controllers/morf/sim/input.cpp.o -c /home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/neural_controllers/morf/sim/input.cpp
+CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/input.cpp.o: CMakeFiles/morf_controller.dir/flags.make
+CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/input.cpp.o: /home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/input.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mat/workspace/CPG-RBFN-framework/interfaces/morf/sim/build_dir/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/input.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/input.cpp.o -c /home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/input.cpp
 
-CMakeFiles/morf_controller.dir/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/neural_controllers/morf/sim/input.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/morf_controller.dir/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/neural_controllers/morf/sim/input.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/neural_controllers/morf/sim/input.cpp > CMakeFiles/morf_controller.dir/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/neural_controllers/morf/sim/input.cpp.i
+CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/input.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/input.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/input.cpp > CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/input.cpp.i
 
-CMakeFiles/morf_controller.dir/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/neural_controllers/morf/sim/input.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/morf_controller.dir/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/neural_controllers/morf/sim/input.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/neural_controllers/morf/sim/input.cpp -o CMakeFiles/morf_controller.dir/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/neural_controllers/morf/sim/input.cpp.s
+CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/input.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/input.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/input.cpp -o CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/input.cpp.s
 
-CMakeFiles/morf_controller.dir/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/neural_controllers/morf/sim/input.cpp.o.requires:
+CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/input.cpp.o.requires:
 
-.PHONY : CMakeFiles/morf_controller.dir/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/neural_controllers/morf/sim/input.cpp.o.requires
+.PHONY : CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/input.cpp.o.requires
 
-CMakeFiles/morf_controller.dir/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/neural_controllers/morf/sim/input.cpp.o.provides: CMakeFiles/morf_controller.dir/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/neural_controllers/morf/sim/input.cpp.o.requires
-	$(MAKE) -f CMakeFiles/morf_controller.dir/build.make CMakeFiles/morf_controller.dir/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/neural_controllers/morf/sim/input.cpp.o.provides.build
-.PHONY : CMakeFiles/morf_controller.dir/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/neural_controllers/morf/sim/input.cpp.o.provides
+CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/input.cpp.o.provides: CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/input.cpp.o.requires
+	$(MAKE) -f CMakeFiles/morf_controller.dir/build.make CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/input.cpp.o.provides.build
+.PHONY : CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/input.cpp.o.provides
 
-CMakeFiles/morf_controller.dir/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/neural_controllers/morf/sim/input.cpp.o.provides.build: CMakeFiles/morf_controller.dir/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/neural_controllers/morf/sim/input.cpp.o
+CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/input.cpp.o.provides.build: CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/input.cpp.o
 
 
-CMakeFiles/morf_controller.dir/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/ann-framework/ann.cpp.o: CMakeFiles/morf_controller.dir/flags.make
-CMakeFiles/morf_controller.dir/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/ann-framework/ann.cpp.o: /home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/ann-framework/ann.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/interfaces/morf/sim/build_dir/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/morf_controller.dir/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/ann-framework/ann.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/morf_controller.dir/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/ann-framework/ann.cpp.o -c /home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/ann-framework/ann.cpp
+CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/utils/ann-framework/ann.cpp.o: CMakeFiles/morf_controller.dir/flags.make
+CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/utils/ann-framework/ann.cpp.o: /home/mat/workspace/CPG-RBFN-framework/utils/ann-framework/ann.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mat/workspace/CPG-RBFN-framework/interfaces/morf/sim/build_dir/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/utils/ann-framework/ann.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/utils/ann-framework/ann.cpp.o -c /home/mat/workspace/CPG-RBFN-framework/utils/ann-framework/ann.cpp
 
-CMakeFiles/morf_controller.dir/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/ann-framework/ann.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/morf_controller.dir/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/ann-framework/ann.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/ann-framework/ann.cpp > CMakeFiles/morf_controller.dir/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/ann-framework/ann.cpp.i
+CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/utils/ann-framework/ann.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/utils/ann-framework/ann.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mat/workspace/CPG-RBFN-framework/utils/ann-framework/ann.cpp > CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/utils/ann-framework/ann.cpp.i
 
-CMakeFiles/morf_controller.dir/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/ann-framework/ann.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/morf_controller.dir/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/ann-framework/ann.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/ann-framework/ann.cpp -o CMakeFiles/morf_controller.dir/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/ann-framework/ann.cpp.s
+CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/utils/ann-framework/ann.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/utils/ann-framework/ann.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mat/workspace/CPG-RBFN-framework/utils/ann-framework/ann.cpp -o CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/utils/ann-framework/ann.cpp.s
 
-CMakeFiles/morf_controller.dir/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/ann-framework/ann.cpp.o.requires:
+CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/utils/ann-framework/ann.cpp.o.requires:
 
-.PHONY : CMakeFiles/morf_controller.dir/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/ann-framework/ann.cpp.o.requires
+.PHONY : CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/utils/ann-framework/ann.cpp.o.requires
 
-CMakeFiles/morf_controller.dir/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/ann-framework/ann.cpp.o.provides: CMakeFiles/morf_controller.dir/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/ann-framework/ann.cpp.o.requires
-	$(MAKE) -f CMakeFiles/morf_controller.dir/build.make CMakeFiles/morf_controller.dir/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/ann-framework/ann.cpp.o.provides.build
-.PHONY : CMakeFiles/morf_controller.dir/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/ann-framework/ann.cpp.o.provides
+CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/utils/ann-framework/ann.cpp.o.provides: CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/utils/ann-framework/ann.cpp.o.requires
+	$(MAKE) -f CMakeFiles/morf_controller.dir/build.make CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/utils/ann-framework/ann.cpp.o.provides.build
+.PHONY : CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/utils/ann-framework/ann.cpp.o.provides
 
-CMakeFiles/morf_controller.dir/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/ann-framework/ann.cpp.o.provides.build: CMakeFiles/morf_controller.dir/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/ann-framework/ann.cpp.o
+CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/utils/ann-framework/ann.cpp.o.provides.build: CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/utils/ann-framework/ann.cpp.o
 
 
-CMakeFiles/morf_controller.dir/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/ann-framework/neuron.cpp.o: CMakeFiles/morf_controller.dir/flags.make
-CMakeFiles/morf_controller.dir/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/ann-framework/neuron.cpp.o: /home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/ann-framework/neuron.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/interfaces/morf/sim/build_dir/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/morf_controller.dir/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/ann-framework/neuron.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/morf_controller.dir/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/ann-framework/neuron.cpp.o -c /home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/ann-framework/neuron.cpp
+CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/utils/ann-framework/neuron.cpp.o: CMakeFiles/morf_controller.dir/flags.make
+CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/utils/ann-framework/neuron.cpp.o: /home/mat/workspace/CPG-RBFN-framework/utils/ann-framework/neuron.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mat/workspace/CPG-RBFN-framework/interfaces/morf/sim/build_dir/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/utils/ann-framework/neuron.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/utils/ann-framework/neuron.cpp.o -c /home/mat/workspace/CPG-RBFN-framework/utils/ann-framework/neuron.cpp
 
-CMakeFiles/morf_controller.dir/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/ann-framework/neuron.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/morf_controller.dir/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/ann-framework/neuron.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/ann-framework/neuron.cpp > CMakeFiles/morf_controller.dir/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/ann-framework/neuron.cpp.i
+CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/utils/ann-framework/neuron.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/utils/ann-framework/neuron.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mat/workspace/CPG-RBFN-framework/utils/ann-framework/neuron.cpp > CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/utils/ann-framework/neuron.cpp.i
 
-CMakeFiles/morf_controller.dir/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/ann-framework/neuron.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/morf_controller.dir/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/ann-framework/neuron.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/ann-framework/neuron.cpp -o CMakeFiles/morf_controller.dir/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/ann-framework/neuron.cpp.s
+CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/utils/ann-framework/neuron.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/utils/ann-framework/neuron.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mat/workspace/CPG-RBFN-framework/utils/ann-framework/neuron.cpp -o CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/utils/ann-framework/neuron.cpp.s
 
-CMakeFiles/morf_controller.dir/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/ann-framework/neuron.cpp.o.requires:
+CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/utils/ann-framework/neuron.cpp.o.requires:
 
-.PHONY : CMakeFiles/morf_controller.dir/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/ann-framework/neuron.cpp.o.requires
+.PHONY : CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/utils/ann-framework/neuron.cpp.o.requires
 
-CMakeFiles/morf_controller.dir/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/ann-framework/neuron.cpp.o.provides: CMakeFiles/morf_controller.dir/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/ann-framework/neuron.cpp.o.requires
-	$(MAKE) -f CMakeFiles/morf_controller.dir/build.make CMakeFiles/morf_controller.dir/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/ann-framework/neuron.cpp.o.provides.build
-.PHONY : CMakeFiles/morf_controller.dir/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/ann-framework/neuron.cpp.o.provides
+CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/utils/ann-framework/neuron.cpp.o.provides: CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/utils/ann-framework/neuron.cpp.o.requires
+	$(MAKE) -f CMakeFiles/morf_controller.dir/build.make CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/utils/ann-framework/neuron.cpp.o.provides.build
+.PHONY : CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/utils/ann-framework/neuron.cpp.o.provides
 
-CMakeFiles/morf_controller.dir/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/ann-framework/neuron.cpp.o.provides.build: CMakeFiles/morf_controller.dir/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/ann-framework/neuron.cpp.o
+CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/utils/ann-framework/neuron.cpp.o.provides.build: CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/utils/ann-framework/neuron.cpp.o
 
 
-CMakeFiles/morf_controller.dir/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/ann-framework/synapse.cpp.o: CMakeFiles/morf_controller.dir/flags.make
-CMakeFiles/morf_controller.dir/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/ann-framework/synapse.cpp.o: /home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/ann-framework/synapse.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/interfaces/morf/sim/build_dir/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/morf_controller.dir/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/ann-framework/synapse.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/morf_controller.dir/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/ann-framework/synapse.cpp.o -c /home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/ann-framework/synapse.cpp
+CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/utils/ann-framework/synapse.cpp.o: CMakeFiles/morf_controller.dir/flags.make
+CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/utils/ann-framework/synapse.cpp.o: /home/mat/workspace/CPG-RBFN-framework/utils/ann-framework/synapse.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mat/workspace/CPG-RBFN-framework/interfaces/morf/sim/build_dir/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/utils/ann-framework/synapse.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/utils/ann-framework/synapse.cpp.o -c /home/mat/workspace/CPG-RBFN-framework/utils/ann-framework/synapse.cpp
 
-CMakeFiles/morf_controller.dir/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/ann-framework/synapse.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/morf_controller.dir/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/ann-framework/synapse.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/ann-framework/synapse.cpp > CMakeFiles/morf_controller.dir/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/ann-framework/synapse.cpp.i
+CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/utils/ann-framework/synapse.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/utils/ann-framework/synapse.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mat/workspace/CPG-RBFN-framework/utils/ann-framework/synapse.cpp > CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/utils/ann-framework/synapse.cpp.i
 
-CMakeFiles/morf_controller.dir/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/ann-framework/synapse.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/morf_controller.dir/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/ann-framework/synapse.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/ann-framework/synapse.cpp -o CMakeFiles/morf_controller.dir/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/ann-framework/synapse.cpp.s
+CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/utils/ann-framework/synapse.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/utils/ann-framework/synapse.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mat/workspace/CPG-RBFN-framework/utils/ann-framework/synapse.cpp -o CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/utils/ann-framework/synapse.cpp.s
 
-CMakeFiles/morf_controller.dir/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/ann-framework/synapse.cpp.o.requires:
+CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/utils/ann-framework/synapse.cpp.o.requires:
 
-.PHONY : CMakeFiles/morf_controller.dir/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/ann-framework/synapse.cpp.o.requires
+.PHONY : CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/utils/ann-framework/synapse.cpp.o.requires
 
-CMakeFiles/morf_controller.dir/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/ann-framework/synapse.cpp.o.provides: CMakeFiles/morf_controller.dir/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/ann-framework/synapse.cpp.o.requires
-	$(MAKE) -f CMakeFiles/morf_controller.dir/build.make CMakeFiles/morf_controller.dir/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/ann-framework/synapse.cpp.o.provides.build
-.PHONY : CMakeFiles/morf_controller.dir/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/ann-framework/synapse.cpp.o.provides
+CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/utils/ann-framework/synapse.cpp.o.provides: CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/utils/ann-framework/synapse.cpp.o.requires
+	$(MAKE) -f CMakeFiles/morf_controller.dir/build.make CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/utils/ann-framework/synapse.cpp.o.provides.build
+.PHONY : CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/utils/ann-framework/synapse.cpp.o.provides
 
-CMakeFiles/morf_controller.dir/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/ann-framework/synapse.cpp.o.provides.build: CMakeFiles/morf_controller.dir/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/ann-framework/synapse.cpp.o
+CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/utils/ann-framework/synapse.cpp.o.provides.build: CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/utils/ann-framework/synapse.cpp.o
 
 
-CMakeFiles/morf_controller.dir/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/ann-library/psn.cpp.o: CMakeFiles/morf_controller.dir/flags.make
-CMakeFiles/morf_controller.dir/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/ann-library/psn.cpp.o: /home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/ann-library/psn.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/interfaces/morf/sim/build_dir/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/morf_controller.dir/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/ann-library/psn.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/morf_controller.dir/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/ann-library/psn.cpp.o -c /home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/ann-library/psn.cpp
+CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/utils/ann-library/psn.cpp.o: CMakeFiles/morf_controller.dir/flags.make
+CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/utils/ann-library/psn.cpp.o: /home/mat/workspace/CPG-RBFN-framework/utils/ann-library/psn.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mat/workspace/CPG-RBFN-framework/interfaces/morf/sim/build_dir/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/utils/ann-library/psn.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/utils/ann-library/psn.cpp.o -c /home/mat/workspace/CPG-RBFN-framework/utils/ann-library/psn.cpp
 
-CMakeFiles/morf_controller.dir/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/ann-library/psn.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/morf_controller.dir/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/ann-library/psn.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/ann-library/psn.cpp > CMakeFiles/morf_controller.dir/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/ann-library/psn.cpp.i
+CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/utils/ann-library/psn.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/utils/ann-library/psn.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mat/workspace/CPG-RBFN-framework/utils/ann-library/psn.cpp > CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/utils/ann-library/psn.cpp.i
 
-CMakeFiles/morf_controller.dir/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/ann-library/psn.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/morf_controller.dir/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/ann-library/psn.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/ann-library/psn.cpp -o CMakeFiles/morf_controller.dir/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/ann-library/psn.cpp.s
+CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/utils/ann-library/psn.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/utils/ann-library/psn.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mat/workspace/CPG-RBFN-framework/utils/ann-library/psn.cpp -o CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/utils/ann-library/psn.cpp.s
 
-CMakeFiles/morf_controller.dir/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/ann-library/psn.cpp.o.requires:
+CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/utils/ann-library/psn.cpp.o.requires:
 
-.PHONY : CMakeFiles/morf_controller.dir/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/ann-library/psn.cpp.o.requires
+.PHONY : CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/utils/ann-library/psn.cpp.o.requires
 
-CMakeFiles/morf_controller.dir/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/ann-library/psn.cpp.o.provides: CMakeFiles/morf_controller.dir/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/ann-library/psn.cpp.o.requires
-	$(MAKE) -f CMakeFiles/morf_controller.dir/build.make CMakeFiles/morf_controller.dir/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/ann-library/psn.cpp.o.provides.build
-.PHONY : CMakeFiles/morf_controller.dir/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/ann-library/psn.cpp.o.provides
+CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/utils/ann-library/psn.cpp.o.provides: CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/utils/ann-library/psn.cpp.o.requires
+	$(MAKE) -f CMakeFiles/morf_controller.dir/build.make CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/utils/ann-library/psn.cpp.o.provides.build
+.PHONY : CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/utils/ann-library/psn.cpp.o.provides
 
-CMakeFiles/morf_controller.dir/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/ann-library/psn.cpp.o.provides.build: CMakeFiles/morf_controller.dir/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/ann-library/psn.cpp.o
+CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/utils/ann-library/psn.cpp.o.provides.build: CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/utils/ann-library/psn.cpp.o
 
 
-CMakeFiles/morf_controller.dir/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/ann-library/vrn.cpp.o: CMakeFiles/morf_controller.dir/flags.make
-CMakeFiles/morf_controller.dir/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/ann-library/vrn.cpp.o: /home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/ann-library/vrn.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/interfaces/morf/sim/build_dir/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/morf_controller.dir/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/ann-library/vrn.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/morf_controller.dir/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/ann-library/vrn.cpp.o -c /home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/ann-library/vrn.cpp
+CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/utils/ann-library/vrn.cpp.o: CMakeFiles/morf_controller.dir/flags.make
+CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/utils/ann-library/vrn.cpp.o: /home/mat/workspace/CPG-RBFN-framework/utils/ann-library/vrn.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mat/workspace/CPG-RBFN-framework/interfaces/morf/sim/build_dir/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/utils/ann-library/vrn.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/utils/ann-library/vrn.cpp.o -c /home/mat/workspace/CPG-RBFN-framework/utils/ann-library/vrn.cpp
 
-CMakeFiles/morf_controller.dir/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/ann-library/vrn.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/morf_controller.dir/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/ann-library/vrn.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/ann-library/vrn.cpp > CMakeFiles/morf_controller.dir/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/ann-library/vrn.cpp.i
+CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/utils/ann-library/vrn.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/utils/ann-library/vrn.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mat/workspace/CPG-RBFN-framework/utils/ann-library/vrn.cpp > CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/utils/ann-library/vrn.cpp.i
 
-CMakeFiles/morf_controller.dir/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/ann-library/vrn.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/morf_controller.dir/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/ann-library/vrn.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/ann-library/vrn.cpp -o CMakeFiles/morf_controller.dir/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/ann-library/vrn.cpp.s
+CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/utils/ann-library/vrn.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/utils/ann-library/vrn.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mat/workspace/CPG-RBFN-framework/utils/ann-library/vrn.cpp -o CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/utils/ann-library/vrn.cpp.s
 
-CMakeFiles/morf_controller.dir/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/ann-library/vrn.cpp.o.requires:
+CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/utils/ann-library/vrn.cpp.o.requires:
 
-.PHONY : CMakeFiles/morf_controller.dir/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/ann-library/vrn.cpp.o.requires
+.PHONY : CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/utils/ann-library/vrn.cpp.o.requires
 
-CMakeFiles/morf_controller.dir/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/ann-library/vrn.cpp.o.provides: CMakeFiles/morf_controller.dir/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/ann-library/vrn.cpp.o.requires
-	$(MAKE) -f CMakeFiles/morf_controller.dir/build.make CMakeFiles/morf_controller.dir/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/ann-library/vrn.cpp.o.provides.build
-.PHONY : CMakeFiles/morf_controller.dir/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/ann-library/vrn.cpp.o.provides
+CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/utils/ann-library/vrn.cpp.o.provides: CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/utils/ann-library/vrn.cpp.o.requires
+	$(MAKE) -f CMakeFiles/morf_controller.dir/build.make CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/utils/ann-library/vrn.cpp.o.provides.build
+.PHONY : CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/utils/ann-library/vrn.cpp.o.provides
 
-CMakeFiles/morf_controller.dir/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/ann-library/vrn.cpp.o.provides.build: CMakeFiles/morf_controller.dir/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/ann-library/vrn.cpp.o
+CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/utils/ann-library/vrn.cpp.o.provides.build: CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/utils/ann-library/vrn.cpp.o
 
 
-CMakeFiles/morf_controller.dir/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/ann-library/pmn.cpp.o: CMakeFiles/morf_controller.dir/flags.make
-CMakeFiles/morf_controller.dir/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/ann-library/pmn.cpp.o: /home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/ann-library/pmn.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/interfaces/morf/sim/build_dir/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/morf_controller.dir/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/ann-library/pmn.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/morf_controller.dir/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/ann-library/pmn.cpp.o -c /home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/ann-library/pmn.cpp
+CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/utils/ann-library/pmn.cpp.o: CMakeFiles/morf_controller.dir/flags.make
+CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/utils/ann-library/pmn.cpp.o: /home/mat/workspace/CPG-RBFN-framework/utils/ann-library/pmn.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mat/workspace/CPG-RBFN-framework/interfaces/morf/sim/build_dir/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/utils/ann-library/pmn.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/utils/ann-library/pmn.cpp.o -c /home/mat/workspace/CPG-RBFN-framework/utils/ann-library/pmn.cpp
 
-CMakeFiles/morf_controller.dir/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/ann-library/pmn.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/morf_controller.dir/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/ann-library/pmn.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/ann-library/pmn.cpp > CMakeFiles/morf_controller.dir/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/ann-library/pmn.cpp.i
+CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/utils/ann-library/pmn.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/utils/ann-library/pmn.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mat/workspace/CPG-RBFN-framework/utils/ann-library/pmn.cpp > CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/utils/ann-library/pmn.cpp.i
 
-CMakeFiles/morf_controller.dir/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/ann-library/pmn.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/morf_controller.dir/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/ann-library/pmn.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/ann-library/pmn.cpp -o CMakeFiles/morf_controller.dir/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/ann-library/pmn.cpp.s
+CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/utils/ann-library/pmn.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/utils/ann-library/pmn.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mat/workspace/CPG-RBFN-framework/utils/ann-library/pmn.cpp -o CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/utils/ann-library/pmn.cpp.s
 
-CMakeFiles/morf_controller.dir/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/ann-library/pmn.cpp.o.requires:
+CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/utils/ann-library/pmn.cpp.o.requires:
 
-.PHONY : CMakeFiles/morf_controller.dir/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/ann-library/pmn.cpp.o.requires
+.PHONY : CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/utils/ann-library/pmn.cpp.o.requires
 
-CMakeFiles/morf_controller.dir/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/ann-library/pmn.cpp.o.provides: CMakeFiles/morf_controller.dir/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/ann-library/pmn.cpp.o.requires
-	$(MAKE) -f CMakeFiles/morf_controller.dir/build.make CMakeFiles/morf_controller.dir/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/ann-library/pmn.cpp.o.provides.build
-.PHONY : CMakeFiles/morf_controller.dir/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/ann-library/pmn.cpp.o.provides
+CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/utils/ann-library/pmn.cpp.o.provides: CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/utils/ann-library/pmn.cpp.o.requires
+	$(MAKE) -f CMakeFiles/morf_controller.dir/build.make CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/utils/ann-library/pmn.cpp.o.provides.build
+.PHONY : CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/utils/ann-library/pmn.cpp.o.provides
 
-CMakeFiles/morf_controller.dir/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/ann-library/pmn.cpp.o.provides.build: CMakeFiles/morf_controller.dir/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/ann-library/pmn.cpp.o
+CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/utils/ann-library/pmn.cpp.o.provides.build: CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/utils/ann-library/pmn.cpp.o
 
 
-CMakeFiles/morf_controller.dir/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/ann-library/so2cpg.cpp.o: CMakeFiles/morf_controller.dir/flags.make
-CMakeFiles/morf_controller.dir/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/ann-library/so2cpg.cpp.o: /home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/ann-library/so2cpg.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/interfaces/morf/sim/build_dir/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/morf_controller.dir/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/ann-library/so2cpg.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/morf_controller.dir/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/ann-library/so2cpg.cpp.o -c /home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/ann-library/so2cpg.cpp
+CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/utils/ann-library/so2cpg.cpp.o: CMakeFiles/morf_controller.dir/flags.make
+CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/utils/ann-library/so2cpg.cpp.o: /home/mat/workspace/CPG-RBFN-framework/utils/ann-library/so2cpg.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mat/workspace/CPG-RBFN-framework/interfaces/morf/sim/build_dir/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/utils/ann-library/so2cpg.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/utils/ann-library/so2cpg.cpp.o -c /home/mat/workspace/CPG-RBFN-framework/utils/ann-library/so2cpg.cpp
 
-CMakeFiles/morf_controller.dir/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/ann-library/so2cpg.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/morf_controller.dir/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/ann-library/so2cpg.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/ann-library/so2cpg.cpp > CMakeFiles/morf_controller.dir/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/ann-library/so2cpg.cpp.i
+CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/utils/ann-library/so2cpg.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/utils/ann-library/so2cpg.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mat/workspace/CPG-RBFN-framework/utils/ann-library/so2cpg.cpp > CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/utils/ann-library/so2cpg.cpp.i
 
-CMakeFiles/morf_controller.dir/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/ann-library/so2cpg.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/morf_controller.dir/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/ann-library/so2cpg.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/ann-library/so2cpg.cpp -o CMakeFiles/morf_controller.dir/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/ann-library/so2cpg.cpp.s
+CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/utils/ann-library/so2cpg.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/utils/ann-library/so2cpg.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mat/workspace/CPG-RBFN-framework/utils/ann-library/so2cpg.cpp -o CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/utils/ann-library/so2cpg.cpp.s
 
-CMakeFiles/morf_controller.dir/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/ann-library/so2cpg.cpp.o.requires:
+CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/utils/ann-library/so2cpg.cpp.o.requires:
 
-.PHONY : CMakeFiles/morf_controller.dir/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/ann-library/so2cpg.cpp.o.requires
+.PHONY : CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/utils/ann-library/so2cpg.cpp.o.requires
 
-CMakeFiles/morf_controller.dir/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/ann-library/so2cpg.cpp.o.provides: CMakeFiles/morf_controller.dir/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/ann-library/so2cpg.cpp.o.requires
-	$(MAKE) -f CMakeFiles/morf_controller.dir/build.make CMakeFiles/morf_controller.dir/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/ann-library/so2cpg.cpp.o.provides.build
-.PHONY : CMakeFiles/morf_controller.dir/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/ann-library/so2cpg.cpp.o.provides
+CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/utils/ann-library/so2cpg.cpp.o.provides: CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/utils/ann-library/so2cpg.cpp.o.requires
+	$(MAKE) -f CMakeFiles/morf_controller.dir/build.make CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/utils/ann-library/so2cpg.cpp.o.provides.build
+.PHONY : CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/utils/ann-library/so2cpg.cpp.o.provides
 
-CMakeFiles/morf_controller.dir/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/ann-library/so2cpg.cpp.o.provides.build: CMakeFiles/morf_controller.dir/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/ann-library/so2cpg.cpp.o
+CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/utils/ann-library/so2cpg.cpp.o.provides.build: CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/utils/ann-library/so2cpg.cpp.o
 
 
-CMakeFiles/morf_controller.dir/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/ann-library/adaptiveso2cpgsynplas.cpp.o: CMakeFiles/morf_controller.dir/flags.make
-CMakeFiles/morf_controller.dir/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/ann-library/adaptiveso2cpgsynplas.cpp.o: /home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/ann-library/adaptiveso2cpgsynplas.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/interfaces/morf/sim/build_dir/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/morf_controller.dir/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/ann-library/adaptiveso2cpgsynplas.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/morf_controller.dir/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/ann-library/adaptiveso2cpgsynplas.cpp.o -c /home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/ann-library/adaptiveso2cpgsynplas.cpp
+CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/utils/ann-library/adaptiveso2cpgsynplas.cpp.o: CMakeFiles/morf_controller.dir/flags.make
+CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/utils/ann-library/adaptiveso2cpgsynplas.cpp.o: /home/mat/workspace/CPG-RBFN-framework/utils/ann-library/adaptiveso2cpgsynplas.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mat/workspace/CPG-RBFN-framework/interfaces/morf/sim/build_dir/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/utils/ann-library/adaptiveso2cpgsynplas.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/utils/ann-library/adaptiveso2cpgsynplas.cpp.o -c /home/mat/workspace/CPG-RBFN-framework/utils/ann-library/adaptiveso2cpgsynplas.cpp
 
-CMakeFiles/morf_controller.dir/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/ann-library/adaptiveso2cpgsynplas.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/morf_controller.dir/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/ann-library/adaptiveso2cpgsynplas.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/ann-library/adaptiveso2cpgsynplas.cpp > CMakeFiles/morf_controller.dir/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/ann-library/adaptiveso2cpgsynplas.cpp.i
+CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/utils/ann-library/adaptiveso2cpgsynplas.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/utils/ann-library/adaptiveso2cpgsynplas.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mat/workspace/CPG-RBFN-framework/utils/ann-library/adaptiveso2cpgsynplas.cpp > CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/utils/ann-library/adaptiveso2cpgsynplas.cpp.i
 
-CMakeFiles/morf_controller.dir/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/ann-library/adaptiveso2cpgsynplas.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/morf_controller.dir/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/ann-library/adaptiveso2cpgsynplas.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/ann-library/adaptiveso2cpgsynplas.cpp -o CMakeFiles/morf_controller.dir/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/ann-library/adaptiveso2cpgsynplas.cpp.s
+CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/utils/ann-library/adaptiveso2cpgsynplas.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/utils/ann-library/adaptiveso2cpgsynplas.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mat/workspace/CPG-RBFN-framework/utils/ann-library/adaptiveso2cpgsynplas.cpp -o CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/utils/ann-library/adaptiveso2cpgsynplas.cpp.s
 
-CMakeFiles/morf_controller.dir/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/ann-library/adaptiveso2cpgsynplas.cpp.o.requires:
+CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/utils/ann-library/adaptiveso2cpgsynplas.cpp.o.requires:
 
-.PHONY : CMakeFiles/morf_controller.dir/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/ann-library/adaptiveso2cpgsynplas.cpp.o.requires
+.PHONY : CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/utils/ann-library/adaptiveso2cpgsynplas.cpp.o.requires
 
-CMakeFiles/morf_controller.dir/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/ann-library/adaptiveso2cpgsynplas.cpp.o.provides: CMakeFiles/morf_controller.dir/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/ann-library/adaptiveso2cpgsynplas.cpp.o.requires
-	$(MAKE) -f CMakeFiles/morf_controller.dir/build.make CMakeFiles/morf_controller.dir/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/ann-library/adaptiveso2cpgsynplas.cpp.o.provides.build
-.PHONY : CMakeFiles/morf_controller.dir/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/ann-library/adaptiveso2cpgsynplas.cpp.o.provides
+CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/utils/ann-library/adaptiveso2cpgsynplas.cpp.o.provides: CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/utils/ann-library/adaptiveso2cpgsynplas.cpp.o.requires
+	$(MAKE) -f CMakeFiles/morf_controller.dir/build.make CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/utils/ann-library/adaptiveso2cpgsynplas.cpp.o.provides.build
+.PHONY : CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/utils/ann-library/adaptiveso2cpgsynplas.cpp.o.provides
 
-CMakeFiles/morf_controller.dir/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/ann-library/adaptiveso2cpgsynplas.cpp.o.provides.build: CMakeFiles/morf_controller.dir/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/ann-library/adaptiveso2cpgsynplas.cpp.o
+CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/utils/ann-library/adaptiveso2cpgsynplas.cpp.o.provides.build: CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/utils/ann-library/adaptiveso2cpgsynplas.cpp.o
 
 
-CMakeFiles/morf_controller.dir/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/ann-library/extendedso2cpg.cpp.o: CMakeFiles/morf_controller.dir/flags.make
-CMakeFiles/morf_controller.dir/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/ann-library/extendedso2cpg.cpp.o: /home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/ann-library/extendedso2cpg.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/interfaces/morf/sim/build_dir/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/morf_controller.dir/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/ann-library/extendedso2cpg.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/morf_controller.dir/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/ann-library/extendedso2cpg.cpp.o -c /home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/ann-library/extendedso2cpg.cpp
+CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/utils/ann-library/extendedso2cpg.cpp.o: CMakeFiles/morf_controller.dir/flags.make
+CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/utils/ann-library/extendedso2cpg.cpp.o: /home/mat/workspace/CPG-RBFN-framework/utils/ann-library/extendedso2cpg.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mat/workspace/CPG-RBFN-framework/interfaces/morf/sim/build_dir/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/utils/ann-library/extendedso2cpg.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/utils/ann-library/extendedso2cpg.cpp.o -c /home/mat/workspace/CPG-RBFN-framework/utils/ann-library/extendedso2cpg.cpp
 
-CMakeFiles/morf_controller.dir/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/ann-library/extendedso2cpg.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/morf_controller.dir/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/ann-library/extendedso2cpg.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/ann-library/extendedso2cpg.cpp > CMakeFiles/morf_controller.dir/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/ann-library/extendedso2cpg.cpp.i
+CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/utils/ann-library/extendedso2cpg.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/utils/ann-library/extendedso2cpg.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mat/workspace/CPG-RBFN-framework/utils/ann-library/extendedso2cpg.cpp > CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/utils/ann-library/extendedso2cpg.cpp.i
 
-CMakeFiles/morf_controller.dir/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/ann-library/extendedso2cpg.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/morf_controller.dir/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/ann-library/extendedso2cpg.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/ann-library/extendedso2cpg.cpp -o CMakeFiles/morf_controller.dir/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/ann-library/extendedso2cpg.cpp.s
+CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/utils/ann-library/extendedso2cpg.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/utils/ann-library/extendedso2cpg.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mat/workspace/CPG-RBFN-framework/utils/ann-library/extendedso2cpg.cpp -o CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/utils/ann-library/extendedso2cpg.cpp.s
 
-CMakeFiles/morf_controller.dir/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/ann-library/extendedso2cpg.cpp.o.requires:
+CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/utils/ann-library/extendedso2cpg.cpp.o.requires:
 
-.PHONY : CMakeFiles/morf_controller.dir/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/ann-library/extendedso2cpg.cpp.o.requires
+.PHONY : CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/utils/ann-library/extendedso2cpg.cpp.o.requires
 
-CMakeFiles/morf_controller.dir/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/ann-library/extendedso2cpg.cpp.o.provides: CMakeFiles/morf_controller.dir/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/ann-library/extendedso2cpg.cpp.o.requires
-	$(MAKE) -f CMakeFiles/morf_controller.dir/build.make CMakeFiles/morf_controller.dir/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/ann-library/extendedso2cpg.cpp.o.provides.build
-.PHONY : CMakeFiles/morf_controller.dir/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/ann-library/extendedso2cpg.cpp.o.provides
+CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/utils/ann-library/extendedso2cpg.cpp.o.provides: CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/utils/ann-library/extendedso2cpg.cpp.o.requires
+	$(MAKE) -f CMakeFiles/morf_controller.dir/build.make CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/utils/ann-library/extendedso2cpg.cpp.o.provides.build
+.PHONY : CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/utils/ann-library/extendedso2cpg.cpp.o.provides
 
-CMakeFiles/morf_controller.dir/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/ann-library/extendedso2cpg.cpp.o.provides.build: CMakeFiles/morf_controller.dir/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/ann-library/extendedso2cpg.cpp.o
+CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/utils/ann-library/extendedso2cpg.cpp.o.provides.build: CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/utils/ann-library/extendedso2cpg.cpp.o
 
 
-CMakeFiles/morf_controller.dir/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/ann-library/pcpg.cpp.o: CMakeFiles/morf_controller.dir/flags.make
-CMakeFiles/morf_controller.dir/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/ann-library/pcpg.cpp.o: /home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/ann-library/pcpg.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/interfaces/morf/sim/build_dir/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object CMakeFiles/morf_controller.dir/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/ann-library/pcpg.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/morf_controller.dir/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/ann-library/pcpg.cpp.o -c /home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/ann-library/pcpg.cpp
+CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/utils/ann-library/pcpg.cpp.o: CMakeFiles/morf_controller.dir/flags.make
+CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/utils/ann-library/pcpg.cpp.o: /home/mat/workspace/CPG-RBFN-framework/utils/ann-library/pcpg.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mat/workspace/CPG-RBFN-framework/interfaces/morf/sim/build_dir/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/utils/ann-library/pcpg.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/utils/ann-library/pcpg.cpp.o -c /home/mat/workspace/CPG-RBFN-framework/utils/ann-library/pcpg.cpp
 
-CMakeFiles/morf_controller.dir/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/ann-library/pcpg.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/morf_controller.dir/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/ann-library/pcpg.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/ann-library/pcpg.cpp > CMakeFiles/morf_controller.dir/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/ann-library/pcpg.cpp.i
+CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/utils/ann-library/pcpg.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/utils/ann-library/pcpg.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mat/workspace/CPG-RBFN-framework/utils/ann-library/pcpg.cpp > CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/utils/ann-library/pcpg.cpp.i
 
-CMakeFiles/morf_controller.dir/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/ann-library/pcpg.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/morf_controller.dir/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/ann-library/pcpg.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/ann-library/pcpg.cpp -o CMakeFiles/morf_controller.dir/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/ann-library/pcpg.cpp.s
+CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/utils/ann-library/pcpg.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/utils/ann-library/pcpg.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mat/workspace/CPG-RBFN-framework/utils/ann-library/pcpg.cpp -o CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/utils/ann-library/pcpg.cpp.s
 
-CMakeFiles/morf_controller.dir/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/ann-library/pcpg.cpp.o.requires:
+CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/utils/ann-library/pcpg.cpp.o.requires:
 
-.PHONY : CMakeFiles/morf_controller.dir/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/ann-library/pcpg.cpp.o.requires
+.PHONY : CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/utils/ann-library/pcpg.cpp.o.requires
 
-CMakeFiles/morf_controller.dir/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/ann-library/pcpg.cpp.o.provides: CMakeFiles/morf_controller.dir/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/ann-library/pcpg.cpp.o.requires
-	$(MAKE) -f CMakeFiles/morf_controller.dir/build.make CMakeFiles/morf_controller.dir/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/ann-library/pcpg.cpp.o.provides.build
-.PHONY : CMakeFiles/morf_controller.dir/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/ann-library/pcpg.cpp.o.provides
+CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/utils/ann-library/pcpg.cpp.o.provides: CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/utils/ann-library/pcpg.cpp.o.requires
+	$(MAKE) -f CMakeFiles/morf_controller.dir/build.make CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/utils/ann-library/pcpg.cpp.o.provides.build
+.PHONY : CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/utils/ann-library/pcpg.cpp.o.provides
 
-CMakeFiles/morf_controller.dir/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/ann-library/pcpg.cpp.o.provides.build: CMakeFiles/morf_controller.dir/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/ann-library/pcpg.cpp.o
+CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/utils/ann-library/pcpg.cpp.o.provides.build: CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/utils/ann-library/pcpg.cpp.o
 
 
-CMakeFiles/morf_controller.dir/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/delayline.cpp.o: CMakeFiles/morf_controller.dir/flags.make
-CMakeFiles/morf_controller.dir/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/delayline.cpp.o: /home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/delayline.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/interfaces/morf/sim/build_dir/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object CMakeFiles/morf_controller.dir/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/delayline.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/morf_controller.dir/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/delayline.cpp.o -c /home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/delayline.cpp
+CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/utils/delayline.cpp.o: CMakeFiles/morf_controller.dir/flags.make
+CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/utils/delayline.cpp.o: /home/mat/workspace/CPG-RBFN-framework/utils/delayline.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mat/workspace/CPG-RBFN-framework/interfaces/morf/sim/build_dir/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/utils/delayline.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/utils/delayline.cpp.o -c /home/mat/workspace/CPG-RBFN-framework/utils/delayline.cpp
 
-CMakeFiles/morf_controller.dir/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/delayline.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/morf_controller.dir/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/delayline.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/delayline.cpp > CMakeFiles/morf_controller.dir/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/delayline.cpp.i
+CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/utils/delayline.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/utils/delayline.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mat/workspace/CPG-RBFN-framework/utils/delayline.cpp > CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/utils/delayline.cpp.i
 
-CMakeFiles/morf_controller.dir/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/delayline.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/morf_controller.dir/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/delayline.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/delayline.cpp -o CMakeFiles/morf_controller.dir/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/delayline.cpp.s
+CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/utils/delayline.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/utils/delayline.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mat/workspace/CPG-RBFN-framework/utils/delayline.cpp -o CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/utils/delayline.cpp.s
 
-CMakeFiles/morf_controller.dir/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/delayline.cpp.o.requires:
+CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/utils/delayline.cpp.o.requires:
 
-.PHONY : CMakeFiles/morf_controller.dir/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/delayline.cpp.o.requires
+.PHONY : CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/utils/delayline.cpp.o.requires
 
-CMakeFiles/morf_controller.dir/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/delayline.cpp.o.provides: CMakeFiles/morf_controller.dir/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/delayline.cpp.o.requires
-	$(MAKE) -f CMakeFiles/morf_controller.dir/build.make CMakeFiles/morf_controller.dir/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/delayline.cpp.o.provides.build
-.PHONY : CMakeFiles/morf_controller.dir/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/delayline.cpp.o.provides
+CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/utils/delayline.cpp.o.provides: CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/utils/delayline.cpp.o.requires
+	$(MAKE) -f CMakeFiles/morf_controller.dir/build.make CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/utils/delayline.cpp.o.provides.build
+.PHONY : CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/utils/delayline.cpp.o.provides
 
-CMakeFiles/morf_controller.dir/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/delayline.cpp.o.provides.build: CMakeFiles/morf_controller.dir/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/delayline.cpp.o
+CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/utils/delayline.cpp.o.provides.build: CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/utils/delayline.cpp.o
 
 
-CMakeFiles/morf_controller.dir/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/interpolator2d.cpp.o: CMakeFiles/morf_controller.dir/flags.make
-CMakeFiles/morf_controller.dir/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/interpolator2d.cpp.o: /home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/interpolator2d.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/interfaces/morf/sim/build_dir/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object CMakeFiles/morf_controller.dir/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/interpolator2d.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/morf_controller.dir/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/interpolator2d.cpp.o -c /home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/interpolator2d.cpp
+CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/utils/interpolator2d.cpp.o: CMakeFiles/morf_controller.dir/flags.make
+CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/utils/interpolator2d.cpp.o: /home/mat/workspace/CPG-RBFN-framework/utils/interpolator2d.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mat/workspace/CPG-RBFN-framework/interfaces/morf/sim/build_dir/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/utils/interpolator2d.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/utils/interpolator2d.cpp.o -c /home/mat/workspace/CPG-RBFN-framework/utils/interpolator2d.cpp
 
-CMakeFiles/morf_controller.dir/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/interpolator2d.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/morf_controller.dir/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/interpolator2d.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/interpolator2d.cpp > CMakeFiles/morf_controller.dir/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/interpolator2d.cpp.i
+CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/utils/interpolator2d.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/utils/interpolator2d.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mat/workspace/CPG-RBFN-framework/utils/interpolator2d.cpp > CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/utils/interpolator2d.cpp.i
 
-CMakeFiles/morf_controller.dir/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/interpolator2d.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/morf_controller.dir/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/interpolator2d.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/interpolator2d.cpp -o CMakeFiles/morf_controller.dir/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/interpolator2d.cpp.s
+CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/utils/interpolator2d.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/utils/interpolator2d.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mat/workspace/CPG-RBFN-framework/utils/interpolator2d.cpp -o CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/utils/interpolator2d.cpp.s
 
-CMakeFiles/morf_controller.dir/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/interpolator2d.cpp.o.requires:
+CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/utils/interpolator2d.cpp.o.requires:
 
-.PHONY : CMakeFiles/morf_controller.dir/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/interpolator2d.cpp.o.requires
+.PHONY : CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/utils/interpolator2d.cpp.o.requires
 
-CMakeFiles/morf_controller.dir/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/interpolator2d.cpp.o.provides: CMakeFiles/morf_controller.dir/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/interpolator2d.cpp.o.requires
-	$(MAKE) -f CMakeFiles/morf_controller.dir/build.make CMakeFiles/morf_controller.dir/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/interpolator2d.cpp.o.provides.build
-.PHONY : CMakeFiles/morf_controller.dir/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/interpolator2d.cpp.o.provides
+CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/utils/interpolator2d.cpp.o.provides: CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/utils/interpolator2d.cpp.o.requires
+	$(MAKE) -f CMakeFiles/morf_controller.dir/build.make CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/utils/interpolator2d.cpp.o.provides.build
+.PHONY : CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/utils/interpolator2d.cpp.o.provides
 
-CMakeFiles/morf_controller.dir/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/interpolator2d.cpp.o.provides.build: CMakeFiles/morf_controller.dir/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/interpolator2d.cpp.o
+CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/utils/interpolator2d.cpp.o.provides.build: CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/utils/interpolator2d.cpp.o
 
 
-CMakeFiles/morf_controller.dir/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/vrepRemoteAPI/extApiPlatform.c.o: CMakeFiles/morf_controller.dir/flags.make
-CMakeFiles/morf_controller.dir/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/vrepRemoteAPI/extApiPlatform.c.o: /home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/vrepRemoteAPI/extApiPlatform.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/interfaces/morf/sim/build_dir/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building C object CMakeFiles/morf_controller.dir/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/vrepRemoteAPI/extApiPlatform.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/morf_controller.dir/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/vrepRemoteAPI/extApiPlatform.c.o   -c /home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/vrepRemoteAPI/extApiPlatform.c
+CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/utils/vrepRemoteAPI/extApiPlatform.c.o: CMakeFiles/morf_controller.dir/flags.make
+CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/utils/vrepRemoteAPI/extApiPlatform.c.o: /home/mat/workspace/CPG-RBFN-framework/utils/vrepRemoteAPI/extApiPlatform.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mat/workspace/CPG-RBFN-framework/interfaces/morf/sim/build_dir/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building C object CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/utils/vrepRemoteAPI/extApiPlatform.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/utils/vrepRemoteAPI/extApiPlatform.c.o   -c /home/mat/workspace/CPG-RBFN-framework/utils/vrepRemoteAPI/extApiPlatform.c
 
-CMakeFiles/morf_controller.dir/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/vrepRemoteAPI/extApiPlatform.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/morf_controller.dir/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/vrepRemoteAPI/extApiPlatform.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/vrepRemoteAPI/extApiPlatform.c > CMakeFiles/morf_controller.dir/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/vrepRemoteAPI/extApiPlatform.c.i
+CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/utils/vrepRemoteAPI/extApiPlatform.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/utils/vrepRemoteAPI/extApiPlatform.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/mat/workspace/CPG-RBFN-framework/utils/vrepRemoteAPI/extApiPlatform.c > CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/utils/vrepRemoteAPI/extApiPlatform.c.i
 
-CMakeFiles/morf_controller.dir/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/vrepRemoteAPI/extApiPlatform.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/morf_controller.dir/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/vrepRemoteAPI/extApiPlatform.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/vrepRemoteAPI/extApiPlatform.c -o CMakeFiles/morf_controller.dir/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/vrepRemoteAPI/extApiPlatform.c.s
+CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/utils/vrepRemoteAPI/extApiPlatform.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/utils/vrepRemoteAPI/extApiPlatform.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/mat/workspace/CPG-RBFN-framework/utils/vrepRemoteAPI/extApiPlatform.c -o CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/utils/vrepRemoteAPI/extApiPlatform.c.s
 
-CMakeFiles/morf_controller.dir/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/vrepRemoteAPI/extApiPlatform.c.o.requires:
+CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/utils/vrepRemoteAPI/extApiPlatform.c.o.requires:
 
-.PHONY : CMakeFiles/morf_controller.dir/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/vrepRemoteAPI/extApiPlatform.c.o.requires
+.PHONY : CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/utils/vrepRemoteAPI/extApiPlatform.c.o.requires
 
-CMakeFiles/morf_controller.dir/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/vrepRemoteAPI/extApiPlatform.c.o.provides: CMakeFiles/morf_controller.dir/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/vrepRemoteAPI/extApiPlatform.c.o.requires
-	$(MAKE) -f CMakeFiles/morf_controller.dir/build.make CMakeFiles/morf_controller.dir/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/vrepRemoteAPI/extApiPlatform.c.o.provides.build
-.PHONY : CMakeFiles/morf_controller.dir/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/vrepRemoteAPI/extApiPlatform.c.o.provides
+CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/utils/vrepRemoteAPI/extApiPlatform.c.o.provides: CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/utils/vrepRemoteAPI/extApiPlatform.c.o.requires
+	$(MAKE) -f CMakeFiles/morf_controller.dir/build.make CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/utils/vrepRemoteAPI/extApiPlatform.c.o.provides.build
+.PHONY : CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/utils/vrepRemoteAPI/extApiPlatform.c.o.provides
 
-CMakeFiles/morf_controller.dir/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/vrepRemoteAPI/extApiPlatform.c.o.provides.build: CMakeFiles/morf_controller.dir/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/vrepRemoteAPI/extApiPlatform.c.o
+CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/utils/vrepRemoteAPI/extApiPlatform.c.o.provides.build: CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/utils/vrepRemoteAPI/extApiPlatform.c.o
 
 
-CMakeFiles/morf_controller.dir/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/vrepRemoteAPI/extApi.c.o: CMakeFiles/morf_controller.dir/flags.make
-CMakeFiles/morf_controller.dir/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/vrepRemoteAPI/extApi.c.o: /home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/vrepRemoteAPI/extApi.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/interfaces/morf/sim/build_dir/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building C object CMakeFiles/morf_controller.dir/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/vrepRemoteAPI/extApi.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/morf_controller.dir/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/vrepRemoteAPI/extApi.c.o   -c /home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/vrepRemoteAPI/extApi.c
+CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/utils/vrepRemoteAPI/extApi.c.o: CMakeFiles/morf_controller.dir/flags.make
+CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/utils/vrepRemoteAPI/extApi.c.o: /home/mat/workspace/CPG-RBFN-framework/utils/vrepRemoteAPI/extApi.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mat/workspace/CPG-RBFN-framework/interfaces/morf/sim/build_dir/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building C object CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/utils/vrepRemoteAPI/extApi.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/utils/vrepRemoteAPI/extApi.c.o   -c /home/mat/workspace/CPG-RBFN-framework/utils/vrepRemoteAPI/extApi.c
 
-CMakeFiles/morf_controller.dir/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/vrepRemoteAPI/extApi.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/morf_controller.dir/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/vrepRemoteAPI/extApi.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/vrepRemoteAPI/extApi.c > CMakeFiles/morf_controller.dir/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/vrepRemoteAPI/extApi.c.i
+CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/utils/vrepRemoteAPI/extApi.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/utils/vrepRemoteAPI/extApi.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/mat/workspace/CPG-RBFN-framework/utils/vrepRemoteAPI/extApi.c > CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/utils/vrepRemoteAPI/extApi.c.i
 
-CMakeFiles/morf_controller.dir/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/vrepRemoteAPI/extApi.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/morf_controller.dir/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/vrepRemoteAPI/extApi.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/vrepRemoteAPI/extApi.c -o CMakeFiles/morf_controller.dir/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/vrepRemoteAPI/extApi.c.s
+CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/utils/vrepRemoteAPI/extApi.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/utils/vrepRemoteAPI/extApi.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/mat/workspace/CPG-RBFN-framework/utils/vrepRemoteAPI/extApi.c -o CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/utils/vrepRemoteAPI/extApi.c.s
 
-CMakeFiles/morf_controller.dir/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/vrepRemoteAPI/extApi.c.o.requires:
+CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/utils/vrepRemoteAPI/extApi.c.o.requires:
 
-.PHONY : CMakeFiles/morf_controller.dir/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/vrepRemoteAPI/extApi.c.o.requires
+.PHONY : CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/utils/vrepRemoteAPI/extApi.c.o.requires
 
-CMakeFiles/morf_controller.dir/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/vrepRemoteAPI/extApi.c.o.provides: CMakeFiles/morf_controller.dir/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/vrepRemoteAPI/extApi.c.o.requires
-	$(MAKE) -f CMakeFiles/morf_controller.dir/build.make CMakeFiles/morf_controller.dir/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/vrepRemoteAPI/extApi.c.o.provides.build
-.PHONY : CMakeFiles/morf_controller.dir/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/vrepRemoteAPI/extApi.c.o.provides
+CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/utils/vrepRemoteAPI/extApi.c.o.provides: CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/utils/vrepRemoteAPI/extApi.c.o.requires
+	$(MAKE) -f CMakeFiles/morf_controller.dir/build.make CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/utils/vrepRemoteAPI/extApi.c.o.provides.build
+.PHONY : CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/utils/vrepRemoteAPI/extApi.c.o.provides
 
-CMakeFiles/morf_controller.dir/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/vrepRemoteAPI/extApi.c.o.provides.build: CMakeFiles/morf_controller.dir/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/vrepRemoteAPI/extApi.c.o
+CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/utils/vrepRemoteAPI/extApi.c.o.provides.build: CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/utils/vrepRemoteAPI/extApi.c.o
 
 
-CMakeFiles/morf_controller.dir/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/environment.cpp.o: CMakeFiles/morf_controller.dir/flags.make
-CMakeFiles/morf_controller.dir/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/environment.cpp.o: /home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/environment.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/interfaces/morf/sim/build_dir/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building CXX object CMakeFiles/morf_controller.dir/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/environment.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/morf_controller.dir/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/environment.cpp.o -c /home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/environment.cpp
+CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/utils/environment.cpp.o: CMakeFiles/morf_controller.dir/flags.make
+CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/utils/environment.cpp.o: /home/mat/workspace/CPG-RBFN-framework/utils/environment.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mat/workspace/CPG-RBFN-framework/interfaces/morf/sim/build_dir/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building CXX object CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/utils/environment.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/utils/environment.cpp.o -c /home/mat/workspace/CPG-RBFN-framework/utils/environment.cpp
 
-CMakeFiles/morf_controller.dir/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/environment.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/morf_controller.dir/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/environment.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/environment.cpp > CMakeFiles/morf_controller.dir/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/environment.cpp.i
+CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/utils/environment.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/utils/environment.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mat/workspace/CPG-RBFN-framework/utils/environment.cpp > CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/utils/environment.cpp.i
 
-CMakeFiles/morf_controller.dir/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/environment.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/morf_controller.dir/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/environment.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/environment.cpp -o CMakeFiles/morf_controller.dir/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/environment.cpp.s
+CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/utils/environment.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/utils/environment.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mat/workspace/CPG-RBFN-framework/utils/environment.cpp -o CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/utils/environment.cpp.s
 
-CMakeFiles/morf_controller.dir/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/environment.cpp.o.requires:
+CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/utils/environment.cpp.o.requires:
 
-.PHONY : CMakeFiles/morf_controller.dir/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/environment.cpp.o.requires
+.PHONY : CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/utils/environment.cpp.o.requires
 
-CMakeFiles/morf_controller.dir/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/environment.cpp.o.provides: CMakeFiles/morf_controller.dir/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/environment.cpp.o.requires
-	$(MAKE) -f CMakeFiles/morf_controller.dir/build.make CMakeFiles/morf_controller.dir/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/environment.cpp.o.provides.build
-.PHONY : CMakeFiles/morf_controller.dir/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/environment.cpp.o.provides
+CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/utils/environment.cpp.o.provides: CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/utils/environment.cpp.o.requires
+	$(MAKE) -f CMakeFiles/morf_controller.dir/build.make CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/utils/environment.cpp.o.provides.build
+.PHONY : CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/utils/environment.cpp.o.provides
 
-CMakeFiles/morf_controller.dir/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/environment.cpp.o.provides.build: CMakeFiles/morf_controller.dir/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/environment.cpp.o
+CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/utils/environment.cpp.o.provides.build: CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/utils/environment.cpp.o
 
 
 # Object files for target morf_controller
 morf_controller_OBJECTS = \
-"CMakeFiles/morf_controller.dir/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/neural_controllers/morf/sim/main_hexapod_controller.cpp.o" \
-"CMakeFiles/morf_controller.dir/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/neural_controllers/morf/sim/simRosClass.cpp.o" \
-"CMakeFiles/morf_controller.dir/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/neural_controllers/morf/sim/modularController.cpp.o" \
-"CMakeFiles/morf_controller.dir/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/neural_controllers/morf/sim/dualIntegralLearner.cpp.o" \
-"CMakeFiles/morf_controller.dir/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/neural_controllers/morf/sim/neutronController.cpp.o" \
-"CMakeFiles/morf_controller.dir/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/neural_controllers/morf/sim/postProcessing.cpp.o" \
-"CMakeFiles/morf_controller.dir/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/neural_controllers/morf/sim/cpg_rbfn.cpp.o" \
-"CMakeFiles/morf_controller.dir/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/neural_controllers/morf/sim/rbfn.cpp.o" \
-"CMakeFiles/morf_controller.dir/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/neural_controllers/morf/sim/input.cpp.o" \
-"CMakeFiles/morf_controller.dir/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/ann-framework/ann.cpp.o" \
-"CMakeFiles/morf_controller.dir/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/ann-framework/neuron.cpp.o" \
-"CMakeFiles/morf_controller.dir/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/ann-framework/synapse.cpp.o" \
-"CMakeFiles/morf_controller.dir/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/ann-library/psn.cpp.o" \
-"CMakeFiles/morf_controller.dir/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/ann-library/vrn.cpp.o" \
-"CMakeFiles/morf_controller.dir/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/ann-library/pmn.cpp.o" \
-"CMakeFiles/morf_controller.dir/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/ann-library/so2cpg.cpp.o" \
-"CMakeFiles/morf_controller.dir/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/ann-library/adaptiveso2cpgsynplas.cpp.o" \
-"CMakeFiles/morf_controller.dir/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/ann-library/extendedso2cpg.cpp.o" \
-"CMakeFiles/morf_controller.dir/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/ann-library/pcpg.cpp.o" \
-"CMakeFiles/morf_controller.dir/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/delayline.cpp.o" \
-"CMakeFiles/morf_controller.dir/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/interpolator2d.cpp.o" \
-"CMakeFiles/morf_controller.dir/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/vrepRemoteAPI/extApiPlatform.c.o" \
-"CMakeFiles/morf_controller.dir/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/vrepRemoteAPI/extApi.c.o" \
-"CMakeFiles/morf_controller.dir/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/environment.cpp.o"
+"CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/main_hexapod_controller.cpp.o" \
+"CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/simRosClass.cpp.o" \
+"CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/modularController.cpp.o" \
+"CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/dualIntegralLearner.cpp.o" \
+"CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/neutronController.cpp.o" \
+"CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/postProcessing.cpp.o" \
+"CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/cpg_rbfn.cpp.o" \
+"CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/rbfn.cpp.o" \
+"CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/input.cpp.o" \
+"CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/utils/ann-framework/ann.cpp.o" \
+"CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/utils/ann-framework/neuron.cpp.o" \
+"CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/utils/ann-framework/synapse.cpp.o" \
+"CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/utils/ann-library/psn.cpp.o" \
+"CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/utils/ann-library/vrn.cpp.o" \
+"CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/utils/ann-library/pmn.cpp.o" \
+"CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/utils/ann-library/so2cpg.cpp.o" \
+"CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/utils/ann-library/adaptiveso2cpgsynplas.cpp.o" \
+"CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/utils/ann-library/extendedso2cpg.cpp.o" \
+"CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/utils/ann-library/pcpg.cpp.o" \
+"CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/utils/delayline.cpp.o" \
+"CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/utils/interpolator2d.cpp.o" \
+"CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/utils/vrepRemoteAPI/extApiPlatform.c.o" \
+"CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/utils/vrepRemoteAPI/extApi.c.o" \
+"CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/utils/environment.cpp.o"
 
 # External object files for target morf_controller
 morf_controller_EXTERNAL_OBJECTS =
 
-bin/morf_controller: CMakeFiles/morf_controller.dir/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/neural_controllers/morf/sim/main_hexapod_controller.cpp.o
-bin/morf_controller: CMakeFiles/morf_controller.dir/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/neural_controllers/morf/sim/simRosClass.cpp.o
-bin/morf_controller: CMakeFiles/morf_controller.dir/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/neural_controllers/morf/sim/modularController.cpp.o
-bin/morf_controller: CMakeFiles/morf_controller.dir/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/neural_controllers/morf/sim/dualIntegralLearner.cpp.o
-bin/morf_controller: CMakeFiles/morf_controller.dir/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/neural_controllers/morf/sim/neutronController.cpp.o
-bin/morf_controller: CMakeFiles/morf_controller.dir/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/neural_controllers/morf/sim/postProcessing.cpp.o
-bin/morf_controller: CMakeFiles/morf_controller.dir/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/neural_controllers/morf/sim/cpg_rbfn.cpp.o
-bin/morf_controller: CMakeFiles/morf_controller.dir/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/neural_controllers/morf/sim/rbfn.cpp.o
-bin/morf_controller: CMakeFiles/morf_controller.dir/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/neural_controllers/morf/sim/input.cpp.o
-bin/morf_controller: CMakeFiles/morf_controller.dir/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/ann-framework/ann.cpp.o
-bin/morf_controller: CMakeFiles/morf_controller.dir/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/ann-framework/neuron.cpp.o
-bin/morf_controller: CMakeFiles/morf_controller.dir/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/ann-framework/synapse.cpp.o
-bin/morf_controller: CMakeFiles/morf_controller.dir/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/ann-library/psn.cpp.o
-bin/morf_controller: CMakeFiles/morf_controller.dir/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/ann-library/vrn.cpp.o
-bin/morf_controller: CMakeFiles/morf_controller.dir/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/ann-library/pmn.cpp.o
-bin/morf_controller: CMakeFiles/morf_controller.dir/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/ann-library/so2cpg.cpp.o
-bin/morf_controller: CMakeFiles/morf_controller.dir/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/ann-library/adaptiveso2cpgsynplas.cpp.o
-bin/morf_controller: CMakeFiles/morf_controller.dir/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/ann-library/extendedso2cpg.cpp.o
-bin/morf_controller: CMakeFiles/morf_controller.dir/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/ann-library/pcpg.cpp.o
-bin/morf_controller: CMakeFiles/morf_controller.dir/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/delayline.cpp.o
-bin/morf_controller: CMakeFiles/morf_controller.dir/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/interpolator2d.cpp.o
-bin/morf_controller: CMakeFiles/morf_controller.dir/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/vrepRemoteAPI/extApiPlatform.c.o
-bin/morf_controller: CMakeFiles/morf_controller.dir/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/vrepRemoteAPI/extApi.c.o
-bin/morf_controller: CMakeFiles/morf_controller.dir/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/environment.cpp.o
+bin/morf_controller: CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/main_hexapod_controller.cpp.o
+bin/morf_controller: CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/simRosClass.cpp.o
+bin/morf_controller: CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/modularController.cpp.o
+bin/morf_controller: CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/dualIntegralLearner.cpp.o
+bin/morf_controller: CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/neutronController.cpp.o
+bin/morf_controller: CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/postProcessing.cpp.o
+bin/morf_controller: CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/cpg_rbfn.cpp.o
+bin/morf_controller: CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/rbfn.cpp.o
+bin/morf_controller: CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/input.cpp.o
+bin/morf_controller: CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/utils/ann-framework/ann.cpp.o
+bin/morf_controller: CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/utils/ann-framework/neuron.cpp.o
+bin/morf_controller: CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/utils/ann-framework/synapse.cpp.o
+bin/morf_controller: CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/utils/ann-library/psn.cpp.o
+bin/morf_controller: CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/utils/ann-library/vrn.cpp.o
+bin/morf_controller: CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/utils/ann-library/pmn.cpp.o
+bin/morf_controller: CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/utils/ann-library/so2cpg.cpp.o
+bin/morf_controller: CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/utils/ann-library/adaptiveso2cpgsynplas.cpp.o
+bin/morf_controller: CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/utils/ann-library/extendedso2cpg.cpp.o
+bin/morf_controller: CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/utils/ann-library/pcpg.cpp.o
+bin/morf_controller: CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/utils/delayline.cpp.o
+bin/morf_controller: CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/utils/interpolator2d.cpp.o
+bin/morf_controller: CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/utils/vrepRemoteAPI/extApiPlatform.c.o
+bin/morf_controller: CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/utils/vrepRemoteAPI/extApi.c.o
+bin/morf_controller: CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/utils/environment.cpp.o
 bin/morf_controller: CMakeFiles/morf_controller.dir/build.make
 bin/morf_controller: /opt/ros/melodic/lib/libroscpp.so
 bin/morf_controller: /usr/lib/x86_64-linux-gnu/libboost_filesystem.so
@@ -709,7 +709,7 @@ bin/morf_controller: /usr/lib/x86_64-linux-gnu/libconsole_bridge.so.0.4
 bin/morf_controller: /usr/lib/x86_64-linux-gnu/libgsl.so
 bin/morf_controller: /usr/lib/x86_64-linux-gnu/libgslcblas.so
 bin/morf_controller: CMakeFiles/morf_controller.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/interfaces/morf/sim/build_dir/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Linking CXX executable bin/morf_controller"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/mat/workspace/CPG-RBFN-framework/interfaces/morf/sim/build_dir/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Linking CXX executable bin/morf_controller"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/morf_controller.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -717,30 +717,30 @@ CMakeFiles/morf_controller.dir/build: bin/morf_controller
 
 .PHONY : CMakeFiles/morf_controller.dir/build
 
-CMakeFiles/morf_controller.dir/requires: CMakeFiles/morf_controller.dir/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/neural_controllers/morf/sim/main_hexapod_controller.cpp.o.requires
-CMakeFiles/morf_controller.dir/requires: CMakeFiles/morf_controller.dir/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/neural_controllers/morf/sim/simRosClass.cpp.o.requires
-CMakeFiles/morf_controller.dir/requires: CMakeFiles/morf_controller.dir/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/neural_controllers/morf/sim/modularController.cpp.o.requires
-CMakeFiles/morf_controller.dir/requires: CMakeFiles/morf_controller.dir/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/neural_controllers/morf/sim/dualIntegralLearner.cpp.o.requires
-CMakeFiles/morf_controller.dir/requires: CMakeFiles/morf_controller.dir/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/neural_controllers/morf/sim/neutronController.cpp.o.requires
-CMakeFiles/morf_controller.dir/requires: CMakeFiles/morf_controller.dir/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/neural_controllers/morf/sim/postProcessing.cpp.o.requires
-CMakeFiles/morf_controller.dir/requires: CMakeFiles/morf_controller.dir/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/neural_controllers/morf/sim/cpg_rbfn.cpp.o.requires
-CMakeFiles/morf_controller.dir/requires: CMakeFiles/morf_controller.dir/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/neural_controllers/morf/sim/rbfn.cpp.o.requires
-CMakeFiles/morf_controller.dir/requires: CMakeFiles/morf_controller.dir/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/neural_controllers/morf/sim/input.cpp.o.requires
-CMakeFiles/morf_controller.dir/requires: CMakeFiles/morf_controller.dir/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/ann-framework/ann.cpp.o.requires
-CMakeFiles/morf_controller.dir/requires: CMakeFiles/morf_controller.dir/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/ann-framework/neuron.cpp.o.requires
-CMakeFiles/morf_controller.dir/requires: CMakeFiles/morf_controller.dir/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/ann-framework/synapse.cpp.o.requires
-CMakeFiles/morf_controller.dir/requires: CMakeFiles/morf_controller.dir/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/ann-library/psn.cpp.o.requires
-CMakeFiles/morf_controller.dir/requires: CMakeFiles/morf_controller.dir/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/ann-library/vrn.cpp.o.requires
-CMakeFiles/morf_controller.dir/requires: CMakeFiles/morf_controller.dir/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/ann-library/pmn.cpp.o.requires
-CMakeFiles/morf_controller.dir/requires: CMakeFiles/morf_controller.dir/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/ann-library/so2cpg.cpp.o.requires
-CMakeFiles/morf_controller.dir/requires: CMakeFiles/morf_controller.dir/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/ann-library/adaptiveso2cpgsynplas.cpp.o.requires
-CMakeFiles/morf_controller.dir/requires: CMakeFiles/morf_controller.dir/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/ann-library/extendedso2cpg.cpp.o.requires
-CMakeFiles/morf_controller.dir/requires: CMakeFiles/morf_controller.dir/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/ann-library/pcpg.cpp.o.requires
-CMakeFiles/morf_controller.dir/requires: CMakeFiles/morf_controller.dir/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/delayline.cpp.o.requires
-CMakeFiles/morf_controller.dir/requires: CMakeFiles/morf_controller.dir/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/interpolator2d.cpp.o.requires
-CMakeFiles/morf_controller.dir/requires: CMakeFiles/morf_controller.dir/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/vrepRemoteAPI/extApiPlatform.c.o.requires
-CMakeFiles/morf_controller.dir/requires: CMakeFiles/morf_controller.dir/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/vrepRemoteAPI/extApi.c.o.requires
-CMakeFiles/morf_controller.dir/requires: CMakeFiles/morf_controller.dir/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/environment.cpp.o.requires
+CMakeFiles/morf_controller.dir/requires: CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/main_hexapod_controller.cpp.o.requires
+CMakeFiles/morf_controller.dir/requires: CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/simRosClass.cpp.o.requires
+CMakeFiles/morf_controller.dir/requires: CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/modularController.cpp.o.requires
+CMakeFiles/morf_controller.dir/requires: CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/dualIntegralLearner.cpp.o.requires
+CMakeFiles/morf_controller.dir/requires: CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/neutronController.cpp.o.requires
+CMakeFiles/morf_controller.dir/requires: CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/postProcessing.cpp.o.requires
+CMakeFiles/morf_controller.dir/requires: CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/cpg_rbfn.cpp.o.requires
+CMakeFiles/morf_controller.dir/requires: CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/rbfn.cpp.o.requires
+CMakeFiles/morf_controller.dir/requires: CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/input.cpp.o.requires
+CMakeFiles/morf_controller.dir/requires: CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/utils/ann-framework/ann.cpp.o.requires
+CMakeFiles/morf_controller.dir/requires: CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/utils/ann-framework/neuron.cpp.o.requires
+CMakeFiles/morf_controller.dir/requires: CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/utils/ann-framework/synapse.cpp.o.requires
+CMakeFiles/morf_controller.dir/requires: CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/utils/ann-library/psn.cpp.o.requires
+CMakeFiles/morf_controller.dir/requires: CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/utils/ann-library/vrn.cpp.o.requires
+CMakeFiles/morf_controller.dir/requires: CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/utils/ann-library/pmn.cpp.o.requires
+CMakeFiles/morf_controller.dir/requires: CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/utils/ann-library/so2cpg.cpp.o.requires
+CMakeFiles/morf_controller.dir/requires: CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/utils/ann-library/adaptiveso2cpgsynplas.cpp.o.requires
+CMakeFiles/morf_controller.dir/requires: CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/utils/ann-library/extendedso2cpg.cpp.o.requires
+CMakeFiles/morf_controller.dir/requires: CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/utils/ann-library/pcpg.cpp.o.requires
+CMakeFiles/morf_controller.dir/requires: CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/utils/delayline.cpp.o.requires
+CMakeFiles/morf_controller.dir/requires: CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/utils/interpolator2d.cpp.o.requires
+CMakeFiles/morf_controller.dir/requires: CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/utils/vrepRemoteAPI/extApiPlatform.c.o.requires
+CMakeFiles/morf_controller.dir/requires: CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/utils/vrepRemoteAPI/extApi.c.o.requires
+CMakeFiles/morf_controller.dir/requires: CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/utils/environment.cpp.o.requires
 
 .PHONY : CMakeFiles/morf_controller.dir/requires
 
@@ -749,6 +749,6 @@ CMakeFiles/morf_controller.dir/clean:
 .PHONY : CMakeFiles/morf_controller.dir/clean
 
 CMakeFiles/morf_controller.dir/depend:
-	cd /home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/interfaces/morf/sim/build_dir && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/interfaces/morf/sim/build_dir /home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/interfaces/morf/sim/build_dir /home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/interfaces/morf/sim/build_dir /home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/interfaces/morf/sim/build_dir /home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/interfaces/morf/sim/build_dir/CMakeFiles/morf_controller.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/mat/workspace/CPG-RBFN-framework/interfaces/morf/sim/build_dir && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/mat/workspace/CPG-RBFN-framework/interfaces/morf/sim/build_dir /home/mat/workspace/CPG-RBFN-framework/interfaces/morf/sim/build_dir /home/mat/workspace/CPG-RBFN-framework/interfaces/morf/sim/build_dir /home/mat/workspace/CPG-RBFN-framework/interfaces/morf/sim/build_dir /home/mat/workspace/CPG-RBFN-framework/interfaces/morf/sim/build_dir/CMakeFiles/morf_controller.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/morf_controller.dir/depend
 

@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/interfaces/morf/sim/build_dir
+CMAKE_SOURCE_DIR = /home/mat/workspace/CPG-RBFN-framework/interfaces/morf/sim/build_dir
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/interfaces/morf/sim/build_dir
+CMAKE_BINARY_DIR = /home/mat/workspace/CPG-RBFN-framework/interfaces/morf/sim/build_dir
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -137,9 +137,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/interfaces/morf/sim/build_dir/CMakeFiles /home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/interfaces/morf/sim/build_dir/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/mat/workspace/CPG-RBFN-framework/interfaces/morf/sim/build_dir/CMakeFiles /home/mat/workspace/CPG-RBFN-framework/interfaces/morf/sim/build_dir/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/interfaces/morf/sim/build_dir/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/mat/workspace/CPG-RBFN-framework/interfaces/morf/sim/build_dir/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -635,653 +635,653 @@ gtest/fast:
 	$(MAKE) -f gtest/googlemock/gtest/CMakeFiles/gtest.dir/build.make gtest/googlemock/gtest/CMakeFiles/gtest.dir/build
 .PHONY : gtest/fast
 
-home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/neural_controllers/morf/sim/cpg_rbfn.o: home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/neural_controllers/morf/sim/cpg_rbfn.cpp.o
+home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/cpg_rbfn.o: home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/cpg_rbfn.cpp.o
 
-.PHONY : home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/neural_controllers/morf/sim/cpg_rbfn.o
-
-# target to build an object file
-home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/neural_controllers/morf/sim/cpg_rbfn.cpp.o:
-	$(MAKE) -f CMakeFiles/morf_controller.dir/build.make CMakeFiles/morf_controller.dir/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/neural_controllers/morf/sim/cpg_rbfn.cpp.o
-.PHONY : home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/neural_controllers/morf/sim/cpg_rbfn.cpp.o
-
-home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/neural_controllers/morf/sim/cpg_rbfn.i: home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/neural_controllers/morf/sim/cpg_rbfn.cpp.i
-
-.PHONY : home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/neural_controllers/morf/sim/cpg_rbfn.i
-
-# target to preprocess a source file
-home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/neural_controllers/morf/sim/cpg_rbfn.cpp.i:
-	$(MAKE) -f CMakeFiles/morf_controller.dir/build.make CMakeFiles/morf_controller.dir/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/neural_controllers/morf/sim/cpg_rbfn.cpp.i
-.PHONY : home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/neural_controllers/morf/sim/cpg_rbfn.cpp.i
-
-home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/neural_controllers/morf/sim/cpg_rbfn.s: home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/neural_controllers/morf/sim/cpg_rbfn.cpp.s
-
-.PHONY : home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/neural_controllers/morf/sim/cpg_rbfn.s
-
-# target to generate assembly for a file
-home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/neural_controllers/morf/sim/cpg_rbfn.cpp.s:
-	$(MAKE) -f CMakeFiles/morf_controller.dir/build.make CMakeFiles/morf_controller.dir/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/neural_controllers/morf/sim/cpg_rbfn.cpp.s
-.PHONY : home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/neural_controllers/morf/sim/cpg_rbfn.cpp.s
-
-home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/neural_controllers/morf/sim/dualIntegralLearner.o: home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/neural_controllers/morf/sim/dualIntegralLearner.cpp.o
-
-.PHONY : home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/neural_controllers/morf/sim/dualIntegralLearner.o
+.PHONY : home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/cpg_rbfn.o
 
 # target to build an object file
-home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/neural_controllers/morf/sim/dualIntegralLearner.cpp.o:
-	$(MAKE) -f CMakeFiles/morf_controller.dir/build.make CMakeFiles/morf_controller.dir/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/neural_controllers/morf/sim/dualIntegralLearner.cpp.o
-.PHONY : home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/neural_controllers/morf/sim/dualIntegralLearner.cpp.o
+home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/cpg_rbfn.cpp.o:
+	$(MAKE) -f CMakeFiles/morf_controller.dir/build.make CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/cpg_rbfn.cpp.o
+.PHONY : home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/cpg_rbfn.cpp.o
 
-home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/neural_controllers/morf/sim/dualIntegralLearner.i: home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/neural_controllers/morf/sim/dualIntegralLearner.cpp.i
+home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/cpg_rbfn.i: home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/cpg_rbfn.cpp.i
 
-.PHONY : home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/neural_controllers/morf/sim/dualIntegralLearner.i
+.PHONY : home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/cpg_rbfn.i
 
 # target to preprocess a source file
-home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/neural_controllers/morf/sim/dualIntegralLearner.cpp.i:
-	$(MAKE) -f CMakeFiles/morf_controller.dir/build.make CMakeFiles/morf_controller.dir/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/neural_controllers/morf/sim/dualIntegralLearner.cpp.i
-.PHONY : home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/neural_controllers/morf/sim/dualIntegralLearner.cpp.i
+home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/cpg_rbfn.cpp.i:
+	$(MAKE) -f CMakeFiles/morf_controller.dir/build.make CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/cpg_rbfn.cpp.i
+.PHONY : home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/cpg_rbfn.cpp.i
 
-home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/neural_controllers/morf/sim/dualIntegralLearner.s: home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/neural_controllers/morf/sim/dualIntegralLearner.cpp.s
+home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/cpg_rbfn.s: home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/cpg_rbfn.cpp.s
 
-.PHONY : home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/neural_controllers/morf/sim/dualIntegralLearner.s
+.PHONY : home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/cpg_rbfn.s
 
 # target to generate assembly for a file
-home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/neural_controllers/morf/sim/dualIntegralLearner.cpp.s:
-	$(MAKE) -f CMakeFiles/morf_controller.dir/build.make CMakeFiles/morf_controller.dir/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/neural_controllers/morf/sim/dualIntegralLearner.cpp.s
-.PHONY : home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/neural_controllers/morf/sim/dualIntegralLearner.cpp.s
+home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/cpg_rbfn.cpp.s:
+	$(MAKE) -f CMakeFiles/morf_controller.dir/build.make CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/cpg_rbfn.cpp.s
+.PHONY : home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/cpg_rbfn.cpp.s
 
-home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/neural_controllers/morf/sim/input.o: home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/neural_controllers/morf/sim/input.cpp.o
+home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/dualIntegralLearner.o: home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/dualIntegralLearner.cpp.o
 
-.PHONY : home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/neural_controllers/morf/sim/input.o
+.PHONY : home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/dualIntegralLearner.o
 
 # target to build an object file
-home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/neural_controllers/morf/sim/input.cpp.o:
-	$(MAKE) -f CMakeFiles/morf_controller.dir/build.make CMakeFiles/morf_controller.dir/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/neural_controllers/morf/sim/input.cpp.o
-.PHONY : home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/neural_controllers/morf/sim/input.cpp.o
+home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/dualIntegralLearner.cpp.o:
+	$(MAKE) -f CMakeFiles/morf_controller.dir/build.make CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/dualIntegralLearner.cpp.o
+.PHONY : home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/dualIntegralLearner.cpp.o
 
-home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/neural_controllers/morf/sim/input.i: home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/neural_controllers/morf/sim/input.cpp.i
+home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/dualIntegralLearner.i: home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/dualIntegralLearner.cpp.i
 
-.PHONY : home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/neural_controllers/morf/sim/input.i
+.PHONY : home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/dualIntegralLearner.i
 
 # target to preprocess a source file
-home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/neural_controllers/morf/sim/input.cpp.i:
-	$(MAKE) -f CMakeFiles/morf_controller.dir/build.make CMakeFiles/morf_controller.dir/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/neural_controllers/morf/sim/input.cpp.i
-.PHONY : home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/neural_controllers/morf/sim/input.cpp.i
+home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/dualIntegralLearner.cpp.i:
+	$(MAKE) -f CMakeFiles/morf_controller.dir/build.make CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/dualIntegralLearner.cpp.i
+.PHONY : home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/dualIntegralLearner.cpp.i
 
-home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/neural_controllers/morf/sim/input.s: home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/neural_controllers/morf/sim/input.cpp.s
+home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/dualIntegralLearner.s: home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/dualIntegralLearner.cpp.s
 
-.PHONY : home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/neural_controllers/morf/sim/input.s
+.PHONY : home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/dualIntegralLearner.s
 
 # target to generate assembly for a file
-home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/neural_controllers/morf/sim/input.cpp.s:
-	$(MAKE) -f CMakeFiles/morf_controller.dir/build.make CMakeFiles/morf_controller.dir/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/neural_controllers/morf/sim/input.cpp.s
-.PHONY : home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/neural_controllers/morf/sim/input.cpp.s
+home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/dualIntegralLearner.cpp.s:
+	$(MAKE) -f CMakeFiles/morf_controller.dir/build.make CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/dualIntegralLearner.cpp.s
+.PHONY : home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/dualIntegralLearner.cpp.s
 
-home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/neural_controllers/morf/sim/main_hexapod_controller.o: home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/neural_controllers/morf/sim/main_hexapod_controller.cpp.o
+home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/input.o: home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/input.cpp.o
 
-.PHONY : home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/neural_controllers/morf/sim/main_hexapod_controller.o
+.PHONY : home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/input.o
 
 # target to build an object file
-home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/neural_controllers/morf/sim/main_hexapod_controller.cpp.o:
-	$(MAKE) -f CMakeFiles/morf_controller.dir/build.make CMakeFiles/morf_controller.dir/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/neural_controllers/morf/sim/main_hexapod_controller.cpp.o
-.PHONY : home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/neural_controllers/morf/sim/main_hexapod_controller.cpp.o
+home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/input.cpp.o:
+	$(MAKE) -f CMakeFiles/morf_controller.dir/build.make CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/input.cpp.o
+.PHONY : home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/input.cpp.o
 
-home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/neural_controllers/morf/sim/main_hexapod_controller.i: home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/neural_controllers/morf/sim/main_hexapod_controller.cpp.i
+home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/input.i: home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/input.cpp.i
 
-.PHONY : home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/neural_controllers/morf/sim/main_hexapod_controller.i
+.PHONY : home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/input.i
 
 # target to preprocess a source file
-home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/neural_controllers/morf/sim/main_hexapod_controller.cpp.i:
-	$(MAKE) -f CMakeFiles/morf_controller.dir/build.make CMakeFiles/morf_controller.dir/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/neural_controllers/morf/sim/main_hexapod_controller.cpp.i
-.PHONY : home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/neural_controllers/morf/sim/main_hexapod_controller.cpp.i
+home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/input.cpp.i:
+	$(MAKE) -f CMakeFiles/morf_controller.dir/build.make CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/input.cpp.i
+.PHONY : home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/input.cpp.i
 
-home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/neural_controllers/morf/sim/main_hexapod_controller.s: home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/neural_controllers/morf/sim/main_hexapod_controller.cpp.s
+home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/input.s: home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/input.cpp.s
 
-.PHONY : home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/neural_controllers/morf/sim/main_hexapod_controller.s
+.PHONY : home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/input.s
 
 # target to generate assembly for a file
-home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/neural_controllers/morf/sim/main_hexapod_controller.cpp.s:
-	$(MAKE) -f CMakeFiles/morf_controller.dir/build.make CMakeFiles/morf_controller.dir/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/neural_controllers/morf/sim/main_hexapod_controller.cpp.s
-.PHONY : home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/neural_controllers/morf/sim/main_hexapod_controller.cpp.s
+home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/input.cpp.s:
+	$(MAKE) -f CMakeFiles/morf_controller.dir/build.make CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/input.cpp.s
+.PHONY : home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/input.cpp.s
 
-home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/neural_controllers/morf/sim/modularController.o: home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/neural_controllers/morf/sim/modularController.cpp.o
+home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/main_hexapod_controller.o: home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/main_hexapod_controller.cpp.o
 
-.PHONY : home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/neural_controllers/morf/sim/modularController.o
+.PHONY : home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/main_hexapod_controller.o
 
 # target to build an object file
-home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/neural_controllers/morf/sim/modularController.cpp.o:
-	$(MAKE) -f CMakeFiles/morf_controller.dir/build.make CMakeFiles/morf_controller.dir/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/neural_controllers/morf/sim/modularController.cpp.o
-.PHONY : home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/neural_controllers/morf/sim/modularController.cpp.o
+home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/main_hexapod_controller.cpp.o:
+	$(MAKE) -f CMakeFiles/morf_controller.dir/build.make CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/main_hexapod_controller.cpp.o
+.PHONY : home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/main_hexapod_controller.cpp.o
 
-home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/neural_controllers/morf/sim/modularController.i: home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/neural_controllers/morf/sim/modularController.cpp.i
+home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/main_hexapod_controller.i: home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/main_hexapod_controller.cpp.i
 
-.PHONY : home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/neural_controllers/morf/sim/modularController.i
+.PHONY : home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/main_hexapod_controller.i
 
 # target to preprocess a source file
-home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/neural_controllers/morf/sim/modularController.cpp.i:
-	$(MAKE) -f CMakeFiles/morf_controller.dir/build.make CMakeFiles/morf_controller.dir/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/neural_controllers/morf/sim/modularController.cpp.i
-.PHONY : home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/neural_controllers/morf/sim/modularController.cpp.i
+home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/main_hexapod_controller.cpp.i:
+	$(MAKE) -f CMakeFiles/morf_controller.dir/build.make CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/main_hexapod_controller.cpp.i
+.PHONY : home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/main_hexapod_controller.cpp.i
 
-home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/neural_controllers/morf/sim/modularController.s: home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/neural_controllers/morf/sim/modularController.cpp.s
+home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/main_hexapod_controller.s: home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/main_hexapod_controller.cpp.s
 
-.PHONY : home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/neural_controllers/morf/sim/modularController.s
+.PHONY : home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/main_hexapod_controller.s
 
 # target to generate assembly for a file
-home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/neural_controllers/morf/sim/modularController.cpp.s:
-	$(MAKE) -f CMakeFiles/morf_controller.dir/build.make CMakeFiles/morf_controller.dir/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/neural_controllers/morf/sim/modularController.cpp.s
-.PHONY : home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/neural_controllers/morf/sim/modularController.cpp.s
+home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/main_hexapod_controller.cpp.s:
+	$(MAKE) -f CMakeFiles/morf_controller.dir/build.make CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/main_hexapod_controller.cpp.s
+.PHONY : home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/main_hexapod_controller.cpp.s
 
-home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/neural_controllers/morf/sim/neutronController.o: home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/neural_controllers/morf/sim/neutronController.cpp.o
+home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/modularController.o: home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/modularController.cpp.o
 
-.PHONY : home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/neural_controllers/morf/sim/neutronController.o
+.PHONY : home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/modularController.o
 
 # target to build an object file
-home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/neural_controllers/morf/sim/neutronController.cpp.o:
-	$(MAKE) -f CMakeFiles/morf_controller.dir/build.make CMakeFiles/morf_controller.dir/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/neural_controllers/morf/sim/neutronController.cpp.o
-.PHONY : home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/neural_controllers/morf/sim/neutronController.cpp.o
+home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/modularController.cpp.o:
+	$(MAKE) -f CMakeFiles/morf_controller.dir/build.make CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/modularController.cpp.o
+.PHONY : home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/modularController.cpp.o
 
-home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/neural_controllers/morf/sim/neutronController.i: home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/neural_controllers/morf/sim/neutronController.cpp.i
+home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/modularController.i: home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/modularController.cpp.i
 
-.PHONY : home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/neural_controllers/morf/sim/neutronController.i
+.PHONY : home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/modularController.i
 
 # target to preprocess a source file
-home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/neural_controllers/morf/sim/neutronController.cpp.i:
-	$(MAKE) -f CMakeFiles/morf_controller.dir/build.make CMakeFiles/morf_controller.dir/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/neural_controllers/morf/sim/neutronController.cpp.i
-.PHONY : home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/neural_controllers/morf/sim/neutronController.cpp.i
+home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/modularController.cpp.i:
+	$(MAKE) -f CMakeFiles/morf_controller.dir/build.make CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/modularController.cpp.i
+.PHONY : home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/modularController.cpp.i
 
-home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/neural_controllers/morf/sim/neutronController.s: home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/neural_controllers/morf/sim/neutronController.cpp.s
+home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/modularController.s: home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/modularController.cpp.s
 
-.PHONY : home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/neural_controllers/morf/sim/neutronController.s
+.PHONY : home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/modularController.s
 
 # target to generate assembly for a file
-home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/neural_controllers/morf/sim/neutronController.cpp.s:
-	$(MAKE) -f CMakeFiles/morf_controller.dir/build.make CMakeFiles/morf_controller.dir/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/neural_controllers/morf/sim/neutronController.cpp.s
-.PHONY : home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/neural_controllers/morf/sim/neutronController.cpp.s
+home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/modularController.cpp.s:
+	$(MAKE) -f CMakeFiles/morf_controller.dir/build.make CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/modularController.cpp.s
+.PHONY : home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/modularController.cpp.s
 
-home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/neural_controllers/morf/sim/postProcessing.o: home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/neural_controllers/morf/sim/postProcessing.cpp.o
+home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/neutronController.o: home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/neutronController.cpp.o
 
-.PHONY : home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/neural_controllers/morf/sim/postProcessing.o
+.PHONY : home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/neutronController.o
 
 # target to build an object file
-home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/neural_controllers/morf/sim/postProcessing.cpp.o:
-	$(MAKE) -f CMakeFiles/morf_controller.dir/build.make CMakeFiles/morf_controller.dir/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/neural_controllers/morf/sim/postProcessing.cpp.o
-.PHONY : home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/neural_controllers/morf/sim/postProcessing.cpp.o
+home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/neutronController.cpp.o:
+	$(MAKE) -f CMakeFiles/morf_controller.dir/build.make CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/neutronController.cpp.o
+.PHONY : home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/neutronController.cpp.o
 
-home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/neural_controllers/morf/sim/postProcessing.i: home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/neural_controllers/morf/sim/postProcessing.cpp.i
+home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/neutronController.i: home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/neutronController.cpp.i
 
-.PHONY : home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/neural_controllers/morf/sim/postProcessing.i
+.PHONY : home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/neutronController.i
 
 # target to preprocess a source file
-home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/neural_controllers/morf/sim/postProcessing.cpp.i:
-	$(MAKE) -f CMakeFiles/morf_controller.dir/build.make CMakeFiles/morf_controller.dir/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/neural_controllers/morf/sim/postProcessing.cpp.i
-.PHONY : home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/neural_controllers/morf/sim/postProcessing.cpp.i
+home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/neutronController.cpp.i:
+	$(MAKE) -f CMakeFiles/morf_controller.dir/build.make CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/neutronController.cpp.i
+.PHONY : home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/neutronController.cpp.i
 
-home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/neural_controllers/morf/sim/postProcessing.s: home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/neural_controllers/morf/sim/postProcessing.cpp.s
+home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/neutronController.s: home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/neutronController.cpp.s
 
-.PHONY : home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/neural_controllers/morf/sim/postProcessing.s
+.PHONY : home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/neutronController.s
 
 # target to generate assembly for a file
-home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/neural_controllers/morf/sim/postProcessing.cpp.s:
-	$(MAKE) -f CMakeFiles/morf_controller.dir/build.make CMakeFiles/morf_controller.dir/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/neural_controllers/morf/sim/postProcessing.cpp.s
-.PHONY : home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/neural_controllers/morf/sim/postProcessing.cpp.s
+home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/neutronController.cpp.s:
+	$(MAKE) -f CMakeFiles/morf_controller.dir/build.make CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/neutronController.cpp.s
+.PHONY : home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/neutronController.cpp.s
 
-home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/neural_controllers/morf/sim/rbfn.o: home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/neural_controllers/morf/sim/rbfn.cpp.o
+home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/postProcessing.o: home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/postProcessing.cpp.o
 
-.PHONY : home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/neural_controllers/morf/sim/rbfn.o
+.PHONY : home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/postProcessing.o
 
 # target to build an object file
-home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/neural_controllers/morf/sim/rbfn.cpp.o:
-	$(MAKE) -f CMakeFiles/morf_controller.dir/build.make CMakeFiles/morf_controller.dir/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/neural_controllers/morf/sim/rbfn.cpp.o
-.PHONY : home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/neural_controllers/morf/sim/rbfn.cpp.o
+home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/postProcessing.cpp.o:
+	$(MAKE) -f CMakeFiles/morf_controller.dir/build.make CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/postProcessing.cpp.o
+.PHONY : home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/postProcessing.cpp.o
 
-home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/neural_controllers/morf/sim/rbfn.i: home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/neural_controllers/morf/sim/rbfn.cpp.i
+home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/postProcessing.i: home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/postProcessing.cpp.i
 
-.PHONY : home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/neural_controllers/morf/sim/rbfn.i
+.PHONY : home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/postProcessing.i
 
 # target to preprocess a source file
-home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/neural_controllers/morf/sim/rbfn.cpp.i:
-	$(MAKE) -f CMakeFiles/morf_controller.dir/build.make CMakeFiles/morf_controller.dir/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/neural_controllers/morf/sim/rbfn.cpp.i
-.PHONY : home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/neural_controllers/morf/sim/rbfn.cpp.i
+home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/postProcessing.cpp.i:
+	$(MAKE) -f CMakeFiles/morf_controller.dir/build.make CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/postProcessing.cpp.i
+.PHONY : home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/postProcessing.cpp.i
 
-home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/neural_controllers/morf/sim/rbfn.s: home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/neural_controllers/morf/sim/rbfn.cpp.s
+home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/postProcessing.s: home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/postProcessing.cpp.s
 
-.PHONY : home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/neural_controllers/morf/sim/rbfn.s
+.PHONY : home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/postProcessing.s
 
 # target to generate assembly for a file
-home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/neural_controllers/morf/sim/rbfn.cpp.s:
-	$(MAKE) -f CMakeFiles/morf_controller.dir/build.make CMakeFiles/morf_controller.dir/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/neural_controllers/morf/sim/rbfn.cpp.s
-.PHONY : home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/neural_controllers/morf/sim/rbfn.cpp.s
+home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/postProcessing.cpp.s:
+	$(MAKE) -f CMakeFiles/morf_controller.dir/build.make CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/postProcessing.cpp.s
+.PHONY : home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/postProcessing.cpp.s
 
-home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/neural_controllers/morf/sim/simRosClass.o: home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/neural_controllers/morf/sim/simRosClass.cpp.o
+home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/rbfn.o: home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/rbfn.cpp.o
 
-.PHONY : home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/neural_controllers/morf/sim/simRosClass.o
+.PHONY : home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/rbfn.o
 
 # target to build an object file
-home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/neural_controllers/morf/sim/simRosClass.cpp.o:
-	$(MAKE) -f CMakeFiles/morf_controller.dir/build.make CMakeFiles/morf_controller.dir/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/neural_controllers/morf/sim/simRosClass.cpp.o
-.PHONY : home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/neural_controllers/morf/sim/simRosClass.cpp.o
+home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/rbfn.cpp.o:
+	$(MAKE) -f CMakeFiles/morf_controller.dir/build.make CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/rbfn.cpp.o
+.PHONY : home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/rbfn.cpp.o
 
-home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/neural_controllers/morf/sim/simRosClass.i: home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/neural_controllers/morf/sim/simRosClass.cpp.i
+home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/rbfn.i: home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/rbfn.cpp.i
 
-.PHONY : home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/neural_controllers/morf/sim/simRosClass.i
+.PHONY : home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/rbfn.i
 
 # target to preprocess a source file
-home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/neural_controllers/morf/sim/simRosClass.cpp.i:
-	$(MAKE) -f CMakeFiles/morf_controller.dir/build.make CMakeFiles/morf_controller.dir/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/neural_controllers/morf/sim/simRosClass.cpp.i
-.PHONY : home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/neural_controllers/morf/sim/simRosClass.cpp.i
+home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/rbfn.cpp.i:
+	$(MAKE) -f CMakeFiles/morf_controller.dir/build.make CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/rbfn.cpp.i
+.PHONY : home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/rbfn.cpp.i
 
-home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/neural_controllers/morf/sim/simRosClass.s: home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/neural_controllers/morf/sim/simRosClass.cpp.s
+home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/rbfn.s: home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/rbfn.cpp.s
 
-.PHONY : home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/neural_controllers/morf/sim/simRosClass.s
+.PHONY : home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/rbfn.s
 
 # target to generate assembly for a file
-home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/neural_controllers/morf/sim/simRosClass.cpp.s:
-	$(MAKE) -f CMakeFiles/morf_controller.dir/build.make CMakeFiles/morf_controller.dir/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/neural_controllers/morf/sim/simRosClass.cpp.s
-.PHONY : home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/neural_controllers/morf/sim/simRosClass.cpp.s
+home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/rbfn.cpp.s:
+	$(MAKE) -f CMakeFiles/morf_controller.dir/build.make CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/rbfn.cpp.s
+.PHONY : home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/rbfn.cpp.s
 
-home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/ann-framework/ann.o: home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/ann-framework/ann.cpp.o
+home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/simRosClass.o: home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/simRosClass.cpp.o
 
-.PHONY : home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/ann-framework/ann.o
+.PHONY : home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/simRosClass.o
 
 # target to build an object file
-home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/ann-framework/ann.cpp.o:
-	$(MAKE) -f CMakeFiles/morf_controller.dir/build.make CMakeFiles/morf_controller.dir/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/ann-framework/ann.cpp.o
-.PHONY : home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/ann-framework/ann.cpp.o
+home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/simRosClass.cpp.o:
+	$(MAKE) -f CMakeFiles/morf_controller.dir/build.make CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/simRosClass.cpp.o
+.PHONY : home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/simRosClass.cpp.o
 
-home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/ann-framework/ann.i: home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/ann-framework/ann.cpp.i
+home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/simRosClass.i: home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/simRosClass.cpp.i
 
-.PHONY : home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/ann-framework/ann.i
+.PHONY : home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/simRosClass.i
 
 # target to preprocess a source file
-home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/ann-framework/ann.cpp.i:
-	$(MAKE) -f CMakeFiles/morf_controller.dir/build.make CMakeFiles/morf_controller.dir/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/ann-framework/ann.cpp.i
-.PHONY : home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/ann-framework/ann.cpp.i
+home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/simRosClass.cpp.i:
+	$(MAKE) -f CMakeFiles/morf_controller.dir/build.make CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/simRosClass.cpp.i
+.PHONY : home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/simRosClass.cpp.i
 
-home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/ann-framework/ann.s: home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/ann-framework/ann.cpp.s
+home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/simRosClass.s: home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/simRosClass.cpp.s
 
-.PHONY : home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/ann-framework/ann.s
+.PHONY : home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/simRosClass.s
 
 # target to generate assembly for a file
-home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/ann-framework/ann.cpp.s:
-	$(MAKE) -f CMakeFiles/morf_controller.dir/build.make CMakeFiles/morf_controller.dir/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/ann-framework/ann.cpp.s
-.PHONY : home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/ann-framework/ann.cpp.s
+home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/simRosClass.cpp.s:
+	$(MAKE) -f CMakeFiles/morf_controller.dir/build.make CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/simRosClass.cpp.s
+.PHONY : home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/simRosClass.cpp.s
 
-home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/ann-framework/neuron.o: home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/ann-framework/neuron.cpp.o
+home/mat/workspace/CPG-RBFN-framework/utils/ann-framework/ann.o: home/mat/workspace/CPG-RBFN-framework/utils/ann-framework/ann.cpp.o
 
-.PHONY : home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/ann-framework/neuron.o
+.PHONY : home/mat/workspace/CPG-RBFN-framework/utils/ann-framework/ann.o
 
 # target to build an object file
-home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/ann-framework/neuron.cpp.o:
-	$(MAKE) -f CMakeFiles/morf_controller.dir/build.make CMakeFiles/morf_controller.dir/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/ann-framework/neuron.cpp.o
-.PHONY : home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/ann-framework/neuron.cpp.o
+home/mat/workspace/CPG-RBFN-framework/utils/ann-framework/ann.cpp.o:
+	$(MAKE) -f CMakeFiles/morf_controller.dir/build.make CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/utils/ann-framework/ann.cpp.o
+.PHONY : home/mat/workspace/CPG-RBFN-framework/utils/ann-framework/ann.cpp.o
 
-home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/ann-framework/neuron.i: home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/ann-framework/neuron.cpp.i
+home/mat/workspace/CPG-RBFN-framework/utils/ann-framework/ann.i: home/mat/workspace/CPG-RBFN-framework/utils/ann-framework/ann.cpp.i
 
-.PHONY : home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/ann-framework/neuron.i
+.PHONY : home/mat/workspace/CPG-RBFN-framework/utils/ann-framework/ann.i
 
 # target to preprocess a source file
-home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/ann-framework/neuron.cpp.i:
-	$(MAKE) -f CMakeFiles/morf_controller.dir/build.make CMakeFiles/morf_controller.dir/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/ann-framework/neuron.cpp.i
-.PHONY : home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/ann-framework/neuron.cpp.i
+home/mat/workspace/CPG-RBFN-framework/utils/ann-framework/ann.cpp.i:
+	$(MAKE) -f CMakeFiles/morf_controller.dir/build.make CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/utils/ann-framework/ann.cpp.i
+.PHONY : home/mat/workspace/CPG-RBFN-framework/utils/ann-framework/ann.cpp.i
 
-home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/ann-framework/neuron.s: home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/ann-framework/neuron.cpp.s
+home/mat/workspace/CPG-RBFN-framework/utils/ann-framework/ann.s: home/mat/workspace/CPG-RBFN-framework/utils/ann-framework/ann.cpp.s
 
-.PHONY : home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/ann-framework/neuron.s
+.PHONY : home/mat/workspace/CPG-RBFN-framework/utils/ann-framework/ann.s
 
 # target to generate assembly for a file
-home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/ann-framework/neuron.cpp.s:
-	$(MAKE) -f CMakeFiles/morf_controller.dir/build.make CMakeFiles/morf_controller.dir/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/ann-framework/neuron.cpp.s
-.PHONY : home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/ann-framework/neuron.cpp.s
+home/mat/workspace/CPG-RBFN-framework/utils/ann-framework/ann.cpp.s:
+	$(MAKE) -f CMakeFiles/morf_controller.dir/build.make CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/utils/ann-framework/ann.cpp.s
+.PHONY : home/mat/workspace/CPG-RBFN-framework/utils/ann-framework/ann.cpp.s
 
-home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/ann-framework/synapse.o: home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/ann-framework/synapse.cpp.o
+home/mat/workspace/CPG-RBFN-framework/utils/ann-framework/neuron.o: home/mat/workspace/CPG-RBFN-framework/utils/ann-framework/neuron.cpp.o
 
-.PHONY : home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/ann-framework/synapse.o
+.PHONY : home/mat/workspace/CPG-RBFN-framework/utils/ann-framework/neuron.o
 
 # target to build an object file
-home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/ann-framework/synapse.cpp.o:
-	$(MAKE) -f CMakeFiles/morf_controller.dir/build.make CMakeFiles/morf_controller.dir/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/ann-framework/synapse.cpp.o
-.PHONY : home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/ann-framework/synapse.cpp.o
+home/mat/workspace/CPG-RBFN-framework/utils/ann-framework/neuron.cpp.o:
+	$(MAKE) -f CMakeFiles/morf_controller.dir/build.make CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/utils/ann-framework/neuron.cpp.o
+.PHONY : home/mat/workspace/CPG-RBFN-framework/utils/ann-framework/neuron.cpp.o
 
-home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/ann-framework/synapse.i: home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/ann-framework/synapse.cpp.i
+home/mat/workspace/CPG-RBFN-framework/utils/ann-framework/neuron.i: home/mat/workspace/CPG-RBFN-framework/utils/ann-framework/neuron.cpp.i
 
-.PHONY : home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/ann-framework/synapse.i
+.PHONY : home/mat/workspace/CPG-RBFN-framework/utils/ann-framework/neuron.i
 
 # target to preprocess a source file
-home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/ann-framework/synapse.cpp.i:
-	$(MAKE) -f CMakeFiles/morf_controller.dir/build.make CMakeFiles/morf_controller.dir/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/ann-framework/synapse.cpp.i
-.PHONY : home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/ann-framework/synapse.cpp.i
+home/mat/workspace/CPG-RBFN-framework/utils/ann-framework/neuron.cpp.i:
+	$(MAKE) -f CMakeFiles/morf_controller.dir/build.make CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/utils/ann-framework/neuron.cpp.i
+.PHONY : home/mat/workspace/CPG-RBFN-framework/utils/ann-framework/neuron.cpp.i
 
-home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/ann-framework/synapse.s: home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/ann-framework/synapse.cpp.s
+home/mat/workspace/CPG-RBFN-framework/utils/ann-framework/neuron.s: home/mat/workspace/CPG-RBFN-framework/utils/ann-framework/neuron.cpp.s
 
-.PHONY : home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/ann-framework/synapse.s
+.PHONY : home/mat/workspace/CPG-RBFN-framework/utils/ann-framework/neuron.s
 
 # target to generate assembly for a file
-home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/ann-framework/synapse.cpp.s:
-	$(MAKE) -f CMakeFiles/morf_controller.dir/build.make CMakeFiles/morf_controller.dir/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/ann-framework/synapse.cpp.s
-.PHONY : home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/ann-framework/synapse.cpp.s
+home/mat/workspace/CPG-RBFN-framework/utils/ann-framework/neuron.cpp.s:
+	$(MAKE) -f CMakeFiles/morf_controller.dir/build.make CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/utils/ann-framework/neuron.cpp.s
+.PHONY : home/mat/workspace/CPG-RBFN-framework/utils/ann-framework/neuron.cpp.s
 
-home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/ann-library/adaptiveso2cpgsynplas.o: home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/ann-library/adaptiveso2cpgsynplas.cpp.o
+home/mat/workspace/CPG-RBFN-framework/utils/ann-framework/synapse.o: home/mat/workspace/CPG-RBFN-framework/utils/ann-framework/synapse.cpp.o
 
-.PHONY : home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/ann-library/adaptiveso2cpgsynplas.o
+.PHONY : home/mat/workspace/CPG-RBFN-framework/utils/ann-framework/synapse.o
 
 # target to build an object file
-home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/ann-library/adaptiveso2cpgsynplas.cpp.o:
-	$(MAKE) -f CMakeFiles/morf_controller.dir/build.make CMakeFiles/morf_controller.dir/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/ann-library/adaptiveso2cpgsynplas.cpp.o
-.PHONY : home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/ann-library/adaptiveso2cpgsynplas.cpp.o
+home/mat/workspace/CPG-RBFN-framework/utils/ann-framework/synapse.cpp.o:
+	$(MAKE) -f CMakeFiles/morf_controller.dir/build.make CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/utils/ann-framework/synapse.cpp.o
+.PHONY : home/mat/workspace/CPG-RBFN-framework/utils/ann-framework/synapse.cpp.o
 
-home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/ann-library/adaptiveso2cpgsynplas.i: home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/ann-library/adaptiveso2cpgsynplas.cpp.i
+home/mat/workspace/CPG-RBFN-framework/utils/ann-framework/synapse.i: home/mat/workspace/CPG-RBFN-framework/utils/ann-framework/synapse.cpp.i
 
-.PHONY : home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/ann-library/adaptiveso2cpgsynplas.i
+.PHONY : home/mat/workspace/CPG-RBFN-framework/utils/ann-framework/synapse.i
 
 # target to preprocess a source file
-home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/ann-library/adaptiveso2cpgsynplas.cpp.i:
-	$(MAKE) -f CMakeFiles/morf_controller.dir/build.make CMakeFiles/morf_controller.dir/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/ann-library/adaptiveso2cpgsynplas.cpp.i
-.PHONY : home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/ann-library/adaptiveso2cpgsynplas.cpp.i
+home/mat/workspace/CPG-RBFN-framework/utils/ann-framework/synapse.cpp.i:
+	$(MAKE) -f CMakeFiles/morf_controller.dir/build.make CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/utils/ann-framework/synapse.cpp.i
+.PHONY : home/mat/workspace/CPG-RBFN-framework/utils/ann-framework/synapse.cpp.i
 
-home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/ann-library/adaptiveso2cpgsynplas.s: home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/ann-library/adaptiveso2cpgsynplas.cpp.s
+home/mat/workspace/CPG-RBFN-framework/utils/ann-framework/synapse.s: home/mat/workspace/CPG-RBFN-framework/utils/ann-framework/synapse.cpp.s
 
-.PHONY : home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/ann-library/adaptiveso2cpgsynplas.s
+.PHONY : home/mat/workspace/CPG-RBFN-framework/utils/ann-framework/synapse.s
 
 # target to generate assembly for a file
-home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/ann-library/adaptiveso2cpgsynplas.cpp.s:
-	$(MAKE) -f CMakeFiles/morf_controller.dir/build.make CMakeFiles/morf_controller.dir/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/ann-library/adaptiveso2cpgsynplas.cpp.s
-.PHONY : home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/ann-library/adaptiveso2cpgsynplas.cpp.s
+home/mat/workspace/CPG-RBFN-framework/utils/ann-framework/synapse.cpp.s:
+	$(MAKE) -f CMakeFiles/morf_controller.dir/build.make CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/utils/ann-framework/synapse.cpp.s
+.PHONY : home/mat/workspace/CPG-RBFN-framework/utils/ann-framework/synapse.cpp.s
 
-home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/ann-library/extendedso2cpg.o: home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/ann-library/extendedso2cpg.cpp.o
+home/mat/workspace/CPG-RBFN-framework/utils/ann-library/adaptiveso2cpgsynplas.o: home/mat/workspace/CPG-RBFN-framework/utils/ann-library/adaptiveso2cpgsynplas.cpp.o
 
-.PHONY : home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/ann-library/extendedso2cpg.o
+.PHONY : home/mat/workspace/CPG-RBFN-framework/utils/ann-library/adaptiveso2cpgsynplas.o
 
 # target to build an object file
-home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/ann-library/extendedso2cpg.cpp.o:
-	$(MAKE) -f CMakeFiles/morf_controller.dir/build.make CMakeFiles/morf_controller.dir/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/ann-library/extendedso2cpg.cpp.o
-.PHONY : home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/ann-library/extendedso2cpg.cpp.o
+home/mat/workspace/CPG-RBFN-framework/utils/ann-library/adaptiveso2cpgsynplas.cpp.o:
+	$(MAKE) -f CMakeFiles/morf_controller.dir/build.make CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/utils/ann-library/adaptiveso2cpgsynplas.cpp.o
+.PHONY : home/mat/workspace/CPG-RBFN-framework/utils/ann-library/adaptiveso2cpgsynplas.cpp.o
 
-home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/ann-library/extendedso2cpg.i: home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/ann-library/extendedso2cpg.cpp.i
+home/mat/workspace/CPG-RBFN-framework/utils/ann-library/adaptiveso2cpgsynplas.i: home/mat/workspace/CPG-RBFN-framework/utils/ann-library/adaptiveso2cpgsynplas.cpp.i
 
-.PHONY : home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/ann-library/extendedso2cpg.i
+.PHONY : home/mat/workspace/CPG-RBFN-framework/utils/ann-library/adaptiveso2cpgsynplas.i
 
 # target to preprocess a source file
-home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/ann-library/extendedso2cpg.cpp.i:
-	$(MAKE) -f CMakeFiles/morf_controller.dir/build.make CMakeFiles/morf_controller.dir/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/ann-library/extendedso2cpg.cpp.i
-.PHONY : home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/ann-library/extendedso2cpg.cpp.i
+home/mat/workspace/CPG-RBFN-framework/utils/ann-library/adaptiveso2cpgsynplas.cpp.i:
+	$(MAKE) -f CMakeFiles/morf_controller.dir/build.make CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/utils/ann-library/adaptiveso2cpgsynplas.cpp.i
+.PHONY : home/mat/workspace/CPG-RBFN-framework/utils/ann-library/adaptiveso2cpgsynplas.cpp.i
 
-home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/ann-library/extendedso2cpg.s: home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/ann-library/extendedso2cpg.cpp.s
+home/mat/workspace/CPG-RBFN-framework/utils/ann-library/adaptiveso2cpgsynplas.s: home/mat/workspace/CPG-RBFN-framework/utils/ann-library/adaptiveso2cpgsynplas.cpp.s
 
-.PHONY : home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/ann-library/extendedso2cpg.s
+.PHONY : home/mat/workspace/CPG-RBFN-framework/utils/ann-library/adaptiveso2cpgsynplas.s
 
 # target to generate assembly for a file
-home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/ann-library/extendedso2cpg.cpp.s:
-	$(MAKE) -f CMakeFiles/morf_controller.dir/build.make CMakeFiles/morf_controller.dir/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/ann-library/extendedso2cpg.cpp.s
-.PHONY : home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/ann-library/extendedso2cpg.cpp.s
+home/mat/workspace/CPG-RBFN-framework/utils/ann-library/adaptiveso2cpgsynplas.cpp.s:
+	$(MAKE) -f CMakeFiles/morf_controller.dir/build.make CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/utils/ann-library/adaptiveso2cpgsynplas.cpp.s
+.PHONY : home/mat/workspace/CPG-RBFN-framework/utils/ann-library/adaptiveso2cpgsynplas.cpp.s
 
-home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/ann-library/pcpg.o: home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/ann-library/pcpg.cpp.o
+home/mat/workspace/CPG-RBFN-framework/utils/ann-library/extendedso2cpg.o: home/mat/workspace/CPG-RBFN-framework/utils/ann-library/extendedso2cpg.cpp.o
 
-.PHONY : home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/ann-library/pcpg.o
+.PHONY : home/mat/workspace/CPG-RBFN-framework/utils/ann-library/extendedso2cpg.o
 
 # target to build an object file
-home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/ann-library/pcpg.cpp.o:
-	$(MAKE) -f CMakeFiles/morf_controller.dir/build.make CMakeFiles/morf_controller.dir/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/ann-library/pcpg.cpp.o
-.PHONY : home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/ann-library/pcpg.cpp.o
+home/mat/workspace/CPG-RBFN-framework/utils/ann-library/extendedso2cpg.cpp.o:
+	$(MAKE) -f CMakeFiles/morf_controller.dir/build.make CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/utils/ann-library/extendedso2cpg.cpp.o
+.PHONY : home/mat/workspace/CPG-RBFN-framework/utils/ann-library/extendedso2cpg.cpp.o
 
-home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/ann-library/pcpg.i: home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/ann-library/pcpg.cpp.i
+home/mat/workspace/CPG-RBFN-framework/utils/ann-library/extendedso2cpg.i: home/mat/workspace/CPG-RBFN-framework/utils/ann-library/extendedso2cpg.cpp.i
 
-.PHONY : home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/ann-library/pcpg.i
+.PHONY : home/mat/workspace/CPG-RBFN-framework/utils/ann-library/extendedso2cpg.i
 
 # target to preprocess a source file
-home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/ann-library/pcpg.cpp.i:
-	$(MAKE) -f CMakeFiles/morf_controller.dir/build.make CMakeFiles/morf_controller.dir/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/ann-library/pcpg.cpp.i
-.PHONY : home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/ann-library/pcpg.cpp.i
+home/mat/workspace/CPG-RBFN-framework/utils/ann-library/extendedso2cpg.cpp.i:
+	$(MAKE) -f CMakeFiles/morf_controller.dir/build.make CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/utils/ann-library/extendedso2cpg.cpp.i
+.PHONY : home/mat/workspace/CPG-RBFN-framework/utils/ann-library/extendedso2cpg.cpp.i
 
-home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/ann-library/pcpg.s: home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/ann-library/pcpg.cpp.s
+home/mat/workspace/CPG-RBFN-framework/utils/ann-library/extendedso2cpg.s: home/mat/workspace/CPG-RBFN-framework/utils/ann-library/extendedso2cpg.cpp.s
 
-.PHONY : home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/ann-library/pcpg.s
+.PHONY : home/mat/workspace/CPG-RBFN-framework/utils/ann-library/extendedso2cpg.s
 
 # target to generate assembly for a file
-home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/ann-library/pcpg.cpp.s:
-	$(MAKE) -f CMakeFiles/morf_controller.dir/build.make CMakeFiles/morf_controller.dir/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/ann-library/pcpg.cpp.s
-.PHONY : home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/ann-library/pcpg.cpp.s
+home/mat/workspace/CPG-RBFN-framework/utils/ann-library/extendedso2cpg.cpp.s:
+	$(MAKE) -f CMakeFiles/morf_controller.dir/build.make CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/utils/ann-library/extendedso2cpg.cpp.s
+.PHONY : home/mat/workspace/CPG-RBFN-framework/utils/ann-library/extendedso2cpg.cpp.s
 
-home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/ann-library/pmn.o: home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/ann-library/pmn.cpp.o
+home/mat/workspace/CPG-RBFN-framework/utils/ann-library/pcpg.o: home/mat/workspace/CPG-RBFN-framework/utils/ann-library/pcpg.cpp.o
 
-.PHONY : home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/ann-library/pmn.o
+.PHONY : home/mat/workspace/CPG-RBFN-framework/utils/ann-library/pcpg.o
 
 # target to build an object file
-home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/ann-library/pmn.cpp.o:
-	$(MAKE) -f CMakeFiles/morf_controller.dir/build.make CMakeFiles/morf_controller.dir/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/ann-library/pmn.cpp.o
-.PHONY : home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/ann-library/pmn.cpp.o
+home/mat/workspace/CPG-RBFN-framework/utils/ann-library/pcpg.cpp.o:
+	$(MAKE) -f CMakeFiles/morf_controller.dir/build.make CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/utils/ann-library/pcpg.cpp.o
+.PHONY : home/mat/workspace/CPG-RBFN-framework/utils/ann-library/pcpg.cpp.o
 
-home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/ann-library/pmn.i: home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/ann-library/pmn.cpp.i
+home/mat/workspace/CPG-RBFN-framework/utils/ann-library/pcpg.i: home/mat/workspace/CPG-RBFN-framework/utils/ann-library/pcpg.cpp.i
 
-.PHONY : home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/ann-library/pmn.i
+.PHONY : home/mat/workspace/CPG-RBFN-framework/utils/ann-library/pcpg.i
 
 # target to preprocess a source file
-home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/ann-library/pmn.cpp.i:
-	$(MAKE) -f CMakeFiles/morf_controller.dir/build.make CMakeFiles/morf_controller.dir/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/ann-library/pmn.cpp.i
-.PHONY : home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/ann-library/pmn.cpp.i
+home/mat/workspace/CPG-RBFN-framework/utils/ann-library/pcpg.cpp.i:
+	$(MAKE) -f CMakeFiles/morf_controller.dir/build.make CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/utils/ann-library/pcpg.cpp.i
+.PHONY : home/mat/workspace/CPG-RBFN-framework/utils/ann-library/pcpg.cpp.i
 
-home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/ann-library/pmn.s: home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/ann-library/pmn.cpp.s
+home/mat/workspace/CPG-RBFN-framework/utils/ann-library/pcpg.s: home/mat/workspace/CPG-RBFN-framework/utils/ann-library/pcpg.cpp.s
 
-.PHONY : home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/ann-library/pmn.s
+.PHONY : home/mat/workspace/CPG-RBFN-framework/utils/ann-library/pcpg.s
 
 # target to generate assembly for a file
-home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/ann-library/pmn.cpp.s:
-	$(MAKE) -f CMakeFiles/morf_controller.dir/build.make CMakeFiles/morf_controller.dir/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/ann-library/pmn.cpp.s
-.PHONY : home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/ann-library/pmn.cpp.s
+home/mat/workspace/CPG-RBFN-framework/utils/ann-library/pcpg.cpp.s:
+	$(MAKE) -f CMakeFiles/morf_controller.dir/build.make CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/utils/ann-library/pcpg.cpp.s
+.PHONY : home/mat/workspace/CPG-RBFN-framework/utils/ann-library/pcpg.cpp.s
 
-home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/ann-library/psn.o: home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/ann-library/psn.cpp.o
+home/mat/workspace/CPG-RBFN-framework/utils/ann-library/pmn.o: home/mat/workspace/CPG-RBFN-framework/utils/ann-library/pmn.cpp.o
 
-.PHONY : home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/ann-library/psn.o
+.PHONY : home/mat/workspace/CPG-RBFN-framework/utils/ann-library/pmn.o
 
 # target to build an object file
-home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/ann-library/psn.cpp.o:
-	$(MAKE) -f CMakeFiles/morf_controller.dir/build.make CMakeFiles/morf_controller.dir/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/ann-library/psn.cpp.o
-.PHONY : home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/ann-library/psn.cpp.o
+home/mat/workspace/CPG-RBFN-framework/utils/ann-library/pmn.cpp.o:
+	$(MAKE) -f CMakeFiles/morf_controller.dir/build.make CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/utils/ann-library/pmn.cpp.o
+.PHONY : home/mat/workspace/CPG-RBFN-framework/utils/ann-library/pmn.cpp.o
 
-home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/ann-library/psn.i: home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/ann-library/psn.cpp.i
+home/mat/workspace/CPG-RBFN-framework/utils/ann-library/pmn.i: home/mat/workspace/CPG-RBFN-framework/utils/ann-library/pmn.cpp.i
 
-.PHONY : home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/ann-library/psn.i
+.PHONY : home/mat/workspace/CPG-RBFN-framework/utils/ann-library/pmn.i
 
 # target to preprocess a source file
-home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/ann-library/psn.cpp.i:
-	$(MAKE) -f CMakeFiles/morf_controller.dir/build.make CMakeFiles/morf_controller.dir/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/ann-library/psn.cpp.i
-.PHONY : home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/ann-library/psn.cpp.i
+home/mat/workspace/CPG-RBFN-framework/utils/ann-library/pmn.cpp.i:
+	$(MAKE) -f CMakeFiles/morf_controller.dir/build.make CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/utils/ann-library/pmn.cpp.i
+.PHONY : home/mat/workspace/CPG-RBFN-framework/utils/ann-library/pmn.cpp.i
 
-home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/ann-library/psn.s: home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/ann-library/psn.cpp.s
+home/mat/workspace/CPG-RBFN-framework/utils/ann-library/pmn.s: home/mat/workspace/CPG-RBFN-framework/utils/ann-library/pmn.cpp.s
 
-.PHONY : home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/ann-library/psn.s
+.PHONY : home/mat/workspace/CPG-RBFN-framework/utils/ann-library/pmn.s
 
 # target to generate assembly for a file
-home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/ann-library/psn.cpp.s:
-	$(MAKE) -f CMakeFiles/morf_controller.dir/build.make CMakeFiles/morf_controller.dir/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/ann-library/psn.cpp.s
-.PHONY : home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/ann-library/psn.cpp.s
+home/mat/workspace/CPG-RBFN-framework/utils/ann-library/pmn.cpp.s:
+	$(MAKE) -f CMakeFiles/morf_controller.dir/build.make CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/utils/ann-library/pmn.cpp.s
+.PHONY : home/mat/workspace/CPG-RBFN-framework/utils/ann-library/pmn.cpp.s
 
-home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/ann-library/so2cpg.o: home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/ann-library/so2cpg.cpp.o
+home/mat/workspace/CPG-RBFN-framework/utils/ann-library/psn.o: home/mat/workspace/CPG-RBFN-framework/utils/ann-library/psn.cpp.o
 
-.PHONY : home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/ann-library/so2cpg.o
+.PHONY : home/mat/workspace/CPG-RBFN-framework/utils/ann-library/psn.o
 
 # target to build an object file
-home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/ann-library/so2cpg.cpp.o:
-	$(MAKE) -f CMakeFiles/morf_controller.dir/build.make CMakeFiles/morf_controller.dir/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/ann-library/so2cpg.cpp.o
-.PHONY : home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/ann-library/so2cpg.cpp.o
+home/mat/workspace/CPG-RBFN-framework/utils/ann-library/psn.cpp.o:
+	$(MAKE) -f CMakeFiles/morf_controller.dir/build.make CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/utils/ann-library/psn.cpp.o
+.PHONY : home/mat/workspace/CPG-RBFN-framework/utils/ann-library/psn.cpp.o
 
-home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/ann-library/so2cpg.i: home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/ann-library/so2cpg.cpp.i
+home/mat/workspace/CPG-RBFN-framework/utils/ann-library/psn.i: home/mat/workspace/CPG-RBFN-framework/utils/ann-library/psn.cpp.i
 
-.PHONY : home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/ann-library/so2cpg.i
+.PHONY : home/mat/workspace/CPG-RBFN-framework/utils/ann-library/psn.i
 
 # target to preprocess a source file
-home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/ann-library/so2cpg.cpp.i:
-	$(MAKE) -f CMakeFiles/morf_controller.dir/build.make CMakeFiles/morf_controller.dir/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/ann-library/so2cpg.cpp.i
-.PHONY : home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/ann-library/so2cpg.cpp.i
+home/mat/workspace/CPG-RBFN-framework/utils/ann-library/psn.cpp.i:
+	$(MAKE) -f CMakeFiles/morf_controller.dir/build.make CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/utils/ann-library/psn.cpp.i
+.PHONY : home/mat/workspace/CPG-RBFN-framework/utils/ann-library/psn.cpp.i
 
-home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/ann-library/so2cpg.s: home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/ann-library/so2cpg.cpp.s
+home/mat/workspace/CPG-RBFN-framework/utils/ann-library/psn.s: home/mat/workspace/CPG-RBFN-framework/utils/ann-library/psn.cpp.s
 
-.PHONY : home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/ann-library/so2cpg.s
+.PHONY : home/mat/workspace/CPG-RBFN-framework/utils/ann-library/psn.s
 
 # target to generate assembly for a file
-home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/ann-library/so2cpg.cpp.s:
-	$(MAKE) -f CMakeFiles/morf_controller.dir/build.make CMakeFiles/morf_controller.dir/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/ann-library/so2cpg.cpp.s
-.PHONY : home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/ann-library/so2cpg.cpp.s
+home/mat/workspace/CPG-RBFN-framework/utils/ann-library/psn.cpp.s:
+	$(MAKE) -f CMakeFiles/morf_controller.dir/build.make CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/utils/ann-library/psn.cpp.s
+.PHONY : home/mat/workspace/CPG-RBFN-framework/utils/ann-library/psn.cpp.s
 
-home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/ann-library/vrn.o: home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/ann-library/vrn.cpp.o
+home/mat/workspace/CPG-RBFN-framework/utils/ann-library/so2cpg.o: home/mat/workspace/CPG-RBFN-framework/utils/ann-library/so2cpg.cpp.o
 
-.PHONY : home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/ann-library/vrn.o
+.PHONY : home/mat/workspace/CPG-RBFN-framework/utils/ann-library/so2cpg.o
 
 # target to build an object file
-home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/ann-library/vrn.cpp.o:
-	$(MAKE) -f CMakeFiles/morf_controller.dir/build.make CMakeFiles/morf_controller.dir/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/ann-library/vrn.cpp.o
-.PHONY : home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/ann-library/vrn.cpp.o
+home/mat/workspace/CPG-RBFN-framework/utils/ann-library/so2cpg.cpp.o:
+	$(MAKE) -f CMakeFiles/morf_controller.dir/build.make CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/utils/ann-library/so2cpg.cpp.o
+.PHONY : home/mat/workspace/CPG-RBFN-framework/utils/ann-library/so2cpg.cpp.o
 
-home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/ann-library/vrn.i: home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/ann-library/vrn.cpp.i
+home/mat/workspace/CPG-RBFN-framework/utils/ann-library/so2cpg.i: home/mat/workspace/CPG-RBFN-framework/utils/ann-library/so2cpg.cpp.i
 
-.PHONY : home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/ann-library/vrn.i
+.PHONY : home/mat/workspace/CPG-RBFN-framework/utils/ann-library/so2cpg.i
 
 # target to preprocess a source file
-home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/ann-library/vrn.cpp.i:
-	$(MAKE) -f CMakeFiles/morf_controller.dir/build.make CMakeFiles/morf_controller.dir/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/ann-library/vrn.cpp.i
-.PHONY : home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/ann-library/vrn.cpp.i
+home/mat/workspace/CPG-RBFN-framework/utils/ann-library/so2cpg.cpp.i:
+	$(MAKE) -f CMakeFiles/morf_controller.dir/build.make CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/utils/ann-library/so2cpg.cpp.i
+.PHONY : home/mat/workspace/CPG-RBFN-framework/utils/ann-library/so2cpg.cpp.i
 
-home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/ann-library/vrn.s: home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/ann-library/vrn.cpp.s
+home/mat/workspace/CPG-RBFN-framework/utils/ann-library/so2cpg.s: home/mat/workspace/CPG-RBFN-framework/utils/ann-library/so2cpg.cpp.s
 
-.PHONY : home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/ann-library/vrn.s
+.PHONY : home/mat/workspace/CPG-RBFN-framework/utils/ann-library/so2cpg.s
 
 # target to generate assembly for a file
-home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/ann-library/vrn.cpp.s:
-	$(MAKE) -f CMakeFiles/morf_controller.dir/build.make CMakeFiles/morf_controller.dir/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/ann-library/vrn.cpp.s
-.PHONY : home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/ann-library/vrn.cpp.s
+home/mat/workspace/CPG-RBFN-framework/utils/ann-library/so2cpg.cpp.s:
+	$(MAKE) -f CMakeFiles/morf_controller.dir/build.make CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/utils/ann-library/so2cpg.cpp.s
+.PHONY : home/mat/workspace/CPG-RBFN-framework/utils/ann-library/so2cpg.cpp.s
 
-home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/delayline.o: home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/delayline.cpp.o
+home/mat/workspace/CPG-RBFN-framework/utils/ann-library/vrn.o: home/mat/workspace/CPG-RBFN-framework/utils/ann-library/vrn.cpp.o
 
-.PHONY : home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/delayline.o
+.PHONY : home/mat/workspace/CPG-RBFN-framework/utils/ann-library/vrn.o
 
 # target to build an object file
-home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/delayline.cpp.o:
-	$(MAKE) -f CMakeFiles/morf_controller.dir/build.make CMakeFiles/morf_controller.dir/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/delayline.cpp.o
-.PHONY : home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/delayline.cpp.o
+home/mat/workspace/CPG-RBFN-framework/utils/ann-library/vrn.cpp.o:
+	$(MAKE) -f CMakeFiles/morf_controller.dir/build.make CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/utils/ann-library/vrn.cpp.o
+.PHONY : home/mat/workspace/CPG-RBFN-framework/utils/ann-library/vrn.cpp.o
 
-home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/delayline.i: home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/delayline.cpp.i
+home/mat/workspace/CPG-RBFN-framework/utils/ann-library/vrn.i: home/mat/workspace/CPG-RBFN-framework/utils/ann-library/vrn.cpp.i
 
-.PHONY : home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/delayline.i
+.PHONY : home/mat/workspace/CPG-RBFN-framework/utils/ann-library/vrn.i
 
 # target to preprocess a source file
-home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/delayline.cpp.i:
-	$(MAKE) -f CMakeFiles/morf_controller.dir/build.make CMakeFiles/morf_controller.dir/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/delayline.cpp.i
-.PHONY : home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/delayline.cpp.i
+home/mat/workspace/CPG-RBFN-framework/utils/ann-library/vrn.cpp.i:
+	$(MAKE) -f CMakeFiles/morf_controller.dir/build.make CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/utils/ann-library/vrn.cpp.i
+.PHONY : home/mat/workspace/CPG-RBFN-framework/utils/ann-library/vrn.cpp.i
 
-home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/delayline.s: home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/delayline.cpp.s
+home/mat/workspace/CPG-RBFN-framework/utils/ann-library/vrn.s: home/mat/workspace/CPG-RBFN-framework/utils/ann-library/vrn.cpp.s
 
-.PHONY : home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/delayline.s
+.PHONY : home/mat/workspace/CPG-RBFN-framework/utils/ann-library/vrn.s
 
 # target to generate assembly for a file
-home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/delayline.cpp.s:
-	$(MAKE) -f CMakeFiles/morf_controller.dir/build.make CMakeFiles/morf_controller.dir/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/delayline.cpp.s
-.PHONY : home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/delayline.cpp.s
+home/mat/workspace/CPG-RBFN-framework/utils/ann-library/vrn.cpp.s:
+	$(MAKE) -f CMakeFiles/morf_controller.dir/build.make CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/utils/ann-library/vrn.cpp.s
+.PHONY : home/mat/workspace/CPG-RBFN-framework/utils/ann-library/vrn.cpp.s
 
-home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/environment.o: home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/environment.cpp.o
+home/mat/workspace/CPG-RBFN-framework/utils/delayline.o: home/mat/workspace/CPG-RBFN-framework/utils/delayline.cpp.o
 
-.PHONY : home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/environment.o
+.PHONY : home/mat/workspace/CPG-RBFN-framework/utils/delayline.o
 
 # target to build an object file
-home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/environment.cpp.o:
-	$(MAKE) -f CMakeFiles/morf_controller.dir/build.make CMakeFiles/morf_controller.dir/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/environment.cpp.o
-.PHONY : home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/environment.cpp.o
+home/mat/workspace/CPG-RBFN-framework/utils/delayline.cpp.o:
+	$(MAKE) -f CMakeFiles/morf_controller.dir/build.make CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/utils/delayline.cpp.o
+.PHONY : home/mat/workspace/CPG-RBFN-framework/utils/delayline.cpp.o
 
-home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/environment.i: home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/environment.cpp.i
+home/mat/workspace/CPG-RBFN-framework/utils/delayline.i: home/mat/workspace/CPG-RBFN-framework/utils/delayline.cpp.i
 
-.PHONY : home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/environment.i
+.PHONY : home/mat/workspace/CPG-RBFN-framework/utils/delayline.i
 
 # target to preprocess a source file
-home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/environment.cpp.i:
-	$(MAKE) -f CMakeFiles/morf_controller.dir/build.make CMakeFiles/morf_controller.dir/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/environment.cpp.i
-.PHONY : home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/environment.cpp.i
+home/mat/workspace/CPG-RBFN-framework/utils/delayline.cpp.i:
+	$(MAKE) -f CMakeFiles/morf_controller.dir/build.make CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/utils/delayline.cpp.i
+.PHONY : home/mat/workspace/CPG-RBFN-framework/utils/delayline.cpp.i
 
-home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/environment.s: home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/environment.cpp.s
+home/mat/workspace/CPG-RBFN-framework/utils/delayline.s: home/mat/workspace/CPG-RBFN-framework/utils/delayline.cpp.s
 
-.PHONY : home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/environment.s
+.PHONY : home/mat/workspace/CPG-RBFN-framework/utils/delayline.s
 
 # target to generate assembly for a file
-home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/environment.cpp.s:
-	$(MAKE) -f CMakeFiles/morf_controller.dir/build.make CMakeFiles/morf_controller.dir/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/environment.cpp.s
-.PHONY : home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/environment.cpp.s
+home/mat/workspace/CPG-RBFN-framework/utils/delayline.cpp.s:
+	$(MAKE) -f CMakeFiles/morf_controller.dir/build.make CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/utils/delayline.cpp.s
+.PHONY : home/mat/workspace/CPG-RBFN-framework/utils/delayline.cpp.s
 
-home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/interpolator2d.o: home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/interpolator2d.cpp.o
+home/mat/workspace/CPG-RBFN-framework/utils/environment.o: home/mat/workspace/CPG-RBFN-framework/utils/environment.cpp.o
 
-.PHONY : home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/interpolator2d.o
+.PHONY : home/mat/workspace/CPG-RBFN-framework/utils/environment.o
 
 # target to build an object file
-home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/interpolator2d.cpp.o:
-	$(MAKE) -f CMakeFiles/morf_controller.dir/build.make CMakeFiles/morf_controller.dir/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/interpolator2d.cpp.o
-.PHONY : home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/interpolator2d.cpp.o
+home/mat/workspace/CPG-RBFN-framework/utils/environment.cpp.o:
+	$(MAKE) -f CMakeFiles/morf_controller.dir/build.make CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/utils/environment.cpp.o
+.PHONY : home/mat/workspace/CPG-RBFN-framework/utils/environment.cpp.o
 
-home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/interpolator2d.i: home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/interpolator2d.cpp.i
+home/mat/workspace/CPG-RBFN-framework/utils/environment.i: home/mat/workspace/CPG-RBFN-framework/utils/environment.cpp.i
 
-.PHONY : home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/interpolator2d.i
+.PHONY : home/mat/workspace/CPG-RBFN-framework/utils/environment.i
 
 # target to preprocess a source file
-home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/interpolator2d.cpp.i:
-	$(MAKE) -f CMakeFiles/morf_controller.dir/build.make CMakeFiles/morf_controller.dir/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/interpolator2d.cpp.i
-.PHONY : home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/interpolator2d.cpp.i
+home/mat/workspace/CPG-RBFN-framework/utils/environment.cpp.i:
+	$(MAKE) -f CMakeFiles/morf_controller.dir/build.make CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/utils/environment.cpp.i
+.PHONY : home/mat/workspace/CPG-RBFN-framework/utils/environment.cpp.i
 
-home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/interpolator2d.s: home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/interpolator2d.cpp.s
+home/mat/workspace/CPG-RBFN-framework/utils/environment.s: home/mat/workspace/CPG-RBFN-framework/utils/environment.cpp.s
 
-.PHONY : home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/interpolator2d.s
+.PHONY : home/mat/workspace/CPG-RBFN-framework/utils/environment.s
 
 # target to generate assembly for a file
-home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/interpolator2d.cpp.s:
-	$(MAKE) -f CMakeFiles/morf_controller.dir/build.make CMakeFiles/morf_controller.dir/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/interpolator2d.cpp.s
-.PHONY : home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/interpolator2d.cpp.s
+home/mat/workspace/CPG-RBFN-framework/utils/environment.cpp.s:
+	$(MAKE) -f CMakeFiles/morf_controller.dir/build.make CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/utils/environment.cpp.s
+.PHONY : home/mat/workspace/CPG-RBFN-framework/utils/environment.cpp.s
 
-home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/vrepRemoteAPI/extApi.o: home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/vrepRemoteAPI/extApi.c.o
+home/mat/workspace/CPG-RBFN-framework/utils/interpolator2d.o: home/mat/workspace/CPG-RBFN-framework/utils/interpolator2d.cpp.o
 
-.PHONY : home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/vrepRemoteAPI/extApi.o
+.PHONY : home/mat/workspace/CPG-RBFN-framework/utils/interpolator2d.o
 
 # target to build an object file
-home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/vrepRemoteAPI/extApi.c.o:
-	$(MAKE) -f CMakeFiles/morf_controller.dir/build.make CMakeFiles/morf_controller.dir/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/vrepRemoteAPI/extApi.c.o
-.PHONY : home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/vrepRemoteAPI/extApi.c.o
+home/mat/workspace/CPG-RBFN-framework/utils/interpolator2d.cpp.o:
+	$(MAKE) -f CMakeFiles/morf_controller.dir/build.make CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/utils/interpolator2d.cpp.o
+.PHONY : home/mat/workspace/CPG-RBFN-framework/utils/interpolator2d.cpp.o
 
-home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/vrepRemoteAPI/extApi.i: home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/vrepRemoteAPI/extApi.c.i
+home/mat/workspace/CPG-RBFN-framework/utils/interpolator2d.i: home/mat/workspace/CPG-RBFN-framework/utils/interpolator2d.cpp.i
 
-.PHONY : home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/vrepRemoteAPI/extApi.i
+.PHONY : home/mat/workspace/CPG-RBFN-framework/utils/interpolator2d.i
 
 # target to preprocess a source file
-home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/vrepRemoteAPI/extApi.c.i:
-	$(MAKE) -f CMakeFiles/morf_controller.dir/build.make CMakeFiles/morf_controller.dir/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/vrepRemoteAPI/extApi.c.i
-.PHONY : home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/vrepRemoteAPI/extApi.c.i
+home/mat/workspace/CPG-RBFN-framework/utils/interpolator2d.cpp.i:
+	$(MAKE) -f CMakeFiles/morf_controller.dir/build.make CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/utils/interpolator2d.cpp.i
+.PHONY : home/mat/workspace/CPG-RBFN-framework/utils/interpolator2d.cpp.i
 
-home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/vrepRemoteAPI/extApi.s: home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/vrepRemoteAPI/extApi.c.s
+home/mat/workspace/CPG-RBFN-framework/utils/interpolator2d.s: home/mat/workspace/CPG-RBFN-framework/utils/interpolator2d.cpp.s
 
-.PHONY : home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/vrepRemoteAPI/extApi.s
+.PHONY : home/mat/workspace/CPG-RBFN-framework/utils/interpolator2d.s
 
 # target to generate assembly for a file
-home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/vrepRemoteAPI/extApi.c.s:
-	$(MAKE) -f CMakeFiles/morf_controller.dir/build.make CMakeFiles/morf_controller.dir/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/vrepRemoteAPI/extApi.c.s
-.PHONY : home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/vrepRemoteAPI/extApi.c.s
+home/mat/workspace/CPG-RBFN-framework/utils/interpolator2d.cpp.s:
+	$(MAKE) -f CMakeFiles/morf_controller.dir/build.make CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/utils/interpolator2d.cpp.s
+.PHONY : home/mat/workspace/CPG-RBFN-framework/utils/interpolator2d.cpp.s
 
-home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/vrepRemoteAPI/extApiPlatform.o: home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/vrepRemoteAPI/extApiPlatform.c.o
+home/mat/workspace/CPG-RBFN-framework/utils/vrepRemoteAPI/extApi.o: home/mat/workspace/CPG-RBFN-framework/utils/vrepRemoteAPI/extApi.c.o
 
-.PHONY : home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/vrepRemoteAPI/extApiPlatform.o
+.PHONY : home/mat/workspace/CPG-RBFN-framework/utils/vrepRemoteAPI/extApi.o
 
 # target to build an object file
-home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/vrepRemoteAPI/extApiPlatform.c.o:
-	$(MAKE) -f CMakeFiles/morf_controller.dir/build.make CMakeFiles/morf_controller.dir/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/vrepRemoteAPI/extApiPlatform.c.o
-.PHONY : home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/vrepRemoteAPI/extApiPlatform.c.o
+home/mat/workspace/CPG-RBFN-framework/utils/vrepRemoteAPI/extApi.c.o:
+	$(MAKE) -f CMakeFiles/morf_controller.dir/build.make CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/utils/vrepRemoteAPI/extApi.c.o
+.PHONY : home/mat/workspace/CPG-RBFN-framework/utils/vrepRemoteAPI/extApi.c.o
 
-home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/vrepRemoteAPI/extApiPlatform.i: home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/vrepRemoteAPI/extApiPlatform.c.i
+home/mat/workspace/CPG-RBFN-framework/utils/vrepRemoteAPI/extApi.i: home/mat/workspace/CPG-RBFN-framework/utils/vrepRemoteAPI/extApi.c.i
 
-.PHONY : home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/vrepRemoteAPI/extApiPlatform.i
+.PHONY : home/mat/workspace/CPG-RBFN-framework/utils/vrepRemoteAPI/extApi.i
 
 # target to preprocess a source file
-home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/vrepRemoteAPI/extApiPlatform.c.i:
-	$(MAKE) -f CMakeFiles/morf_controller.dir/build.make CMakeFiles/morf_controller.dir/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/vrepRemoteAPI/extApiPlatform.c.i
-.PHONY : home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/vrepRemoteAPI/extApiPlatform.c.i
+home/mat/workspace/CPG-RBFN-framework/utils/vrepRemoteAPI/extApi.c.i:
+	$(MAKE) -f CMakeFiles/morf_controller.dir/build.make CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/utils/vrepRemoteAPI/extApi.c.i
+.PHONY : home/mat/workspace/CPG-RBFN-framework/utils/vrepRemoteAPI/extApi.c.i
 
-home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/vrepRemoteAPI/extApiPlatform.s: home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/vrepRemoteAPI/extApiPlatform.c.s
+home/mat/workspace/CPG-RBFN-framework/utils/vrepRemoteAPI/extApi.s: home/mat/workspace/CPG-RBFN-framework/utils/vrepRemoteAPI/extApi.c.s
 
-.PHONY : home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/vrepRemoteAPI/extApiPlatform.s
+.PHONY : home/mat/workspace/CPG-RBFN-framework/utils/vrepRemoteAPI/extApi.s
 
 # target to generate assembly for a file
-home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/vrepRemoteAPI/extApiPlatform.c.s:
-	$(MAKE) -f CMakeFiles/morf_controller.dir/build.make CMakeFiles/morf_controller.dir/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/vrepRemoteAPI/extApiPlatform.c.s
-.PHONY : home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/vrepRemoteAPI/extApiPlatform.c.s
+home/mat/workspace/CPG-RBFN-framework/utils/vrepRemoteAPI/extApi.c.s:
+	$(MAKE) -f CMakeFiles/morf_controller.dir/build.make CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/utils/vrepRemoteAPI/extApi.c.s
+.PHONY : home/mat/workspace/CPG-RBFN-framework/utils/vrepRemoteAPI/extApi.c.s
+
+home/mat/workspace/CPG-RBFN-framework/utils/vrepRemoteAPI/extApiPlatform.o: home/mat/workspace/CPG-RBFN-framework/utils/vrepRemoteAPI/extApiPlatform.c.o
+
+.PHONY : home/mat/workspace/CPG-RBFN-framework/utils/vrepRemoteAPI/extApiPlatform.o
+
+# target to build an object file
+home/mat/workspace/CPG-RBFN-framework/utils/vrepRemoteAPI/extApiPlatform.c.o:
+	$(MAKE) -f CMakeFiles/morf_controller.dir/build.make CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/utils/vrepRemoteAPI/extApiPlatform.c.o
+.PHONY : home/mat/workspace/CPG-RBFN-framework/utils/vrepRemoteAPI/extApiPlatform.c.o
+
+home/mat/workspace/CPG-RBFN-framework/utils/vrepRemoteAPI/extApiPlatform.i: home/mat/workspace/CPG-RBFN-framework/utils/vrepRemoteAPI/extApiPlatform.c.i
+
+.PHONY : home/mat/workspace/CPG-RBFN-framework/utils/vrepRemoteAPI/extApiPlatform.i
+
+# target to preprocess a source file
+home/mat/workspace/CPG-RBFN-framework/utils/vrepRemoteAPI/extApiPlatform.c.i:
+	$(MAKE) -f CMakeFiles/morf_controller.dir/build.make CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/utils/vrepRemoteAPI/extApiPlatform.c.i
+.PHONY : home/mat/workspace/CPG-RBFN-framework/utils/vrepRemoteAPI/extApiPlatform.c.i
+
+home/mat/workspace/CPG-RBFN-framework/utils/vrepRemoteAPI/extApiPlatform.s: home/mat/workspace/CPG-RBFN-framework/utils/vrepRemoteAPI/extApiPlatform.c.s
+
+.PHONY : home/mat/workspace/CPG-RBFN-framework/utils/vrepRemoteAPI/extApiPlatform.s
+
+# target to generate assembly for a file
+home/mat/workspace/CPG-RBFN-framework/utils/vrepRemoteAPI/extApiPlatform.c.s:
+	$(MAKE) -f CMakeFiles/morf_controller.dir/build.make CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/utils/vrepRemoteAPI/extApiPlatform.c.s
+.PHONY : home/mat/workspace/CPG-RBFN-framework/utils/vrepRemoteAPI/extApiPlatform.c.s
 
 # Help Target
 help:
@@ -1332,78 +1332,78 @@ help:
 	@echo "... gmock"
 	@echo "... gtest_main"
 	@echo "... gtest"
-	@echo "... home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/neural_controllers/morf/sim/cpg_rbfn.o"
-	@echo "... home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/neural_controllers/morf/sim/cpg_rbfn.i"
-	@echo "... home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/neural_controllers/morf/sim/cpg_rbfn.s"
-	@echo "... home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/neural_controllers/morf/sim/dualIntegralLearner.o"
-	@echo "... home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/neural_controllers/morf/sim/dualIntegralLearner.i"
-	@echo "... home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/neural_controllers/morf/sim/dualIntegralLearner.s"
-	@echo "... home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/neural_controllers/morf/sim/input.o"
-	@echo "... home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/neural_controllers/morf/sim/input.i"
-	@echo "... home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/neural_controllers/morf/sim/input.s"
-	@echo "... home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/neural_controllers/morf/sim/main_hexapod_controller.o"
-	@echo "... home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/neural_controllers/morf/sim/main_hexapod_controller.i"
-	@echo "... home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/neural_controllers/morf/sim/main_hexapod_controller.s"
-	@echo "... home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/neural_controllers/morf/sim/modularController.o"
-	@echo "... home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/neural_controllers/morf/sim/modularController.i"
-	@echo "... home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/neural_controllers/morf/sim/modularController.s"
-	@echo "... home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/neural_controllers/morf/sim/neutronController.o"
-	@echo "... home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/neural_controllers/morf/sim/neutronController.i"
-	@echo "... home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/neural_controllers/morf/sim/neutronController.s"
-	@echo "... home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/neural_controllers/morf/sim/postProcessing.o"
-	@echo "... home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/neural_controllers/morf/sim/postProcessing.i"
-	@echo "... home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/neural_controllers/morf/sim/postProcessing.s"
-	@echo "... home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/neural_controllers/morf/sim/rbfn.o"
-	@echo "... home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/neural_controllers/morf/sim/rbfn.i"
-	@echo "... home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/neural_controllers/morf/sim/rbfn.s"
-	@echo "... home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/neural_controllers/morf/sim/simRosClass.o"
-	@echo "... home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/neural_controllers/morf/sim/simRosClass.i"
-	@echo "... home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/neural_controllers/morf/sim/simRosClass.s"
-	@echo "... home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/ann-framework/ann.o"
-	@echo "... home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/ann-framework/ann.i"
-	@echo "... home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/ann-framework/ann.s"
-	@echo "... home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/ann-framework/neuron.o"
-	@echo "... home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/ann-framework/neuron.i"
-	@echo "... home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/ann-framework/neuron.s"
-	@echo "... home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/ann-framework/synapse.o"
-	@echo "... home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/ann-framework/synapse.i"
-	@echo "... home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/ann-framework/synapse.s"
-	@echo "... home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/ann-library/adaptiveso2cpgsynplas.o"
-	@echo "... home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/ann-library/adaptiveso2cpgsynplas.i"
-	@echo "... home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/ann-library/adaptiveso2cpgsynplas.s"
-	@echo "... home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/ann-library/extendedso2cpg.o"
-	@echo "... home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/ann-library/extendedso2cpg.i"
-	@echo "... home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/ann-library/extendedso2cpg.s"
-	@echo "... home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/ann-library/pcpg.o"
-	@echo "... home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/ann-library/pcpg.i"
-	@echo "... home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/ann-library/pcpg.s"
-	@echo "... home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/ann-library/pmn.o"
-	@echo "... home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/ann-library/pmn.i"
-	@echo "... home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/ann-library/pmn.s"
-	@echo "... home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/ann-library/psn.o"
-	@echo "... home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/ann-library/psn.i"
-	@echo "... home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/ann-library/psn.s"
-	@echo "... home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/ann-library/so2cpg.o"
-	@echo "... home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/ann-library/so2cpg.i"
-	@echo "... home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/ann-library/so2cpg.s"
-	@echo "... home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/ann-library/vrn.o"
-	@echo "... home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/ann-library/vrn.i"
-	@echo "... home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/ann-library/vrn.s"
-	@echo "... home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/delayline.o"
-	@echo "... home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/delayline.i"
-	@echo "... home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/delayline.s"
-	@echo "... home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/environment.o"
-	@echo "... home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/environment.i"
-	@echo "... home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/environment.s"
-	@echo "... home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/interpolator2d.o"
-	@echo "... home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/interpolator2d.i"
-	@echo "... home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/interpolator2d.s"
-	@echo "... home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/vrepRemoteAPI/extApi.o"
-	@echo "... home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/vrepRemoteAPI/extApi.i"
-	@echo "... home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/vrepRemoteAPI/extApi.s"
-	@echo "... home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/vrepRemoteAPI/extApiPlatform.o"
-	@echo "... home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/vrepRemoteAPI/extApiPlatform.i"
-	@echo "... home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/vrepRemoteAPI/extApiPlatform.s"
+	@echo "... home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/cpg_rbfn.o"
+	@echo "... home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/cpg_rbfn.i"
+	@echo "... home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/cpg_rbfn.s"
+	@echo "... home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/dualIntegralLearner.o"
+	@echo "... home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/dualIntegralLearner.i"
+	@echo "... home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/dualIntegralLearner.s"
+	@echo "... home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/input.o"
+	@echo "... home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/input.i"
+	@echo "... home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/input.s"
+	@echo "... home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/main_hexapod_controller.o"
+	@echo "... home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/main_hexapod_controller.i"
+	@echo "... home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/main_hexapod_controller.s"
+	@echo "... home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/modularController.o"
+	@echo "... home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/modularController.i"
+	@echo "... home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/modularController.s"
+	@echo "... home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/neutronController.o"
+	@echo "... home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/neutronController.i"
+	@echo "... home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/neutronController.s"
+	@echo "... home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/postProcessing.o"
+	@echo "... home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/postProcessing.i"
+	@echo "... home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/postProcessing.s"
+	@echo "... home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/rbfn.o"
+	@echo "... home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/rbfn.i"
+	@echo "... home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/rbfn.s"
+	@echo "... home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/simRosClass.o"
+	@echo "... home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/simRosClass.i"
+	@echo "... home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/simRosClass.s"
+	@echo "... home/mat/workspace/CPG-RBFN-framework/utils/ann-framework/ann.o"
+	@echo "... home/mat/workspace/CPG-RBFN-framework/utils/ann-framework/ann.i"
+	@echo "... home/mat/workspace/CPG-RBFN-framework/utils/ann-framework/ann.s"
+	@echo "... home/mat/workspace/CPG-RBFN-framework/utils/ann-framework/neuron.o"
+	@echo "... home/mat/workspace/CPG-RBFN-framework/utils/ann-framework/neuron.i"
+	@echo "... home/mat/workspace/CPG-RBFN-framework/utils/ann-framework/neuron.s"
+	@echo "... home/mat/workspace/CPG-RBFN-framework/utils/ann-framework/synapse.o"
+	@echo "... home/mat/workspace/CPG-RBFN-framework/utils/ann-framework/synapse.i"
+	@echo "... home/mat/workspace/CPG-RBFN-framework/utils/ann-framework/synapse.s"
+	@echo "... home/mat/workspace/CPG-RBFN-framework/utils/ann-library/adaptiveso2cpgsynplas.o"
+	@echo "... home/mat/workspace/CPG-RBFN-framework/utils/ann-library/adaptiveso2cpgsynplas.i"
+	@echo "... home/mat/workspace/CPG-RBFN-framework/utils/ann-library/adaptiveso2cpgsynplas.s"
+	@echo "... home/mat/workspace/CPG-RBFN-framework/utils/ann-library/extendedso2cpg.o"
+	@echo "... home/mat/workspace/CPG-RBFN-framework/utils/ann-library/extendedso2cpg.i"
+	@echo "... home/mat/workspace/CPG-RBFN-framework/utils/ann-library/extendedso2cpg.s"
+	@echo "... home/mat/workspace/CPG-RBFN-framework/utils/ann-library/pcpg.o"
+	@echo "... home/mat/workspace/CPG-RBFN-framework/utils/ann-library/pcpg.i"
+	@echo "... home/mat/workspace/CPG-RBFN-framework/utils/ann-library/pcpg.s"
+	@echo "... home/mat/workspace/CPG-RBFN-framework/utils/ann-library/pmn.o"
+	@echo "... home/mat/workspace/CPG-RBFN-framework/utils/ann-library/pmn.i"
+	@echo "... home/mat/workspace/CPG-RBFN-framework/utils/ann-library/pmn.s"
+	@echo "... home/mat/workspace/CPG-RBFN-framework/utils/ann-library/psn.o"
+	@echo "... home/mat/workspace/CPG-RBFN-framework/utils/ann-library/psn.i"
+	@echo "... home/mat/workspace/CPG-RBFN-framework/utils/ann-library/psn.s"
+	@echo "... home/mat/workspace/CPG-RBFN-framework/utils/ann-library/so2cpg.o"
+	@echo "... home/mat/workspace/CPG-RBFN-framework/utils/ann-library/so2cpg.i"
+	@echo "... home/mat/workspace/CPG-RBFN-framework/utils/ann-library/so2cpg.s"
+	@echo "... home/mat/workspace/CPG-RBFN-framework/utils/ann-library/vrn.o"
+	@echo "... home/mat/workspace/CPG-RBFN-framework/utils/ann-library/vrn.i"
+	@echo "... home/mat/workspace/CPG-RBFN-framework/utils/ann-library/vrn.s"
+	@echo "... home/mat/workspace/CPG-RBFN-framework/utils/delayline.o"
+	@echo "... home/mat/workspace/CPG-RBFN-framework/utils/delayline.i"
+	@echo "... home/mat/workspace/CPG-RBFN-framework/utils/delayline.s"
+	@echo "... home/mat/workspace/CPG-RBFN-framework/utils/environment.o"
+	@echo "... home/mat/workspace/CPG-RBFN-framework/utils/environment.i"
+	@echo "... home/mat/workspace/CPG-RBFN-framework/utils/environment.s"
+	@echo "... home/mat/workspace/CPG-RBFN-framework/utils/interpolator2d.o"
+	@echo "... home/mat/workspace/CPG-RBFN-framework/utils/interpolator2d.i"
+	@echo "... home/mat/workspace/CPG-RBFN-framework/utils/interpolator2d.s"
+	@echo "... home/mat/workspace/CPG-RBFN-framework/utils/vrepRemoteAPI/extApi.o"
+	@echo "... home/mat/workspace/CPG-RBFN-framework/utils/vrepRemoteAPI/extApi.i"
+	@echo "... home/mat/workspace/CPG-RBFN-framework/utils/vrepRemoteAPI/extApi.s"
+	@echo "... home/mat/workspace/CPG-RBFN-framework/utils/vrepRemoteAPI/extApiPlatform.o"
+	@echo "... home/mat/workspace/CPG-RBFN-framework/utils/vrepRemoteAPI/extApiPlatform.i"
+	@echo "... home/mat/workspace/CPG-RBFN-framework/utils/vrepRemoteAPI/extApiPlatform.s"
 .PHONY : help
 
 

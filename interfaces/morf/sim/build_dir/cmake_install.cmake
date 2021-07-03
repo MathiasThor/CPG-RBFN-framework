@@ -1,4 +1,4 @@
-# Install script for directory: /home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/interfaces/morf/sim/build_dir
+# Install script for directory: /home/mat/workspace/CPG-RBFN-framework/interfaces/morf/sim/build_dir
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -56,7 +56,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/usr/local" TYPE PROGRAM FILES "/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/interfaces/morf/sim/build_dir/catkin_generated/installspace/_setup_util.py")
+file(INSTALL DESTINATION "/usr/local" TYPE PROGRAM FILES "/home/mat/workspace/CPG-RBFN-framework/interfaces/morf/sim/build_dir/catkin_generated/installspace/_setup_util.py")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -68,7 +68,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/usr/local" TYPE PROGRAM FILES "/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/interfaces/morf/sim/build_dir/catkin_generated/installspace/env.sh")
+file(INSTALL DESTINATION "/usr/local" TYPE PROGRAM FILES "/home/mat/workspace/CPG-RBFN-framework/interfaces/morf/sim/build_dir/catkin_generated/installspace/env.sh")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -81,8 +81,8 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
 file(INSTALL DESTINATION "/usr/local" TYPE FILE FILES
-    "/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/interfaces/morf/sim/build_dir/catkin_generated/installspace/setup.bash"
-    "/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/interfaces/morf/sim/build_dir/catkin_generated/installspace/local_setup.bash"
+    "/home/mat/workspace/CPG-RBFN-framework/interfaces/morf/sim/build_dir/catkin_generated/installspace/setup.bash"
+    "/home/mat/workspace/CPG-RBFN-framework/interfaces/morf/sim/build_dir/catkin_generated/installspace/local_setup.bash"
     )
 endif()
 
@@ -96,8 +96,8 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
 file(INSTALL DESTINATION "/usr/local" TYPE FILE FILES
-    "/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/interfaces/morf/sim/build_dir/catkin_generated/installspace/setup.sh"
-    "/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/interfaces/morf/sim/build_dir/catkin_generated/installspace/local_setup.sh"
+    "/home/mat/workspace/CPG-RBFN-framework/interfaces/morf/sim/build_dir/catkin_generated/installspace/setup.sh"
+    "/home/mat/workspace/CPG-RBFN-framework/interfaces/morf/sim/build_dir/catkin_generated/installspace/local_setup.sh"
     )
 endif()
 
@@ -111,8 +111,8 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
 file(INSTALL DESTINATION "/usr/local" TYPE FILE FILES
-    "/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/interfaces/morf/sim/build_dir/catkin_generated/installspace/setup.zsh"
-    "/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/interfaces/morf/sim/build_dir/catkin_generated/installspace/local_setup.zsh"
+    "/home/mat/workspace/CPG-RBFN-framework/interfaces/morf/sim/build_dir/catkin_generated/installspace/setup.zsh"
+    "/home/mat/workspace/CPG-RBFN-framework/interfaces/morf/sim/build_dir/catkin_generated/installspace/local_setup.zsh"
     )
 endif()
 
@@ -125,12 +125,12 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/usr/local" TYPE FILE FILES "/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/interfaces/morf/sim/build_dir/catkin_generated/installspace/.rosinstall")
+file(INSTALL DESTINATION "/usr/local" TYPE FILE FILES "/home/mat/workspace/CPG-RBFN-framework/interfaces/morf/sim/build_dir/catkin_generated/installspace/.rosinstall")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/interfaces/morf/sim/build_dir/gtest/cmake_install.cmake")
+  include("/home/mat/workspace/CPG-RBFN-framework/interfaces/morf/sim/build_dir/gtest/cmake_install.cmake")
 
 endif()
 
@@ -142,5 +142,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/interfaces/morf/sim/build_dir/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/mat/workspace/CPG-RBFN-framework/interfaces/morf/sim/build_dir/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

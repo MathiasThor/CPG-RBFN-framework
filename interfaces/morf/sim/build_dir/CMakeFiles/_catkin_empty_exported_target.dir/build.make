@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/interfaces/morf/sim/build_dir
+CMAKE_SOURCE_DIR = /home/mat/workspace/CPG-RBFN-framework/interfaces/morf/sim/build_dir
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/interfaces/morf/sim/build_dir
+CMAKE_BINARY_DIR = /home/mat/workspace/CPG-RBFN-framework/interfaces/morf/sim/build_dir
 
 # Utility rule file for _catkin_empty_exported_target.
 
@@ -67,6 +67,6 @@ CMakeFiles/_catkin_empty_exported_target.dir/clean:
 .PHONY : CMakeFiles/_catkin_empty_exported_target.dir/clean
 
 CMakeFiles/_catkin_empty_exported_target.dir/depend:
-	cd /home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/interfaces/morf/sim/build_dir && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/interfaces/morf/sim/build_dir /home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/interfaces/morf/sim/build_dir /home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/interfaces/morf/sim/build_dir /home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/interfaces/morf/sim/build_dir /home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/interfaces/morf/sim/build_dir/CMakeFiles/_catkin_empty_exported_target.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/mat/workspace/CPG-RBFN-framework/interfaces/morf/sim/build_dir && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/mat/workspace/CPG-RBFN-framework/interfaces/morf/sim/build_dir /home/mat/workspace/CPG-RBFN-framework/interfaces/morf/sim/build_dir /home/mat/workspace/CPG-RBFN-framework/interfaces/morf/sim/build_dir /home/mat/workspace/CPG-RBFN-framework/interfaces/morf/sim/build_dir /home/mat/workspace/CPG-RBFN-framework/interfaces/morf/sim/build_dir/CMakeFiles/_catkin_empty_exported_target.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/_catkin_empty_exported_target.dir/depend
 

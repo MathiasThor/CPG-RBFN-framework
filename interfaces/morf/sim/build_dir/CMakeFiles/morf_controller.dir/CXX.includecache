@@ -104,13 +104,13 @@ stdint.h
 
 ../../../../utils/vrepRemoteAPI/simConst.h
 
-/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/neural_controllers/morf/sim/cpg_rbfn.cpp
+/home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/cpg_rbfn.cpp
 cpg_rbfn.h
-/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/neural_controllers/morf/sim/cpg_rbfn.h
+/home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/cpg_rbfn.h
 
-/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/neural_controllers/morf/sim/cpg_rbfn.h
+/home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/cpg_rbfn.h
 ann-framework/ann.h
-/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/neural_controllers/morf/sim/ann-framework/ann.h
+/home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/ann-framework/ann.h
 map
 -
 queue
@@ -122,23 +122,23 @@ fstream
 string.h
 -
 neutronMotorDefinition.h
-/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/neural_controllers/morf/sim/neutronMotorDefinition.h
+/home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/neutronMotorDefinition.h
 rbfn.h
-/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/neural_controllers/morf/sim/rbfn.h
+/home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/rbfn.h
 ann-library/so2cpg.h
-/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/neural_controllers/morf/sim/ann-library/so2cpg.h
+/home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/ann-library/so2cpg.h
 ann-framework/neuron.h
-/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/neural_controllers/morf/sim/ann-framework/neuron.h
+/home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/ann-framework/neuron.h
 ann-library/adaptiveso2cpgsynplas.h
-/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/neural_controllers/morf/sim/ann-library/adaptiveso2cpgsynplas.h
+/home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/ann-library/adaptiveso2cpgsynplas.h
 
-/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/neural_controllers/morf/sim/dualIntegralLearner.cpp
+/home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/dualIntegralLearner.cpp
 dualIntegralLearner.h
-/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/neural_controllers/morf/sim/dualIntegralLearner.h
+/home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/dualIntegralLearner.h
 cmath
 -
 
-/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/neural_controllers/morf/sim/dualIntegralLearner.h
+/home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/dualIntegralLearner.h
 vector
 -
 cmath
@@ -146,17 +146,17 @@ cmath
 iostream
 -
 
-/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/neural_controllers/morf/sim/input.cpp
+/home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/input.cpp
 input.h
-/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/neural_controllers/morf/sim/input.h
+/home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/input.h
 
-/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/neural_controllers/morf/sim/input.h
+/home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/input.h
 iostream
-/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/neural_controllers/morf/sim/iostream
+/home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/iostream
 
-/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/neural_controllers/morf/sim/main_hexapod_controller.cpp
+/home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/main_hexapod_controller.cpp
 neutronController.h
-/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/neural_controllers/morf/sim/neutronController.h
+/home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/neutronController.h
 iostream
 -
 signal.h
@@ -168,27 +168,27 @@ cstring
 atomic
 -
 
-/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/neural_controllers/morf/sim/modularController.cpp
+/home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/modularController.cpp
 modularController.h
-/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/neural_controllers/morf/sim/modularController.h
+/home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/modularController.h
 ann-library/so2cpg.h
-/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/neural_controllers/morf/sim/ann-library/so2cpg.h
+/home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/ann-library/so2cpg.h
 ann-library/psn.h
-/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/neural_controllers/morf/sim/ann-library/psn.h
+/home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/ann-library/psn.h
 ann-library/pcpg.h
-/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/neural_controllers/morf/sim/ann-library/pcpg.h
+/home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/ann-library/pcpg.h
 ann-library/vrn.h
-/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/neural_controllers/morf/sim/ann-library/vrn.h
+/home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/ann-library/vrn.h
 ann-library/pmn.h
-/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/neural_controllers/morf/sim/ann-library/pmn.h
+/home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/ann-library/pmn.h
 ann-framework/neuron.h
-/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/neural_controllers/morf/sim/ann-framework/neuron.h
+/home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/ann-framework/neuron.h
 ann-library/adaptiveso2cpgsynplas.h
-/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/neural_controllers/morf/sim/ann-library/adaptiveso2cpgsynplas.h
+/home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/ann-library/adaptiveso2cpgsynplas.h
 
-/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/neural_controllers/morf/sim/modularController.h
+/home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/modularController.h
 ann-framework/ann.h
-/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/neural_controllers/morf/sim/ann-framework/ann.h
+/home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/ann-framework/ann.h
 map
 -
 queue
@@ -200,13 +200,13 @@ fstream
 string.h
 -
 neutronMotorDefinition.h
-/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/neural_controllers/morf/sim/neutronMotorDefinition.h
+/home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/neutronMotorDefinition.h
 
-/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/neural_controllers/morf/sim/neutronController.cpp
+/home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/neutronController.cpp
 neutronController.h
-/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/neural_controllers/morf/sim/neutronController.h
+/home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/neutronController.h
 
-/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/neural_controllers/morf/sim/neutronController.h
+/home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/neutronController.h
 ctime
 -
 cstdio
@@ -222,53 +222,53 @@ string
 ros/ros.h
 -
 std_msgs/Bool.h
-/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/neural_controllers/morf/sim/std_msgs/Bool.h
+/home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/std_msgs/Bool.h
 std_msgs/Float32.h
-/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/neural_controllers/morf/sim/std_msgs/Float32.h
+/home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/std_msgs/Float32.h
 std_msgs/Int32.h
 -
 std_msgs/MultiArrayLayout.h
-/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/neural_controllers/morf/sim/std_msgs/MultiArrayLayout.h
+/home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/std_msgs/MultiArrayLayout.h
 std_msgs/Float32MultiArray.h
-/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/neural_controllers/morf/sim/std_msgs/Float32MultiArray.h
+/home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/std_msgs/Float32MultiArray.h
 simRosClass.h
-/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/neural_controllers/morf/sim/simRosClass.h
+/home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/simRosClass.h
 modularController.h
-/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/neural_controllers/morf/sim/modularController.h
+/home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/modularController.h
 neutronMotorDefinition.h
-/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/neural_controllers/morf/sim/neutronMotorDefinition.h
+/home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/neutronMotorDefinition.h
 delayline.h
-/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/neural_controllers/morf/sim/delayline.h
+/home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/delayline.h
 dualIntegralLearner.h
-/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/neural_controllers/morf/sim/dualIntegralLearner.h
+/home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/dualIntegralLearner.h
 postProcessing.h
-/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/neural_controllers/morf/sim/postProcessing.h
+/home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/postProcessing.h
 cpg_rbfn.h
-/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/neural_controllers/morf/sim/cpg_rbfn.h
+/home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/cpg_rbfn.h
 rapidjson/document.h
-/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/neural_controllers/morf/sim/rapidjson/document.h
+/home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/rapidjson/document.h
 rapidjson/istreamwrapper.h
-/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/neural_controllers/morf/sim/rapidjson/istreamwrapper.h
+/home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/rapidjson/istreamwrapper.h
 rapidjson/ostreamwrapper.h
-/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/neural_controllers/morf/sim/rapidjson/ostreamwrapper.h
+/home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/rapidjson/ostreamwrapper.h
 rapidjson/writer.h
-/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/neural_controllers/morf/sim/rapidjson/writer.h
+/home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/rapidjson/writer.h
 rapidjson/prettywriter.h
-/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/neural_controllers/morf/sim/rapidjson/prettywriter.h
+/home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/rapidjson/prettywriter.h
 rapidjson/stringbuffer.h
-/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/neural_controllers/morf/sim/rapidjson/stringbuffer.h
+/home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/rapidjson/stringbuffer.h
 environment.h
-/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/neural_controllers/morf/sim/environment.h
+/home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/environment.h
 input.h
-/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/neural_controllers/morf/sim/input.h
+/home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/input.h
 
-/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/neural_controllers/morf/sim/neutronMotorDefinition.h
+/home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/neutronMotorDefinition.h
 
-/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/neural_controllers/morf/sim/postProcessing.cpp
+/home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/postProcessing.cpp
 postProcessing.h
-/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/neural_controllers/morf/sim/postProcessing.h
+/home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/postProcessing.h
 
-/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/neural_controllers/morf/sim/postProcessing.h
+/home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/postProcessing.h
 vector
 -
 cmath
@@ -276,21 +276,21 @@ cmath
 iostream
 -
 
-/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/neural_controllers/morf/sim/rapidjson/allocators.h
+/home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/rapidjson/allocators.h
 rapidjson.h
-/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/neural_controllers/morf/sim/rapidjson/rapidjson.h
+/home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/rapidjson/rapidjson.h
 
-/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/neural_controllers/morf/sim/rapidjson/document.h
+/home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/rapidjson/document.h
 reader.h
-/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/neural_controllers/morf/sim/rapidjson/reader.h
+/home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/rapidjson/reader.h
 internal/meta.h
-/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/neural_controllers/morf/sim/rapidjson/internal/meta.h
+/home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/rapidjson/internal/meta.h
 internal/strfunc.h
-/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/neural_controllers/morf/sim/rapidjson/internal/strfunc.h
+/home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/rapidjson/internal/strfunc.h
 memorystream.h
-/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/neural_controllers/morf/sim/rapidjson/memorystream.h
+/home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/rapidjson/memorystream.h
 encodedstream.h
-/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/neural_controllers/morf/sim/rapidjson/encodedstream.h
+/home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/rapidjson/encodedstream.h
 new
 -
 limits
@@ -300,109 +300,109 @@ iterator
 utility
 -
 
-/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/neural_controllers/morf/sim/rapidjson/encodedstream.h
+/home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/rapidjson/encodedstream.h
 stream.h
-/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/neural_controllers/morf/sim/rapidjson/stream.h
+/home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/rapidjson/stream.h
 memorystream.h
-/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/neural_controllers/morf/sim/rapidjson/memorystream.h
+/home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/rapidjson/memorystream.h
 
-/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/neural_controllers/morf/sim/rapidjson/encodings.h
+/home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/rapidjson/encodings.h
 rapidjson.h
-/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/neural_controllers/morf/sim/rapidjson/rapidjson.h
+/home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/rapidjson/rapidjson.h
 
-/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/neural_controllers/morf/sim/rapidjson/error/error.h
+/home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/rapidjson/error/error.h
 ../rapidjson.h
-/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/neural_controllers/morf/sim/rapidjson/rapidjson.h
+/home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/rapidjson/rapidjson.h
 
-/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/neural_controllers/morf/sim/rapidjson/internal/biginteger.h
+/home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/rapidjson/internal/biginteger.h
 ../rapidjson.h
-/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/neural_controllers/morf/sim/rapidjson/rapidjson.h
+/home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/rapidjson/rapidjson.h
 intrin.h
 -
 
-/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/neural_controllers/morf/sim/rapidjson/internal/diyfp.h
+/home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/rapidjson/internal/diyfp.h
 ../rapidjson.h
-/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/neural_controllers/morf/sim/rapidjson/rapidjson.h
+/home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/rapidjson/rapidjson.h
 limits
 -
 intrin.h
 -
 
-/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/neural_controllers/morf/sim/rapidjson/internal/dtoa.h
+/home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/rapidjson/internal/dtoa.h
 itoa.h
-/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/neural_controllers/morf/sim/rapidjson/internal/itoa.h
+/home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/rapidjson/internal/itoa.h
 diyfp.h
-/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/neural_controllers/morf/sim/rapidjson/internal/diyfp.h
+/home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/rapidjson/internal/diyfp.h
 ieee754.h
-/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/neural_controllers/morf/sim/rapidjson/internal/ieee754.h
+/home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/rapidjson/internal/ieee754.h
 
-/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/neural_controllers/morf/sim/rapidjson/internal/ieee754.h
+/home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/rapidjson/internal/ieee754.h
 ../rapidjson.h
-/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/neural_controllers/morf/sim/rapidjson/rapidjson.h
+/home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/rapidjson/rapidjson.h
 
-/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/neural_controllers/morf/sim/rapidjson/internal/itoa.h
+/home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/rapidjson/internal/itoa.h
 ../rapidjson.h
-/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/neural_controllers/morf/sim/rapidjson/rapidjson.h
+/home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/rapidjson/rapidjson.h
 
-/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/neural_controllers/morf/sim/rapidjson/internal/meta.h
+/home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/rapidjson/internal/meta.h
 ../rapidjson.h
-/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/neural_controllers/morf/sim/rapidjson/rapidjson.h
+/home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/rapidjson/rapidjson.h
 type_traits
 -
 
-/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/neural_controllers/morf/sim/rapidjson/internal/pow10.h
+/home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/rapidjson/internal/pow10.h
 ../rapidjson.h
-/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/neural_controllers/morf/sim/rapidjson/rapidjson.h
+/home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/rapidjson/rapidjson.h
 
-/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/neural_controllers/morf/sim/rapidjson/internal/stack.h
+/home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/rapidjson/internal/stack.h
 ../allocators.h
-/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/neural_controllers/morf/sim/rapidjson/allocators.h
+/home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/rapidjson/allocators.h
 swap.h
-/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/neural_controllers/morf/sim/rapidjson/internal/swap.h
+/home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/rapidjson/internal/swap.h
 cstddef
 -
 
-/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/neural_controllers/morf/sim/rapidjson/internal/strfunc.h
+/home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/rapidjson/internal/strfunc.h
 ../stream.h
-/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/neural_controllers/morf/sim/rapidjson/stream.h
+/home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/rapidjson/stream.h
 cwchar
 -
 
-/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/neural_controllers/morf/sim/rapidjson/internal/strtod.h
+/home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/rapidjson/internal/strtod.h
 ieee754.h
-/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/neural_controllers/morf/sim/rapidjson/internal/ieee754.h
+/home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/rapidjson/internal/ieee754.h
 biginteger.h
-/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/neural_controllers/morf/sim/rapidjson/internal/biginteger.h
+/home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/rapidjson/internal/biginteger.h
 diyfp.h
-/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/neural_controllers/morf/sim/rapidjson/internal/diyfp.h
+/home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/rapidjson/internal/diyfp.h
 pow10.h
-/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/neural_controllers/morf/sim/rapidjson/internal/pow10.h
+/home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/rapidjson/internal/pow10.h
 climits
 -
 limits
 -
 
-/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/neural_controllers/morf/sim/rapidjson/internal/swap.h
+/home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/rapidjson/internal/swap.h
 ../rapidjson.h
-/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/neural_controllers/morf/sim/rapidjson/rapidjson.h
+/home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/rapidjson/rapidjson.h
 
-/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/neural_controllers/morf/sim/rapidjson/istreamwrapper.h
+/home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/rapidjson/istreamwrapper.h
 stream.h
-/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/neural_controllers/morf/sim/rapidjson/stream.h
+/home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/rapidjson/stream.h
 iosfwd
 -
 
-/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/neural_controllers/morf/sim/rapidjson/memorystream.h
+/home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/rapidjson/memorystream.h
 stream.h
-/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/neural_controllers/morf/sim/rapidjson/stream.h
+/home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/rapidjson/stream.h
 
-/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/neural_controllers/morf/sim/rapidjson/msinttypes/inttypes.h
+/home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/rapidjson/msinttypes/inttypes.h
 stdint.h
-/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/neural_controllers/morf/sim/rapidjson/msinttypes/stdint.h
+/home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/rapidjson/msinttypes/stdint.h
 inttypes.h
 -
 
-/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/neural_controllers/morf/sim/rapidjson/msinttypes/stdint.h
+/home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/rapidjson/msinttypes/stdint.h
 stdint.h
 -
 limits.h
@@ -410,29 +410,29 @@ limits.h
 wchar.h
 -
 
-/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/neural_controllers/morf/sim/rapidjson/ostreamwrapper.h
+/home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/rapidjson/ostreamwrapper.h
 stream.h
-/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/neural_controllers/morf/sim/rapidjson/stream.h
+/home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/rapidjson/stream.h
 iosfwd
 -
 
-/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/neural_controllers/morf/sim/rapidjson/prettywriter.h
+/home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/rapidjson/prettywriter.h
 writer.h
-/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/neural_controllers/morf/sim/rapidjson/writer.h
+/home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/rapidjson/writer.h
 
-/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/neural_controllers/morf/sim/rapidjson/rapidjson.h
+/home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/rapidjson/rapidjson.h
 cstdlib
 -
 cstring
 -
 rapidjson/...
-/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/neural_controllers/morf/sim/rapidjson/rapidjson/...
+/home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/rapidjson/rapidjson/...
 string
 -
 msinttypes/stdint.h
-/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/neural_controllers/morf/sim/rapidjson/msinttypes/stdint.h
+/home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/rapidjson/msinttypes/stdint.h
 msinttypes/inttypes.h
-/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/neural_controllers/morf/sim/rapidjson/msinttypes/inttypes.h
+/home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/rapidjson/msinttypes/inttypes.h
 stdint.h
 -
 inttypes.h
@@ -440,23 +440,23 @@ inttypes.h
 endian.h
 -
 rapidjson/...
-/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/neural_controllers/morf/sim/rapidjson/rapidjson/...
+/home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/rapidjson/rapidjson/...
 cassert
 -
 
-/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/neural_controllers/morf/sim/rapidjson/reader.h
+/home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/rapidjson/reader.h
 allocators.h
-/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/neural_controllers/morf/sim/rapidjson/allocators.h
+/home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/rapidjson/allocators.h
 stream.h
-/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/neural_controllers/morf/sim/rapidjson/stream.h
+/home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/rapidjson/stream.h
 encodedstream.h
-/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/neural_controllers/morf/sim/rapidjson/encodedstream.h
+/home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/rapidjson/encodedstream.h
 internal/meta.h
-/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/neural_controllers/morf/sim/rapidjson/internal/meta.h
+/home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/rapidjson/internal/meta.h
 internal/stack.h
-/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/neural_controllers/morf/sim/rapidjson/internal/stack.h
+/home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/rapidjson/internal/stack.h
 internal/strtod.h
-/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/neural_controllers/morf/sim/rapidjson/internal/strtod.h
+/home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/rapidjson/internal/strtod.h
 limits
 -
 intrin.h
@@ -470,43 +470,43 @@ arm_neon.h
 stdexcept
 -
 rapidjson/error/error.h
-/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/neural_controllers/morf/sim/rapidjson/rapidjson/error/error.h
+/home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/rapidjson/rapidjson/error/error.h
 rapidjson/reader.h
-/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/neural_controllers/morf/sim/rapidjson/rapidjson/reader.h
+/home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/rapidjson/rapidjson/reader.h
 error/error.h
-/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/neural_controllers/morf/sim/rapidjson/error/error.h
+/home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/rapidjson/error/error.h
 
-/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/neural_controllers/morf/sim/rapidjson/stream.h
+/home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/rapidjson/stream.h
 rapidjson.h
-/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/neural_controllers/morf/sim/rapidjson/rapidjson.h
+/home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/rapidjson/rapidjson.h
 encodings.h
-/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/neural_controllers/morf/sim/rapidjson/encodings.h
+/home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/rapidjson/encodings.h
 
-/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/neural_controllers/morf/sim/rapidjson/stringbuffer.h
+/home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/rapidjson/stringbuffer.h
 stream.h
-/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/neural_controllers/morf/sim/rapidjson/stream.h
+/home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/rapidjson/stream.h
 internal/stack.h
-/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/neural_controllers/morf/sim/rapidjson/internal/stack.h
+/home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/rapidjson/internal/stack.h
 utility
 -
 internal/stack.h
-/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/neural_controllers/morf/sim/rapidjson/internal/stack.h
+/home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/rapidjson/internal/stack.h
 
-/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/neural_controllers/morf/sim/rapidjson/writer.h
+/home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/rapidjson/writer.h
 stream.h
-/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/neural_controllers/morf/sim/rapidjson/stream.h
+/home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/rapidjson/stream.h
 internal/meta.h
-/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/neural_controllers/morf/sim/rapidjson/internal/meta.h
+/home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/rapidjson/internal/meta.h
 internal/stack.h
-/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/neural_controllers/morf/sim/rapidjson/internal/stack.h
+/home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/rapidjson/internal/stack.h
 internal/strfunc.h
-/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/neural_controllers/morf/sim/rapidjson/internal/strfunc.h
+/home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/rapidjson/internal/strfunc.h
 internal/dtoa.h
-/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/neural_controllers/morf/sim/rapidjson/internal/dtoa.h
+/home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/rapidjson/internal/dtoa.h
 internal/itoa.h
-/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/neural_controllers/morf/sim/rapidjson/internal/itoa.h
+/home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/rapidjson/internal/itoa.h
 stringbuffer.h
-/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/neural_controllers/morf/sim/rapidjson/stringbuffer.h
+/home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/rapidjson/stringbuffer.h
 new
 -
 intrin.h
@@ -518,15 +518,15 @@ emmintrin.h
 arm_neon.h
 -
 
-/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/neural_controllers/morf/sim/rbfn.cpp
+/home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/rbfn.cpp
 utility
 -
 rbfn.h
-/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/neural_controllers/morf/sim/rbfn.h
+/home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/rbfn.h
 
-/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/neural_controllers/morf/sim/rbfn.h
+/home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/rbfn.h
 ann-framework/ann.h
-/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/neural_controllers/morf/sim/ann-framework/ann.h
+/home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/ann-framework/ann.h
 map
 -
 queue
@@ -538,13 +538,13 @@ fstream
 string.h
 -
 delayline.h
-/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/neural_controllers/morf/sim/delayline.h
+/home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/delayline.h
 
-/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/neural_controllers/morf/sim/simRosClass.cpp
+/home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/simRosClass.cpp
 simRosClass.h
-/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/neural_controllers/morf/sim/simRosClass.h
+/home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/simRosClass.h
 
-/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/neural_controllers/morf/sim/simRosClass.h
+/home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/simRosClass.h
 cstdio
 -
 cstdlib
@@ -552,51 +552,51 @@ cstdlib
 ros/ros.h
 -
 std_msgs/Bool.h
-/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/neural_controllers/morf/sim/std_msgs/Bool.h
+/home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/std_msgs/Bool.h
 std_msgs/Float32.h
-/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/neural_controllers/morf/sim/std_msgs/Float32.h
+/home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/std_msgs/Float32.h
 std_msgs/ColorRGBA.h
-/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/neural_controllers/morf/sim/std_msgs/ColorRGBA.h
+/home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/std_msgs/ColorRGBA.h
 std_msgs/Int32.h
 -
 sensor_msgs/Joy.h
-/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/neural_controllers/morf/sim/sensor_msgs/Joy.h
+/home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/sensor_msgs/Joy.h
 sensor_msgs/Imu.h
-/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/neural_controllers/morf/sim/sensor_msgs/Imu.h
+/home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/sensor_msgs/Imu.h
 sensor_msgs/Temperature.h
-/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/neural_controllers/morf/sim/sensor_msgs/Temperature.h
+/home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/sensor_msgs/Temperature.h
 geometry_msgs/Vector3.h
-/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/neural_controllers/morf/sim/geometry_msgs/Vector3.h
+/home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/geometry_msgs/Vector3.h
 std_msgs/MultiArrayLayout.h
-/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/neural_controllers/morf/sim/std_msgs/MultiArrayLayout.h
+/home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/std_msgs/MultiArrayLayout.h
 std_msgs/MultiArrayDimension.h
-/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/neural_controllers/morf/sim/std_msgs/MultiArrayDimension.h
+/home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/std_msgs/MultiArrayDimension.h
 std_msgs/Float32MultiArray.h
-/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/neural_controllers/morf/sim/std_msgs/Float32MultiArray.h
+/home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/std_msgs/Float32MultiArray.h
 std_msgs/Int32MultiArray.h
-/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/neural_controllers/morf/sim/std_msgs/Int32MultiArray.h
+/home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/std_msgs/Int32MultiArray.h
 rosgraph_msgs/Clock.h
 -
 neutronMotorDefinition.h
-/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/neural_controllers/morf/sim/neutronMotorDefinition.h
+/home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/neutronMotorDefinition.h
 random
 -
 iostream
 -
 extApi.h
-/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/neural_controllers/morf/sim/extApi.h
+/home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/extApi.h
 extApiPlatform.h
-/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/neural_controllers/morf/sim/extApiPlatform.h
+/home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/extApiPlatform.h
 simConst.h
-/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/neural_controllers/morf/sim/simConst.h
+/home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/simConst.h
 
-/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/ann-framework/ann.cpp
+/home/mat/workspace/CPG-RBFN-framework/utils/ann-framework/ann.cpp
 ann.h
-/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/ann-framework/ann.h
+/home/mat/workspace/CPG-RBFN-framework/utils/ann-framework/ann.h
 neuron.h
-/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/ann-framework/neuron.h
+/home/mat/workspace/CPG-RBFN-framework/utils/ann-framework/neuron.h
 synapse.h
-/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/ann-framework/synapse.h
+/home/mat/workspace/CPG-RBFN-framework/utils/ann-framework/synapse.h
 algorithm
 -
 set
@@ -606,7 +606,7 @@ iostream
 sstream
 -
 
-/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/ann-framework/ann.h
+/home/mat/workspace/CPG-RBFN-framework/utils/ann-framework/ann.h
 iostream
 -
 list
@@ -618,119 +618,119 @@ map
 string
 -
 transferfunction.h
-/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/ann-framework/transferfunction.h
+/home/mat/workspace/CPG-RBFN-framework/utils/ann-framework/transferfunction.h
 
-/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/ann-framework/neuron.cpp
+/home/mat/workspace/CPG-RBFN-framework/utils/ann-framework/neuron.cpp
 neuron.h
-/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/ann-framework/neuron.h
+/home/mat/workspace/CPG-RBFN-framework/utils/ann-framework/neuron.h
 ann.h
-/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/ann-framework/ann.h
+/home/mat/workspace/CPG-RBFN-framework/utils/ann-framework/ann.h
 synapse.h
-/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/ann-framework/synapse.h
+/home/mat/workspace/CPG-RBFN-framework/utils/ann-framework/synapse.h
 transferfunction.h
-/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/ann-framework/transferfunction.h
+/home/mat/workspace/CPG-RBFN-framework/utils/ann-framework/transferfunction.h
 algorithm
 -
 iostream
 -
 
-/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/ann-framework/neuron.h
+/home/mat/workspace/CPG-RBFN-framework/utils/ann-framework/neuron.h
 map
 -
 vector
 -
 transferfunction.h
-/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/ann-framework/transferfunction.h
+/home/mat/workspace/CPG-RBFN-framework/utils/ann-framework/transferfunction.h
 
-/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/ann-framework/synapse.cpp
+/home/mat/workspace/CPG-RBFN-framework/utils/ann-framework/synapse.cpp
 synapse.h
-/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/ann-framework/synapse.h
+/home/mat/workspace/CPG-RBFN-framework/utils/ann-framework/synapse.h
 neuron.h
-/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/ann-framework/neuron.h
+/home/mat/workspace/CPG-RBFN-framework/utils/ann-framework/neuron.h
 ann.h
-/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/ann-framework/ann.h
+/home/mat/workspace/CPG-RBFN-framework/utils/ann-framework/ann.h
 
-/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/ann-framework/synapse.h
+/home/mat/workspace/CPG-RBFN-framework/utils/ann-framework/synapse.h
 
-/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/ann-framework/transferfunction.h
+/home/mat/workspace/CPG-RBFN-framework/utils/ann-framework/transferfunction.h
 cmath
 -
 
-/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/ann-library/adaptiveso2cpgsynplas.cpp
+/home/mat/workspace/CPG-RBFN-framework/utils/ann-library/adaptiveso2cpgsynplas.cpp
 adaptiveso2cpgsynplas.h
-/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/ann-library/adaptiveso2cpgsynplas.h
+/home/mat/workspace/CPG-RBFN-framework/utils/ann-library/adaptiveso2cpgsynplas.h
 cmath
 -
 
-/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/ann-library/adaptiveso2cpgsynplas.h
+/home/mat/workspace/CPG-RBFN-framework/utils/ann-library/adaptiveso2cpgsynplas.h
 extendedso2cpg.h
-/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/ann-library/extendedso2cpg.h
+/home/mat/workspace/CPG-RBFN-framework/utils/ann-library/extendedso2cpg.h
 
-/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/ann-library/extendedso2cpg.cpp
+/home/mat/workspace/CPG-RBFN-framework/utils/ann-library/extendedso2cpg.cpp
 extendedso2cpg.h
-/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/ann-library/extendedso2cpg.h
+/home/mat/workspace/CPG-RBFN-framework/utils/ann-library/extendedso2cpg.h
 utils/ann-framework/synapse.h
-/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/ann-library/utils/ann-framework/synapse.h
+/home/mat/workspace/CPG-RBFN-framework/utils/ann-library/utils/ann-framework/synapse.h
 utils/ann-framework/neuron.h
-/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/ann-library/utils/ann-framework/neuron.h
+/home/mat/workspace/CPG-RBFN-framework/utils/ann-library/utils/ann-framework/neuron.h
 cmath
 -
 
-/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/ann-library/extendedso2cpg.h
+/home/mat/workspace/CPG-RBFN-framework/utils/ann-library/extendedso2cpg.h
 so2cpg.h
-/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/ann-library/so2cpg.h
+/home/mat/workspace/CPG-RBFN-framework/utils/ann-library/so2cpg.h
 
-/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/ann-library/pcpg.cpp
+/home/mat/workspace/CPG-RBFN-framework/utils/ann-library/pcpg.cpp
 pcpg.h
-/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/ann-library/pcpg.h
+/home/mat/workspace/CPG-RBFN-framework/utils/ann-library/pcpg.h
 
-/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/ann-library/pcpg.h
+/home/mat/workspace/CPG-RBFN-framework/utils/ann-library/pcpg.h
 ../ann-framework/ann.h
-/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/ann-framework/ann.h
+/home/mat/workspace/CPG-RBFN-framework/utils/ann-framework/ann.h
 
-/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/ann-library/pmn.cpp
+/home/mat/workspace/CPG-RBFN-framework/utils/ann-library/pmn.cpp
 pmn.h
-/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/ann-library/pmn.h
+/home/mat/workspace/CPG-RBFN-framework/utils/ann-library/pmn.h
 
-/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/ann-library/pmn.h
+/home/mat/workspace/CPG-RBFN-framework/utils/ann-library/pmn.h
 ../ann-framework/ann.h
-/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/ann-framework/ann.h
+/home/mat/workspace/CPG-RBFN-framework/utils/ann-framework/ann.h
 
-/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/ann-library/psn.cpp
+/home/mat/workspace/CPG-RBFN-framework/utils/ann-library/psn.cpp
 psn.h
-/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/ann-library/psn.h
+/home/mat/workspace/CPG-RBFN-framework/utils/ann-library/psn.h
 
-/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/ann-library/psn.h
+/home/mat/workspace/CPG-RBFN-framework/utils/ann-library/psn.h
 utils/ann-framework/ann.h
-/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/ann-library/utils/ann-framework/ann.h
+/home/mat/workspace/CPG-RBFN-framework/utils/ann-library/utils/ann-framework/ann.h
 
-/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/ann-library/so2cpg.cpp
+/home/mat/workspace/CPG-RBFN-framework/utils/ann-library/so2cpg.cpp
 so2cpg.h
-/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/ann-library/so2cpg.h
+/home/mat/workspace/CPG-RBFN-framework/utils/ann-library/so2cpg.h
 cmath
 -
 sstream
 -
 
-/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/ann-library/so2cpg.h
+/home/mat/workspace/CPG-RBFN-framework/utils/ann-library/so2cpg.h
 utils/ann-framework/ann.h
-/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/ann-library/utils/ann-framework/ann.h
+/home/mat/workspace/CPG-RBFN-framework/utils/ann-library/utils/ann-framework/ann.h
 utils/interpolator2d.h
-/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/ann-library/utils/interpolator2d.h
+/home/mat/workspace/CPG-RBFN-framework/utils/ann-library/utils/interpolator2d.h
 
-/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/ann-library/vrn.cpp
+/home/mat/workspace/CPG-RBFN-framework/utils/ann-library/vrn.cpp
 vrn.h
-/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/ann-library/vrn.h
+/home/mat/workspace/CPG-RBFN-framework/utils/ann-library/vrn.h
 
-/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/ann-library/vrn.h
+/home/mat/workspace/CPG-RBFN-framework/utils/ann-library/vrn.h
 utils/ann-framework/ann.h
-/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/ann-library/utils/ann-framework/ann.h
+/home/mat/workspace/CPG-RBFN-framework/utils/ann-library/utils/ann-framework/ann.h
 
-/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/delayline.cpp
+/home/mat/workspace/CPG-RBFN-framework/utils/delayline.cpp
 delayline.h
-/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/delayline.h
+/home/mat/workspace/CPG-RBFN-framework/utils/delayline.h
 
-/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/delayline.h
+/home/mat/workspace/CPG-RBFN-framework/utils/delayline.h
 vector
 -
 iostream
@@ -738,17 +738,17 @@ iostream
 cstdlib
 -
 
-/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/environment.cpp
+/home/mat/workspace/CPG-RBFN-framework/utils/environment.cpp
 environment.h
-/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/environment.h
+/home/mat/workspace/CPG-RBFN-framework/utils/environment.h
 
-/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/environment.h
+/home/mat/workspace/CPG-RBFN-framework/utils/environment.h
 extApi.h
-/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/extApi.h
+/home/mat/workspace/CPG-RBFN-framework/utils/extApi.h
 extApiPlatform.h
-/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/extApiPlatform.h
+/home/mat/workspace/CPG-RBFN-framework/utils/extApiPlatform.h
 simConst.h
-/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/simConst.h
+/home/mat/workspace/CPG-RBFN-framework/utils/simConst.h
 string
 -
 ros/ros.h
@@ -758,9 +758,9 @@ std_msgs/Int32.h
 std_msgs/Bool.h
 -
 
-/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/interpolator2d.cpp
+/home/mat/workspace/CPG-RBFN-framework/utils/interpolator2d.cpp
 interpolator2d.h
-/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/interpolator2d.h
+/home/mat/workspace/CPG-RBFN-framework/utils/interpolator2d.h
 iostream
 -
 sstream
@@ -770,7 +770,7 @@ fstream
 limits
 -
 
-/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_nature/utils/interpolator2d.h
+/home/mat/workspace/CPG-RBFN-framework/utils/interpolator2d.h
 vector
 -
 

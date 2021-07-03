@@ -42,17 +42,25 @@ _Install time will take 15-30 minutes._
 
 First, we need to set up the simulation ([coppeliaSim](https://www.coppeliarobotics.com/)):
 1. Download coppeliaSim EDU [from the downloads page](https://www.coppeliarobotics.com/previousVersions) _(tested on V4.1.0 / Ubuntu 18.04)_
-2. Extract the downloaded .zip file into a directory as many times as you need "simulation workers" _(i.e., the number of simulations running in parallel. We used four workers)_
-3. Rename the extracted coppeliaSim directories as: `VREP1`, `VREP2`, `VREP3`, `VREP4`, etc.
-4. In `remoteApiConnections.txt` in each of the `VREP#` directories, change `portIndex1_port` so that `VREP1` has `19997`, `VREP2` has `19996`, `VREP3` has `19995`, `VREP4` has `19994`, and `VREP#` has `19997-#`
-5. Clone this repository to your local machine
+2. Clone this repository to your local machine _(optional: set `$FRAMEWORK_PATH` to the path for the directory containing the cloned repository)_
 ```bash
 git clone https://github.com/MathiasThor/CPG-RBFN-framework.git
 ```
-6. Install the required python libraries _(matplotlib, jupyter, drawnow, and numpy)_:
+3. Extract the downloaded .zip file into a directory as many times as you need "simulation workers" _(i.e., the number of simulations running in parallel. We used four workers)_
+4. Rename the extracted coppeliaSim directories as: `VREP1`, `VREP2`, `VREP3`, `VREP4`, etc. _(optional: set `$VREP_WORKER_PATH` to the path for the directory containing the workers)_
+5. In `remoteApiConnections.txt` in each of the `VREP#` directories, change `portIndex1_port` so that `VREP1` has `19997`, `VREP2` has `19996`, `VREP3` has `19995`, `VREP4` has `19994`, and `VREP#` has `19997-#`
+6. Copy `libv_repExtRosInterface.so` into each of the worker directories from the utils directory
+```bash
+cp $FRAMEWORK_PATH/CPG-RBFN-framework/utils/libv_repExtRosInterface.so $VREP_WORKER_PATH/VREP1/
+```
+7. Install the required python libraries _(matplotlib, jupyter, drawnow, and numpy)_:
 ```bash
 cd $FRAMEWORK_PATH/CPG-RBFN-framework/
+```
+```bash
 sudo apt install python3-pip
+```
+```bash
 pip3 install -r requirements.txt
 ```
 
@@ -66,18 +74,28 @@ roscore
 3. Start the simulation workers. In this example, we will use a single worker.
 ```bash
 cd $VREP_WORKER_PATH/VREP1/
+```
+```bash
 ./coppeliaSim.sh $FRAMEWORK_PATH/CPG-RBFN-framework/simulations/Advanced_env.ttt
 ```
 3. Build the locomotion controller
 ```bash
 cd $FRAMEWORK_PATH/CPG-RBFN-framework/interfaces/morf/sim/build_dir
+```
+```bash
 rm CMakeCache.txt
+```
+```bash
 cmake .
+```
+```bash
 make
 ```
 4. Run with the learned weights presented in the paper for 400s
 ```bash
 cd $FRAMEWORK_PATH/CPG-RBFN-framework/machine_learning
+```
+```bash
 ./run_sim.sh -t 400
 ```
 5. Select option **2** then **9** and finally **0**.
@@ -92,22 +110,39 @@ roscore
 3. Start the simulation workers. In this example, we will use four workers.
 ```bash
 cd $VREP_WORKER_PATH/VREP1/
+```
+```bash
 ./coppeliaSim.sh $FRAMEWORK_PATH/CPG-RBFN-framework/simulations/MORF_base_behavior.ttt
-
+```
+```bash
 cd $VREP_WORKER_PATH/VREP2/
+```
+```bash
 ./coppeliaSim.sh $FRAMEWORK_PATH/CPG-RBFN-framework/simulations/MORF_base_behavior.ttt
-
+```
+```bash
 cd $VREP_WORKER_PATH/VREP3/
+```
+```bash
 ./coppeliaSim.sh $FRAMEWORK_PATH/CPG-RBFN-framework/simulations/MORF_base_behavior.ttt
-
+```
+```bash
 cd $VREP_WORKER_PATH/VREP4/
+```
+```bash
 ./coppeliaSim.sh $FRAMEWORK_PATH/CPG-RBFN-framework/simulations/MORF_base_behavior.ttt
 ```
 3. Build the locomotion controller
 ```bash
 cd $FRAMEWORK_PATH/CPG-RBFN-framework/interfaces/morf/sim/build_dir
+```
+```bash
 rm CMakeCache.txt
+```
+```bash
 cmake .
+```
+```bash
 make
 ```
 4. In `$FRAMEWORK_PATH/CPG-RBFN-framework/machine_learning/RL_master.py` set the following: the number of workers to 4
