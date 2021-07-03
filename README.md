@@ -49,8 +49,7 @@ First, we need to set up the simulation ([coppeliaSim](https://www.coppeliarobot
 ```bash
 git clone https://github.com/MathiasThor/CPG-RBFN-framework.git
 ```
-6. Copy and (re)place `libv_repExtRosInterface.so` with `/utils/v-rep_simulations/v-rep_libs/reallib/libv_repExtRosInterface.so` in all `VREP#` directories.
-7. Install the required python libraries _(matplotlib, jupyter, drawnow, and numpy)_:
+6. Install the required python libraries _(matplotlib, jupyter, drawnow, and numpy)_:
 ```bash
 cd $FRAMEWORK_PATH/CPG-RBFN-framework/
 sudo apt install python3-pip
