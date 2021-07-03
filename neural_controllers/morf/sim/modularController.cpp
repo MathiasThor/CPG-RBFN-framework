@@ -37,13 +37,7 @@ modularController::modularController(int _cpg_option, bool legged_or_arm){
             cpg = new SO2CPG();
             cpg_bias = 0.0;
 
-            //From 0.02-1.5
-            // MI = 0.02;   // slow Wave
-            // MI = 0.03;   // Wave
-            // MI = 0.04;   // fast Wave
-            // MI = 0.13;   // Terapod
-            MI = 0.18;      // Tripod fast
-            // MI = 0.34;   // Faster than tripod
+            MI = 0.18;
 
             //destabilize cpg to oscillate
             cpg->setOutput(0, 0.1);

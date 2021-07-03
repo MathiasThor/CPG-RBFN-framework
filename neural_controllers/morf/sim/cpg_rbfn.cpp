@@ -26,7 +26,6 @@ cpg_rbfn::cpg_rbfn(vector<vector<float>> _weights, string _encoding, int _number
     *******************************************************************************/
     // Calculate Centers
     rbf = new rbfn(_numberOfKernels, _weights, _encoding, _behaviour, _weightsSensor);
-    //rbf->setWeights(vector<double> (numberOfKernels, 0));
 }
 
 void cpg_rbfn::calculateRBFCenters(int period, std::vector<float> sig1, std::vector<float> sig2) {

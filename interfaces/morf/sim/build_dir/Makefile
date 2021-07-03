@@ -662,60 +662,6 @@ home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/cpg_rbfn.cpp.s
 	$(MAKE) -f CMakeFiles/morf_controller.dir/build.make CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/cpg_rbfn.cpp.s
 .PHONY : home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/cpg_rbfn.cpp.s
 
-home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/dualIntegralLearner.o: home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/dualIntegralLearner.cpp.o
-
-.PHONY : home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/dualIntegralLearner.o
-
-# target to build an object file
-home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/dualIntegralLearner.cpp.o:
-	$(MAKE) -f CMakeFiles/morf_controller.dir/build.make CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/dualIntegralLearner.cpp.o
-.PHONY : home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/dualIntegralLearner.cpp.o
-
-home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/dualIntegralLearner.i: home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/dualIntegralLearner.cpp.i
-
-.PHONY : home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/dualIntegralLearner.i
-
-# target to preprocess a source file
-home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/dualIntegralLearner.cpp.i:
-	$(MAKE) -f CMakeFiles/morf_controller.dir/build.make CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/dualIntegralLearner.cpp.i
-.PHONY : home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/dualIntegralLearner.cpp.i
-
-home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/dualIntegralLearner.s: home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/dualIntegralLearner.cpp.s
-
-.PHONY : home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/dualIntegralLearner.s
-
-# target to generate assembly for a file
-home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/dualIntegralLearner.cpp.s:
-	$(MAKE) -f CMakeFiles/morf_controller.dir/build.make CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/dualIntegralLearner.cpp.s
-.PHONY : home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/dualIntegralLearner.cpp.s
-
-home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/input.o: home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/input.cpp.o
-
-.PHONY : home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/input.o
-
-# target to build an object file
-home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/input.cpp.o:
-	$(MAKE) -f CMakeFiles/morf_controller.dir/build.make CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/input.cpp.o
-.PHONY : home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/input.cpp.o
-
-home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/input.i: home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/input.cpp.i
-
-.PHONY : home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/input.i
-
-# target to preprocess a source file
-home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/input.cpp.i:
-	$(MAKE) -f CMakeFiles/morf_controller.dir/build.make CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/input.cpp.i
-.PHONY : home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/input.cpp.i
-
-home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/input.s: home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/input.cpp.s
-
-.PHONY : home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/input.s
-
-# target to generate assembly for a file
-home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/input.cpp.s:
-	$(MAKE) -f CMakeFiles/morf_controller.dir/build.make CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/input.cpp.s
-.PHONY : home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/input.cpp.s
-
 home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/main_hexapod_controller.o: home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/main_hexapod_controller.cpp.o
 
 .PHONY : home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/main_hexapod_controller.o
@@ -1335,12 +1281,6 @@ help:
 	@echo "... home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/cpg_rbfn.o"
 	@echo "... home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/cpg_rbfn.i"
 	@echo "... home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/cpg_rbfn.s"
-	@echo "... home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/dualIntegralLearner.o"
-	@echo "... home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/dualIntegralLearner.i"
-	@echo "... home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/dualIntegralLearner.s"
-	@echo "... home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/input.o"
-	@echo "... home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/input.i"
-	@echo "... home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/input.s"
 	@echo "... home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/main_hexapod_controller.o"
 	@echo "... home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/main_hexapod_controller.i"
 	@echo "... home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/main_hexapod_controller.s"

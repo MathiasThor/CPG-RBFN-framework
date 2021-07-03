@@ -129,33 +129,9 @@ CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/neural_cont
 CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/modularController.cpp.o.provides.build: CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/modularController.cpp.o
 
 
-CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/dualIntegralLearner.cpp.o: CMakeFiles/morf_controller.dir/flags.make
-CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/dualIntegralLearner.cpp.o: /home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/dualIntegralLearner.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mat/workspace/CPG-RBFN-framework/interfaces/morf/sim/build_dir/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/dualIntegralLearner.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/dualIntegralLearner.cpp.o -c /home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/dualIntegralLearner.cpp
-
-CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/dualIntegralLearner.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/dualIntegralLearner.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/dualIntegralLearner.cpp > CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/dualIntegralLearner.cpp.i
-
-CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/dualIntegralLearner.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/dualIntegralLearner.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/dualIntegralLearner.cpp -o CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/dualIntegralLearner.cpp.s
-
-CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/dualIntegralLearner.cpp.o.requires:
-
-.PHONY : CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/dualIntegralLearner.cpp.o.requires
-
-CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/dualIntegralLearner.cpp.o.provides: CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/dualIntegralLearner.cpp.o.requires
-	$(MAKE) -f CMakeFiles/morf_controller.dir/build.make CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/dualIntegralLearner.cpp.o.provides.build
-.PHONY : CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/dualIntegralLearner.cpp.o.provides
-
-CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/dualIntegralLearner.cpp.o.provides.build: CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/dualIntegralLearner.cpp.o
-
-
 CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/neutronController.cpp.o: CMakeFiles/morf_controller.dir/flags.make
 CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/neutronController.cpp.o: /home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/neutronController.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mat/workspace/CPG-RBFN-framework/interfaces/morf/sim/build_dir/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/neutronController.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mat/workspace/CPG-RBFN-framework/interfaces/morf/sim/build_dir/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/neutronController.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/neutronController.cpp.o -c /home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/neutronController.cpp
 
 CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/neutronController.cpp.i: cmake_force
@@ -179,7 +155,7 @@ CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/neural_cont
 
 CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/postProcessing.cpp.o: CMakeFiles/morf_controller.dir/flags.make
 CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/postProcessing.cpp.o: /home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/postProcessing.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mat/workspace/CPG-RBFN-framework/interfaces/morf/sim/build_dir/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/postProcessing.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mat/workspace/CPG-RBFN-framework/interfaces/morf/sim/build_dir/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/postProcessing.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/postProcessing.cpp.o -c /home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/postProcessing.cpp
 
 CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/postProcessing.cpp.i: cmake_force
@@ -203,7 +179,7 @@ CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/neural_cont
 
 CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/cpg_rbfn.cpp.o: CMakeFiles/morf_controller.dir/flags.make
 CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/cpg_rbfn.cpp.o: /home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/cpg_rbfn.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mat/workspace/CPG-RBFN-framework/interfaces/morf/sim/build_dir/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/cpg_rbfn.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mat/workspace/CPG-RBFN-framework/interfaces/morf/sim/build_dir/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/cpg_rbfn.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/cpg_rbfn.cpp.o -c /home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/cpg_rbfn.cpp
 
 CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/cpg_rbfn.cpp.i: cmake_force
@@ -227,7 +203,7 @@ CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/neural_cont
 
 CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/rbfn.cpp.o: CMakeFiles/morf_controller.dir/flags.make
 CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/rbfn.cpp.o: /home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/rbfn.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mat/workspace/CPG-RBFN-framework/interfaces/morf/sim/build_dir/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/rbfn.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mat/workspace/CPG-RBFN-framework/interfaces/morf/sim/build_dir/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/rbfn.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/rbfn.cpp.o -c /home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/rbfn.cpp
 
 CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/rbfn.cpp.i: cmake_force
@@ -249,33 +225,9 @@ CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/neural_cont
 CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/rbfn.cpp.o.provides.build: CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/rbfn.cpp.o
 
 
-CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/input.cpp.o: CMakeFiles/morf_controller.dir/flags.make
-CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/input.cpp.o: /home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/input.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mat/workspace/CPG-RBFN-framework/interfaces/morf/sim/build_dir/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/input.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/input.cpp.o -c /home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/input.cpp
-
-CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/input.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/input.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/input.cpp > CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/input.cpp.i
-
-CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/input.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/input.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/input.cpp -o CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/input.cpp.s
-
-CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/input.cpp.o.requires:
-
-.PHONY : CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/input.cpp.o.requires
-
-CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/input.cpp.o.provides: CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/input.cpp.o.requires
-	$(MAKE) -f CMakeFiles/morf_controller.dir/build.make CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/input.cpp.o.provides.build
-.PHONY : CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/input.cpp.o.provides
-
-CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/input.cpp.o.provides.build: CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/input.cpp.o
-
-
 CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/utils/ann-framework/ann.cpp.o: CMakeFiles/morf_controller.dir/flags.make
 CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/utils/ann-framework/ann.cpp.o: /home/mat/workspace/CPG-RBFN-framework/utils/ann-framework/ann.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mat/workspace/CPG-RBFN-framework/interfaces/morf/sim/build_dir/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/utils/ann-framework/ann.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mat/workspace/CPG-RBFN-framework/interfaces/morf/sim/build_dir/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/utils/ann-framework/ann.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/utils/ann-framework/ann.cpp.o -c /home/mat/workspace/CPG-RBFN-framework/utils/ann-framework/ann.cpp
 
 CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/utils/ann-framework/ann.cpp.i: cmake_force
@@ -299,7 +251,7 @@ CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/utils/ann-f
 
 CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/utils/ann-framework/neuron.cpp.o: CMakeFiles/morf_controller.dir/flags.make
 CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/utils/ann-framework/neuron.cpp.o: /home/mat/workspace/CPG-RBFN-framework/utils/ann-framework/neuron.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mat/workspace/CPG-RBFN-framework/interfaces/morf/sim/build_dir/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/utils/ann-framework/neuron.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mat/workspace/CPG-RBFN-framework/interfaces/morf/sim/build_dir/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/utils/ann-framework/neuron.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/utils/ann-framework/neuron.cpp.o -c /home/mat/workspace/CPG-RBFN-framework/utils/ann-framework/neuron.cpp
 
 CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/utils/ann-framework/neuron.cpp.i: cmake_force
@@ -323,7 +275,7 @@ CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/utils/ann-f
 
 CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/utils/ann-framework/synapse.cpp.o: CMakeFiles/morf_controller.dir/flags.make
 CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/utils/ann-framework/synapse.cpp.o: /home/mat/workspace/CPG-RBFN-framework/utils/ann-framework/synapse.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mat/workspace/CPG-RBFN-framework/interfaces/morf/sim/build_dir/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/utils/ann-framework/synapse.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mat/workspace/CPG-RBFN-framework/interfaces/morf/sim/build_dir/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/utils/ann-framework/synapse.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/utils/ann-framework/synapse.cpp.o -c /home/mat/workspace/CPG-RBFN-framework/utils/ann-framework/synapse.cpp
 
 CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/utils/ann-framework/synapse.cpp.i: cmake_force
@@ -347,7 +299,7 @@ CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/utils/ann-f
 
 CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/utils/ann-library/psn.cpp.o: CMakeFiles/morf_controller.dir/flags.make
 CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/utils/ann-library/psn.cpp.o: /home/mat/workspace/CPG-RBFN-framework/utils/ann-library/psn.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mat/workspace/CPG-RBFN-framework/interfaces/morf/sim/build_dir/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/utils/ann-library/psn.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mat/workspace/CPG-RBFN-framework/interfaces/morf/sim/build_dir/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/utils/ann-library/psn.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/utils/ann-library/psn.cpp.o -c /home/mat/workspace/CPG-RBFN-framework/utils/ann-library/psn.cpp
 
 CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/utils/ann-library/psn.cpp.i: cmake_force
@@ -371,7 +323,7 @@ CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/utils/ann-l
 
 CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/utils/ann-library/vrn.cpp.o: CMakeFiles/morf_controller.dir/flags.make
 CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/utils/ann-library/vrn.cpp.o: /home/mat/workspace/CPG-RBFN-framework/utils/ann-library/vrn.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mat/workspace/CPG-RBFN-framework/interfaces/morf/sim/build_dir/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/utils/ann-library/vrn.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mat/workspace/CPG-RBFN-framework/interfaces/morf/sim/build_dir/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/utils/ann-library/vrn.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/utils/ann-library/vrn.cpp.o -c /home/mat/workspace/CPG-RBFN-framework/utils/ann-library/vrn.cpp
 
 CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/utils/ann-library/vrn.cpp.i: cmake_force
@@ -395,7 +347,7 @@ CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/utils/ann-l
 
 CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/utils/ann-library/pmn.cpp.o: CMakeFiles/morf_controller.dir/flags.make
 CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/utils/ann-library/pmn.cpp.o: /home/mat/workspace/CPG-RBFN-framework/utils/ann-library/pmn.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mat/workspace/CPG-RBFN-framework/interfaces/morf/sim/build_dir/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/utils/ann-library/pmn.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mat/workspace/CPG-RBFN-framework/interfaces/morf/sim/build_dir/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/utils/ann-library/pmn.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/utils/ann-library/pmn.cpp.o -c /home/mat/workspace/CPG-RBFN-framework/utils/ann-library/pmn.cpp
 
 CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/utils/ann-library/pmn.cpp.i: cmake_force
@@ -419,7 +371,7 @@ CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/utils/ann-l
 
 CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/utils/ann-library/so2cpg.cpp.o: CMakeFiles/morf_controller.dir/flags.make
 CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/utils/ann-library/so2cpg.cpp.o: /home/mat/workspace/CPG-RBFN-framework/utils/ann-library/so2cpg.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mat/workspace/CPG-RBFN-framework/interfaces/morf/sim/build_dir/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/utils/ann-library/so2cpg.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mat/workspace/CPG-RBFN-framework/interfaces/morf/sim/build_dir/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/utils/ann-library/so2cpg.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/utils/ann-library/so2cpg.cpp.o -c /home/mat/workspace/CPG-RBFN-framework/utils/ann-library/so2cpg.cpp
 
 CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/utils/ann-library/so2cpg.cpp.i: cmake_force
@@ -443,7 +395,7 @@ CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/utils/ann-l
 
 CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/utils/ann-library/adaptiveso2cpgsynplas.cpp.o: CMakeFiles/morf_controller.dir/flags.make
 CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/utils/ann-library/adaptiveso2cpgsynplas.cpp.o: /home/mat/workspace/CPG-RBFN-framework/utils/ann-library/adaptiveso2cpgsynplas.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mat/workspace/CPG-RBFN-framework/interfaces/morf/sim/build_dir/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/utils/ann-library/adaptiveso2cpgsynplas.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mat/workspace/CPG-RBFN-framework/interfaces/morf/sim/build_dir/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/utils/ann-library/adaptiveso2cpgsynplas.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/utils/ann-library/adaptiveso2cpgsynplas.cpp.o -c /home/mat/workspace/CPG-RBFN-framework/utils/ann-library/adaptiveso2cpgsynplas.cpp
 
 CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/utils/ann-library/adaptiveso2cpgsynplas.cpp.i: cmake_force
@@ -467,7 +419,7 @@ CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/utils/ann-l
 
 CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/utils/ann-library/extendedso2cpg.cpp.o: CMakeFiles/morf_controller.dir/flags.make
 CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/utils/ann-library/extendedso2cpg.cpp.o: /home/mat/workspace/CPG-RBFN-framework/utils/ann-library/extendedso2cpg.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mat/workspace/CPG-RBFN-framework/interfaces/morf/sim/build_dir/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/utils/ann-library/extendedso2cpg.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mat/workspace/CPG-RBFN-framework/interfaces/morf/sim/build_dir/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/utils/ann-library/extendedso2cpg.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/utils/ann-library/extendedso2cpg.cpp.o -c /home/mat/workspace/CPG-RBFN-framework/utils/ann-library/extendedso2cpg.cpp
 
 CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/utils/ann-library/extendedso2cpg.cpp.i: cmake_force
@@ -491,7 +443,7 @@ CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/utils/ann-l
 
 CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/utils/ann-library/pcpg.cpp.o: CMakeFiles/morf_controller.dir/flags.make
 CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/utils/ann-library/pcpg.cpp.o: /home/mat/workspace/CPG-RBFN-framework/utils/ann-library/pcpg.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mat/workspace/CPG-RBFN-framework/interfaces/morf/sim/build_dir/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/utils/ann-library/pcpg.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mat/workspace/CPG-RBFN-framework/interfaces/morf/sim/build_dir/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/utils/ann-library/pcpg.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/utils/ann-library/pcpg.cpp.o -c /home/mat/workspace/CPG-RBFN-framework/utils/ann-library/pcpg.cpp
 
 CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/utils/ann-library/pcpg.cpp.i: cmake_force
@@ -515,7 +467,7 @@ CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/utils/ann-l
 
 CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/utils/delayline.cpp.o: CMakeFiles/morf_controller.dir/flags.make
 CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/utils/delayline.cpp.o: /home/mat/workspace/CPG-RBFN-framework/utils/delayline.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mat/workspace/CPG-RBFN-framework/interfaces/morf/sim/build_dir/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/utils/delayline.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mat/workspace/CPG-RBFN-framework/interfaces/morf/sim/build_dir/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/utils/delayline.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/utils/delayline.cpp.o -c /home/mat/workspace/CPG-RBFN-framework/utils/delayline.cpp
 
 CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/utils/delayline.cpp.i: cmake_force
@@ -539,7 +491,7 @@ CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/utils/delay
 
 CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/utils/interpolator2d.cpp.o: CMakeFiles/morf_controller.dir/flags.make
 CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/utils/interpolator2d.cpp.o: /home/mat/workspace/CPG-RBFN-framework/utils/interpolator2d.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mat/workspace/CPG-RBFN-framework/interfaces/morf/sim/build_dir/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/utils/interpolator2d.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mat/workspace/CPG-RBFN-framework/interfaces/morf/sim/build_dir/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/utils/interpolator2d.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/utils/interpolator2d.cpp.o -c /home/mat/workspace/CPG-RBFN-framework/utils/interpolator2d.cpp
 
 CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/utils/interpolator2d.cpp.i: cmake_force
@@ -563,7 +515,7 @@ CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/utils/inter
 
 CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/utils/vrepRemoteAPI/extApiPlatform.c.o: CMakeFiles/morf_controller.dir/flags.make
 CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/utils/vrepRemoteAPI/extApiPlatform.c.o: /home/mat/workspace/CPG-RBFN-framework/utils/vrepRemoteAPI/extApiPlatform.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mat/workspace/CPG-RBFN-framework/interfaces/morf/sim/build_dir/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building C object CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/utils/vrepRemoteAPI/extApiPlatform.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mat/workspace/CPG-RBFN-framework/interfaces/morf/sim/build_dir/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building C object CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/utils/vrepRemoteAPI/extApiPlatform.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/utils/vrepRemoteAPI/extApiPlatform.c.o   -c /home/mat/workspace/CPG-RBFN-framework/utils/vrepRemoteAPI/extApiPlatform.c
 
 CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/utils/vrepRemoteAPI/extApiPlatform.c.i: cmake_force
@@ -587,7 +539,7 @@ CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/utils/vrepR
 
 CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/utils/vrepRemoteAPI/extApi.c.o: CMakeFiles/morf_controller.dir/flags.make
 CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/utils/vrepRemoteAPI/extApi.c.o: /home/mat/workspace/CPG-RBFN-framework/utils/vrepRemoteAPI/extApi.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mat/workspace/CPG-RBFN-framework/interfaces/morf/sim/build_dir/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building C object CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/utils/vrepRemoteAPI/extApi.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mat/workspace/CPG-RBFN-framework/interfaces/morf/sim/build_dir/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building C object CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/utils/vrepRemoteAPI/extApi.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/utils/vrepRemoteAPI/extApi.c.o   -c /home/mat/workspace/CPG-RBFN-framework/utils/vrepRemoteAPI/extApi.c
 
 CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/utils/vrepRemoteAPI/extApi.c.i: cmake_force
@@ -611,7 +563,7 @@ CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/utils/vrepR
 
 CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/utils/environment.cpp.o: CMakeFiles/morf_controller.dir/flags.make
 CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/utils/environment.cpp.o: /home/mat/workspace/CPG-RBFN-framework/utils/environment.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mat/workspace/CPG-RBFN-framework/interfaces/morf/sim/build_dir/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building CXX object CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/utils/environment.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mat/workspace/CPG-RBFN-framework/interfaces/morf/sim/build_dir/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/utils/environment.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/utils/environment.cpp.o -c /home/mat/workspace/CPG-RBFN-framework/utils/environment.cpp
 
 CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/utils/environment.cpp.i: cmake_force
@@ -638,12 +590,10 @@ morf_controller_OBJECTS = \
 "CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/main_hexapod_controller.cpp.o" \
 "CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/simRosClass.cpp.o" \
 "CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/modularController.cpp.o" \
-"CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/dualIntegralLearner.cpp.o" \
 "CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/neutronController.cpp.o" \
 "CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/postProcessing.cpp.o" \
 "CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/cpg_rbfn.cpp.o" \
 "CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/rbfn.cpp.o" \
-"CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/input.cpp.o" \
 "CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/utils/ann-framework/ann.cpp.o" \
 "CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/utils/ann-framework/neuron.cpp.o" \
 "CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/utils/ann-framework/synapse.cpp.o" \
@@ -666,12 +616,10 @@ morf_controller_EXTERNAL_OBJECTS =
 bin/morf_controller: CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/main_hexapod_controller.cpp.o
 bin/morf_controller: CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/simRosClass.cpp.o
 bin/morf_controller: CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/modularController.cpp.o
-bin/morf_controller: CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/dualIntegralLearner.cpp.o
 bin/morf_controller: CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/neutronController.cpp.o
 bin/morf_controller: CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/postProcessing.cpp.o
 bin/morf_controller: CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/cpg_rbfn.cpp.o
 bin/morf_controller: CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/rbfn.cpp.o
-bin/morf_controller: CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/input.cpp.o
 bin/morf_controller: CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/utils/ann-framework/ann.cpp.o
 bin/morf_controller: CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/utils/ann-framework/neuron.cpp.o
 bin/morf_controller: CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/utils/ann-framework/synapse.cpp.o
@@ -709,7 +657,7 @@ bin/morf_controller: /usr/lib/x86_64-linux-gnu/libconsole_bridge.so.0.4
 bin/morf_controller: /usr/lib/x86_64-linux-gnu/libgsl.so
 bin/morf_controller: /usr/lib/x86_64-linux-gnu/libgslcblas.so
 bin/morf_controller: CMakeFiles/morf_controller.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/mat/workspace/CPG-RBFN-framework/interfaces/morf/sim/build_dir/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Linking CXX executable bin/morf_controller"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/mat/workspace/CPG-RBFN-framework/interfaces/morf/sim/build_dir/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Linking CXX executable bin/morf_controller"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/morf_controller.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -720,12 +668,10 @@ CMakeFiles/morf_controller.dir/build: bin/morf_controller
 CMakeFiles/morf_controller.dir/requires: CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/main_hexapod_controller.cpp.o.requires
 CMakeFiles/morf_controller.dir/requires: CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/simRosClass.cpp.o.requires
 CMakeFiles/morf_controller.dir/requires: CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/modularController.cpp.o.requires
-CMakeFiles/morf_controller.dir/requires: CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/dualIntegralLearner.cpp.o.requires
 CMakeFiles/morf_controller.dir/requires: CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/neutronController.cpp.o.requires
 CMakeFiles/morf_controller.dir/requires: CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/postProcessing.cpp.o.requires
 CMakeFiles/morf_controller.dir/requires: CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/cpg_rbfn.cpp.o.requires
 CMakeFiles/morf_controller.dir/requires: CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/rbfn.cpp.o.requires
-CMakeFiles/morf_controller.dir/requires: CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/input.cpp.o.requires
 CMakeFiles/morf_controller.dir/requires: CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/utils/ann-framework/ann.cpp.o.requires
 CMakeFiles/morf_controller.dir/requires: CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/utils/ann-framework/neuron.cpp.o.requires
 CMakeFiles/morf_controller.dir/requires: CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/utils/ann-framework/synapse.cpp.o.requires

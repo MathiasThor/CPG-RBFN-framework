@@ -23,12 +23,6 @@ CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/neural_cont
 CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/cpg_rbfn.cpp.o: /home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/neutronMotorDefinition.h
 CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/cpg_rbfn.cpp.o: /home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/rbfn.h
 
-CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/dualIntegralLearner.cpp.o: /home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/dualIntegralLearner.cpp
-CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/dualIntegralLearner.cpp.o: /home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/dualIntegralLearner.h
-
-CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/input.cpp.o: /home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/input.cpp
-CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/input.cpp.o: /home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/input.h
-
 CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/main_hexapod_controller.cpp.o: ../../../../utils/ann-framework/ann.h
 CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/main_hexapod_controller.cpp.o: ../../../../utils/ann-framework/neuron.h
 CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/main_hexapod_controller.cpp.o: ../../../../utils/ann-framework/transferfunction.h
@@ -42,8 +36,6 @@ CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/neural_cont
 CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/main_hexapod_controller.cpp.o: ../../../../utils/vrepRemoteAPI/extApiPlatform.h
 CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/main_hexapod_controller.cpp.o: ../../../../utils/vrepRemoteAPI/simConst.h
 CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/main_hexapod_controller.cpp.o: /home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/cpg_rbfn.h
-CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/main_hexapod_controller.cpp.o: /home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/dualIntegralLearner.h
-CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/main_hexapod_controller.cpp.o: /home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/input.h
 CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/main_hexapod_controller.cpp.o: /home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/main_hexapod_controller.cpp
 CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/main_hexapod_controller.cpp.o: /home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/modularController.h
 CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/main_hexapod_controller.cpp.o: /home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/neutronController.h
@@ -180,8 +172,6 @@ CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/neural_cont
 CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/neutronController.cpp.o: ../../../../utils/vrepRemoteAPI/extApiPlatform.h
 CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/neutronController.cpp.o: ../../../../utils/vrepRemoteAPI/simConst.h
 CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/neutronController.cpp.o: /home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/cpg_rbfn.h
-CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/neutronController.cpp.o: /home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/dualIntegralLearner.h
-CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/neutronController.cpp.o: /home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/input.h
 CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/neutronController.cpp.o: /home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/modularController.h
 CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/neutronController.cpp.o: /home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/neutronController.cpp
 CMakeFiles/morf_controller.dir/home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/neutronController.cpp.o: /home/mat/workspace/CPG-RBFN-framework/neural_controllers/morf/sim/neutronController.h

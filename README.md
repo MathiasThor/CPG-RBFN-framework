@@ -25,7 +25,7 @@ This code has been tested with the following hardware and software:
 
 ## Code overview
 The following explains the content of the six main directories:
-- **data**: Contains data from running the simulation and PI^BB algorithm (both results _(in the storage directory)_ and ongoing _jobs_). Additionally, it contains the learned weight sets (as `.json` files) for the base controller and eight behavior-specific modules presented in the paper.
+- **data**: Contains data from running the simulation and PI^BB algorithm _(both data used in the result section (in the storage directory) as well as job files used during learning)_. Additionally, it contains the learned weight sets (as `.json` files) for the base controller and eight behavior-specific modules presented in the paper.
 - **interfaces**:
 Contains `.lua` files for interfacing with and setting up the simulation. It also contains the `build_dir` for `cmake`.
 - **machine_learning**:
@@ -33,7 +33,7 @@ Contains all the code necessary for the PI^BB learning algorithm as well as bash
 - **neural_controllers**:
 Contains all the code nesseary for the locomotion controller (i.e., the CPG-RBF network).
 - **simulations**:
-Contains coppeliaSim simulation environments (including the MORF hexapod robot)
+Contains coppeliaSim simulation environments (including the MORF hexapod robot).
 - **utils**:
 Contains additional utilities needed by the controller implementation and simulation interface.
 
@@ -41,19 +41,19 @@ Contains additional utilities needed by the controller implementation and simula
 _Install time will take 15-30 minutes._
 
 First, we need to set up the simulation ([coppeliaSim](https://www.coppeliarobotics.com/)):
-1. Download coppeliaSim EDU [from the downloads page](https://www.coppeliarobotics.com/previousVersions) _(tested on V4.1.0 / Ubuntu 18.04)_
-2. Clone this repository to your local machine _(optional: set `$FRAMEWORK_PATH` to the path for the directory containing the cloned repository)_
+1. Download coppeliaSim EDU [from the downloads page](https://www.coppeliarobotics.com/previousVersions) _(tested on V4.1.0 / Ubuntu 18.04)_.
+2. Clone this repository to your local machine _(optional: set `$FRAMEWORK_PATH` to the path for the directory containing the cloned repository)_.
 ```bash
 git clone https://github.com/MathiasThor/CPG-RBFN-framework.git
 ```
-3. Extract the downloaded .zip file into a directory as many times as you need "simulation workers" _(i.e., the number of simulations running in parallel. We used four workers)_
-4. Rename the extracted coppeliaSim directories as: `VREP1`, `VREP2`, `VREP3`, `VREP4`, etc. _(optional: set `$VREP_WORKER_PATH` to the path for the directory containing the workers)_
-5. In `remoteApiConnections.txt` in each of the `VREP#` directories, change `portIndex1_port` so that `VREP1` has `19997`, `VREP2` has `19996`, `VREP3` has `19995`, `VREP4` has `19994`, and `VREP#` has `19997-#`
-6. Copy `libv_repExtRosInterface.so` into each of the worker directories from the utils directory
+3. Extract the downloaded .zip file into a directory as many times as you need "simulation workers" _(i.e., the number of simulations running in parallel. We used four workers in all our experiments)_.
+4. Rename the extracted coppeliaSim directories as: `VREP1`, `VREP2`, `VREP3`, `VREP4`, etc. _(optional: set `$VREP_WORKER_PATH` to the path for the directory containing the workers)_.
+5. In `remoteApiConnections.txt` in each of the `VREP#` directories, change `portIndex1_port` so that `VREP1` has `19997`, `VREP2` has `19996`, `VREP3` has `19995`, `VREP4` has `19994`, and `VREP#` has `19997-#`.
+6. Copy `libv_repExtRosInterface.so` into each of the worker directories from the utils directory.
 ```bash
 cp $FRAMEWORK_PATH/CPG-RBFN-framework/utils/libv_repExtRosInterface.so $VREP_WORKER_PATH/VREP1/
 ```
-7. Install the required python libraries _(matplotlib, jupyter, drawnow, and numpy)_:
+7. Install the required python libraries _(matplotlib, jupyter, drawnow, and numpy)_.
 ```bash
 cd $FRAMEWORK_PATH/CPG-RBFN-framework/
 ```
@@ -67,18 +67,18 @@ pip3 install -r requirements.txt
 The neural controllers use ROS to communicate with coppeliaSim. Therefore, make sure that `ros-xxx-desktop-full` _(tested on melodic)_ is installed ([ROS install guide](http://wiki.ros.org/ROS/Installation))
 
 ## Run the controller
-1. Start an ROS core
+1. Start an ROS core.
 ```bash
 roscore
 ```
-3. Start the simulation workers. In this example, we will use a single worker.
+3. Start the simulation workers. In this example, we will only need a single worker.
 ```bash
 cd $VREP_WORKER_PATH/VREP1/
 ```
 ```bash
 ./coppeliaSim.sh $FRAMEWORK_PATH/CPG-RBFN-framework/simulations/Advanced_env.ttt
 ```
-3. Build the locomotion controller
+3. Build the locomotion controller.
 ```bash
 cd $FRAMEWORK_PATH/CPG-RBFN-framework/interfaces/morf/sim/build_dir
 ```
@@ -91,7 +91,7 @@ cmake .
 ```bash
 make
 ```
-4. Run with the learned weights presented in the paper for 400s
+4. Run with the learned weights presented in the paper for 400s.
 ```bash
 cd $FRAMEWORK_PATH/CPG-RBFN-framework/machine_learning
 ```
@@ -102,8 +102,8 @@ cd $FRAMEWORK_PATH/CPG-RBFN-framework/machine_learning
 6. It is expected that MORF will be able to traverse all the waypoints in the advanced environment.
 
 ## Run learning algorithm
-The following will show how to start learning the base controller
-1. Start a ROS core
+The following will show how to start learning the base controller.
+1. Start a ROS core.
 ```bash
 roscore
 ```
@@ -132,7 +132,7 @@ cd $VREP_WORKER_PATH/VREP4/
 ```bash
 ./coppeliaSim.sh $FRAMEWORK_PATH/CPG-RBFN-framework/simulations/MORF_base_behavior.ttt
 ```
-3. Build the locomotion controller
+3. Build the locomotion controller.
 ```bash
 cd $FRAMEWORK_PATH/CPG-RBFN-framework/interfaces/morf/sim/build_dir
 ```
@@ -145,12 +145,12 @@ cmake .
 ```bash
 make
 ```
-4. In `$FRAMEWORK_PATH/CPG-RBFN-framework/machine_learning/RL_master.py` set the following: the number of workers to 4
+4. In `$FRAMEWORK_PATH/CPG-RBFN-framework/machine_learning/RL_master.py` set the following.
 ```python
 workers = 4
 behaviour_selector = "walk"
 ```
-7. Then run
+7. Start the learning algorithm.
 ```bash
 ./RL_repeater.sh -t 1 -e indirect -r MORF
 ```

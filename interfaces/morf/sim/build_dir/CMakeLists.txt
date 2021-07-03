@@ -36,12 +36,10 @@ add_executable(
         ${CONTROLLER}/sim/simRosClass
         ${CONTROLLER}/sim/modularController
         ${CONTROLLER}/sim/neutronMotorDefinition.h
-        ${CONTROLLER}/sim/dualIntegralLearner
         ${CONTROLLER}/sim/neutronController
         ${CONTROLLER}/sim/postProcessing
         ${CONTROLLER}/sim/cpg_rbfn
         ${CONTROLLER}/sim/rbfn
-	${CONTROLLER}/sim/input
         ${UTILS}/ann-framework/ann
         ${UTILS}/ann-framework/neuron
         ${UTILS}/ann-framework/synapse

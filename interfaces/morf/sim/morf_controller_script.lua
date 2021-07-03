@@ -1,18 +1,13 @@
---[[
-Callback function for receiving motor positions over ROS
---]]
-
--- Constants
+-- Init
 math.randomseed(os.time())
 math.random(); math.random(); math.random()
-local utils = dofile "/home/mat/workspace/gorobots/projects/C-CPGRBFN/CPGRBFN_feedback_v3/interfaces/morf/sim/utils.lua" -- TODO Fix path
+current_dir = string.gsub(debug.getinfo(1).source, "^@(.+/)[^/]+$", "%1")
+local utils = dofile(current_dir .. "utils.lua")
 
 function ballTracker( )
     posMorf = sim.getObjectPosition(frontMorf, -1)
     posNxtBall = sim.getObjectPosition(ball, -1)
     distanceToNxtBall = math.sqrt(math.pow((posNxtBall[1] - posMorf[1]),2) + math.pow((posNxtBall[2] - posMorf[2]),2))
-
-    --print(distanceToNxtBall)
 
     if nxtBall == 0 then
         result=sim.setShapeColor(ball, nil, 0, {0.30, 0.94, 0.00})
@@ -22,7 +17,6 @@ function ballTracker( )
         -- nxtBall change color to red:
         result=sim.setShapeColor(ball, nil, 0, {1.00, 0.00, 0.00})
 
-        --sim.removeObject(ball)
         ball = sim.getObjectHandle("ball"..nxtBall)
         nxtBall = nxtBall + 1
 
@@ -53,22 +47,17 @@ function ballTracker( )
               behavior_signal[3] = 0
               print("High behavior activated")
           elseif nxtBall == 5+offset
-              then -- NO SKILL
+              then
               behavior_signal[1] = 0
           elseif nxtBall == 6+offset
-              then -- NO SKILL
+              then
               behavior_signal[1] = 0
           elseif nxtBall == 7+offset
-              then -- WALK NO MED
+              then -- NO SKILL
           elseif nxtBall == 8+offset
-              then -- WALK NO MED
-  --             behavior_signal[6] = 1
-  --             kill_middle_legs = true
-  --             print("WalkNoMed behavior activated")
+              then -- NO SKILL
           elseif nxtBall == 9+offset
               then -- NO SKILL
-  --             behavior_signal[6] = 0
-  --             kill_middle_legs = false
           elseif nxtBall == 10+offset
               then -- PIPE
               behavior_signal[4] = 1
@@ -90,29 +79,11 @@ function ballTracker( )
           end
       end
     end
-
-    -- ball1 = narrow
-    -- ball2 = wall
-    -- ball3 = narrow
-    -- ball4 = no skill
-    -- ball5 = high
-    -- ball6 = no skill
-    -- ball7 = high
-    -- ball8 = pipe
-    -- ball9 = high
-    -- ball10 = no skill
-    -- ball11 = low
-    -- ball12 = no skill
 end
 
 function setMotorPositions_cb(msg)
     data = msg.data
 
-    if jointPos_noise then
-        data = utils.noise(data, "gaussian", {0, 0.0001})
-    end
-
--- WHAT WE USE:
     sim.setJointTargetPosition(TC_motor0, jointLimiter(data[2], -110, 22) )
     sim.setJointTargetPosition(CF_motor0, jointLimiter(data[4], -60, 130) )
     sim.setJointTargetPosition(FT_motor0, jointLimiter(data[6], -175, 0) )
@@ -138,9 +109,7 @@ function setMotorPositions_cb(msg)
     sim.setJointTargetPosition(FT_motor5, jointLimiter(data[36], -175, 0) )
 end
 
---[[
-Callback function for displaying data on a graph
---]]
+-- Callback function for displaying data on a graph
 function graph_cb(msg)
     data = msg.data
     if simGetSimulationTime() > 1 then
@@ -169,22 +138,10 @@ function feedback_floor (gap_depth, gap_width, gap_distance)
 
 end
 
--- ROLL --
-function feedback_obstacle_roll (obs_distance)
-    if obs_distance == 0 then
-        --sim.setObjectPosition(obstacle, -1,  {1.4901161193848e-08, -0.5955057144165, -0.03919742628932})
-        --print(sim.getObjectPosition(obstacle,-1))
-    else
-        sim.setObjectPosition(tilt_plate,-1,  {1.4901161193848e-08, -0.5955057144165, -0.03919742628932-obs_distance})
-    end
-
-end
-
 -- TILT --
 function feedback_obstacle_tilt (obs_distance)
     if obs_distance == 0 then
         sim.setObjectPosition(tilt_plate, -1,  {-0.33800002932549, -0.56700003147125, -0.026})
-        --print(sim.getObjectPosition(obstacle,-1))
     else
         sim.setObjectPosition(tilt_plate, -1,  {-0.33800002932549, -0.56700003147125, -0.026-obs_distance})
     end
@@ -194,11 +151,8 @@ end
 -- OBSTACLE --
 function feedback_obstacle_obs (obs_distance)
     if obs_distance == 0 then
-        --sim.setObjectPosition(obstacle, -1,  {0.25700005888939, -0.31699994206429, -0.024999992921948})
         print(sim.getObjectPosition(front_plate,-1))
     else
-        --sim.setObjectPosition(front_plate,-1,  {0.032, -0.792, -0.055-obs_distance}) -- for stair
-        --sim.setObjectPosition(front_plate,-1,  {0.032, -0.792, -0.04}) -- for stair
         sim.setObjectPosition(front_plate,-1,  {0.25700005888939, -0.31699994206429, -0.0275+obs_distance})
     end
 end
@@ -206,12 +160,9 @@ end
 -- DIRECTION --
 function feedback_obstacle_dir (obs_distance)
     if obs_distance == 0 then
-        --sim.setObjectPosition(obstacle, -1,  {-1.4970, -0.31699994206429, -1.4560})
-        --print(sim.getObjectPosition(obstacle,-1))
+
     else
-        --sim.setObjectPosition(ball,-1,  {0.0-1-obs_distance, -2.25, -0.008}) -- 45 Degree = 1.4970 in x
         sim.setObjectPosition(ball,-1,  {-1.4970, -1, -0.008}) -- 45 Degree = 1.4970 in x
-        --sim.setObjectPosition(ball,-1,  {-0.75, -1, -0.008}) -- 45 Degree = 1.4970 in x
 
     end
 end
@@ -232,14 +183,6 @@ if (sim_call_type==sim.childscriptcall_initialization) then
     end
 
     jointLimit      = true
-    jointPos_noise  = false
-    com_noise       = false
-    mass_noise      = false
-    length_noise    = false
-
-    if(behaviour == "obstacle" or behaviour == "multiple" or behaviour == "tilt") then
-        com_noise = false
-    end
 
     maxNxtBall      = 17
     terminate       = 0
@@ -302,38 +245,22 @@ if (sim_call_type==sim.childscriptcall_initialization) then
         print("Gap dist.: ".. gap_distance)
 
         feedback_floor(gap_depth,gap_width,gap_distance)
-        --feedback_floor(0,0,0)
         feedback_floor(0.05,0.1,0.03)
     end
 
     -- TILT
     if(behaviour == "tilt") then
         tilt_plate = sim.getObjectHandle("tilt_plate")
---         obs_distance = (math.random() + math.random(0, 1)) * 0.01
---         print("Obstacle dist.: ".. obs_distance)
---         feedback_obstacle_tilt(obs_distance)
-    end
-
-    -- ROLL
-    if(behaviour == "roll") then
-        tilt_plate = sim.getObjectHandle("tilt_plate")
-        obs_distance = (math.random() + math.random(0, 2)) * 0.01
-        print("Obstacle dist.: ".. obs_distance)
-        feedback_obstacle_roll(obs_distance)
     end
 
     -- Direction
     if(behaviour == "direction") then
         ball = sim.getObjectHandle("ball")
-        --obs_distance = (math.random() + math.random(0, 1.15)-0.5)
-        --print("Obstacle dist.: ".. obs_distance)
-        --feedback_obstacle_dir(obs_distance)
     end
 
     if(behaviour == "multiple") then
         ball = sim.getObjectHandle("ball")
     end
-
 
     -- Create all handles
     robotHandle=sim.getObjectAssociatedWithScript(sim.handle_self)
@@ -411,43 +338,6 @@ if (sim_call_type==sim.childscriptcall_initialization) then
     sensor          =sim.getObjectHandle('sensor')
 
     previousTime=0
-
-    --
-    -- Noisy mass
-    --
-    if mass_noise then
-        mass = sim.getShapeMass(morfHexapod)
-        sim.setShapeMass(morfHexapod, utils.noise(mass, "gaussian", {0, 0.5}))
-    end
-
-    --
-    -- Noisy Center of Mass
-    --
-    if com_noise then
-        COM_attach      =sim.getObjectHandle('COM_attach')
-        COM_changer     =sim.getObjectHandle('COM_changer')
-        COM_position        = sim.getObjectPosition(COM_attach,morfHexapod)
-        new_COM_position    = COM_position
-        new_COM_position[3] = utils.noise(new_COM_position[3], "gaussian", {0, 0.01})
-        new_COM_position[2] = utils.noise(new_COM_position[2], "gaussian", {0, 0.001})
-        new_COM_position[1] = utils.noise(new_COM_position[1], "gaussian", {0, 0.001})
-        sim.setObjectPosition(COM_attach, morfHexapod, new_COM_position)
-    end
-
-    -- Noisy size
-    if length_noise then
-        variance = 0.0000035
-        leg_length_noise =  utils.gaussian(0, variance)
-
-        if(leg_length_noise > 0) then
-            leg_length_noise = 0
-        end
-
-        print("NOISE IS: " .. leg_length_noise)
-        for i = 1, table.getn(legLengthHandles), 1 do
-            sim.setJointPosition(legLengthHandles[i], leg_length_noise)
-        end
-    end
 
     if(behaviour == "direction" or behaviour == "multiple") then
         walking_direction = utils.calculate_walking_dir(ball, IMU, old_theta)
@@ -665,7 +555,6 @@ if (sim_call_type==sim.childscriptcall_sensing) then
     mean_pan    = utils.absmean(mean_pan, objectOrientation[3]-offset_pan, update_count)
 
     objectOrientationForRobot = sim.getObjectOrientation(morfHexapod,robot_rel)
---     print("TILT: " .. math.abs(objectOrientationForRobot[3]))
 
     -- BBox Means
     bboxDim       = getModelBoundingBoxSize(morfHexapod)
@@ -681,13 +570,13 @@ if (sim_call_type==sim.childscriptcall_sensing) then
     table.insert(height_arr, objectPosition[3])
     table.insert(tilt_arr, objectOrientation[2])
 
-    -- Distance between legs
+    -- Distance between legs (not used)
     max_detect_interleg     = 0.03
     max_detect_intraleg     = 0.005
     max_detect_bodyfloor    = 0.03
     collisionState = {max_detect_interleg,max_detect_interleg,max_detect_interleg,max_detect_interleg,max_detect_intraleg,max_detect_intraleg,max_detect_intraleg,max_detect_intraleg,max_detect_intraleg,max_detect_intraleg,max_detect_bodyfloor}
 
-    -- inter leg.
+    -- inter leg (not used)
     result, distance_leg01=sim.handleDistance(distHandle_leg01) -- m
     if distance_leg01 == nil then collisionState[1]=max_detect_interleg else collisionState[1] = distance_leg01 end
     result, distance_leg12=sim.handleDistance(distHandle_leg12) -- m
@@ -697,7 +586,7 @@ if (sim_call_type==sim.childscriptcall_sensing) then
     result, distance_leg45=sim.handleDistance(distHandle_leg45) -- m
     if distance_leg45 == nil then collisionState[4]=max_detect_interleg else collisionState[4] = distance_leg45 end
 
-    -- intra leg.
+    -- intra leg (not used)
     result, distance_leg0s=sim.handleDistance(distHandle_leg0s) -- m
     if distance_leg0s == nil then collisionState[5]=max_detect_intraleg else collisionState[5] = distance_leg0s end
     result, distance_leg1s=sim.handleDistance(distHandle_leg1s) -- m
@@ -711,11 +600,12 @@ if (sim_call_type==sim.childscriptcall_sensing) then
     result, distance_leg5s=sim.handleDistance(distHandle_leg5s) -- m
     if distance_leg5s == nil then collisionState[10]=max_detect_intraleg else collisionState[10] = distance_leg5s end
 
-    -- body floor.
+    -- body floor (not used)
     result, distance_BF=0--sim.handleDistance(distHandle_BF) -- m
     distance_BF = nil
     if distance_BF == nil then collisionState[11]=max_detect_bodyfloor else collisionState[11] = distance_BF end
 
+    -- (not used)
     collisionState[1] = 1 - (collisionState[1])   / ( max_detect_interleg ) -- leg01
     collisionState[2] = 1 - (collisionState[2])   / ( max_detect_interleg ) -- leg12
     collisionState[3] = 1 - (collisionState[3])   / ( max_detect_interleg ) -- leg34
@@ -728,7 +618,7 @@ if (sim_call_type==sim.childscriptcall_sensing) then
     collisionState[10] = 1 - (collisionState[10]) / ( max_detect_intraleg ) -- leg5s
     collisionState[11] = 1 - (collisionState[11]) / ( max_detect_bodyfloor) -- bodyfloor
 
-    --print(collisionState)
+    -- (not used)
     max_dist = math.max(unpack(collisionState))
     if max_dist > 1 then print("[ ERROR]: Please set max dist correctly") end
     if max_dist > collisions_max then collisions_max = max_dist end
@@ -744,7 +634,6 @@ if (sim_call_type==sim.childscriptcall_sensing) then
         distance = -positionRobot[2] - position_offset -- use negative world y axis
         height_distance = positionRobot[3]
     end
-
 
     slip_results = {}
     for i = 1, table.getn(tipHandles), 1 do
@@ -866,15 +755,6 @@ if (sim_call_type==sim.childscriptcall_cleanup) then
             ball = sim.getObjectHandle("ball"..i)
             result=sim.setShapeColor(ball, nil, 0, {0.95, 0.70, 0.00})
         end
-    end
-
-    -- Reset mass
-    if mass_noise then
-        sim.setShapeMass(morfHexapod, mass)
-    end
-
-    if com_noise then
-        sim.setObjectPosition(COM_attach,morfHexapod,COM_position)
     end
 
     simSetObjectInt32Parameter(morfHexapod, sim_shapeintparam_static, 1)

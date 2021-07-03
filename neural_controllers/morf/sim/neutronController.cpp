@@ -17,11 +17,10 @@ neutronController::neutronController(int argc,char* argv[]) {
     simulationTime      = std::stoi(argv[3]); // Seconds
     blackOut            = std::stoi(argv[4]); // True or false
     policySelector      = std::stoi(argv[5]); // 1="load trajectory policy", 2="load trajectory and sensory fb policy", 3="load base policy"
-    behaviour           = argv[6];                // "walk", "tilt", "direction", "obstacle", "roll"
+    behaviour           = argv[6];                // "walk", "tilt", "direction", "obstacle", etc.
     simulation          = true;
     rosHandle           = new simRosClass(simulationID);
     env                 = new environment(simulationID, useAPItrigger);
-    inputCollector      = new input();
 
     if(simulation)
         env->simSetStringSignal("behaviour", behaviour);
@@ -37,28 +36,10 @@ neutronController::neutronController(int argc,char* argv[]) {
         logBehaviorData(0, tmp, "open");
     }
 
-    /* DELAY LINE + DIL */
+    // Delay line setup
     Delayline tmp(taudil);
     for (int i = 0; i < 18; ++i)
         delayline.push_back(tmp);
-
-    DIL = new dualIntegralLearner(true, 10);
-
-    actual_LPF.reserve(18);
-    command_LPF.reserve(18);
-    error_per_joint_LPF.reserve(18);
-
-    for (int k = 0; k < 18; ++k) {
-        actual_LPF[k] = new lpf;
-        actual_LPF[k]->setA(0.90);
-        command_LPF[k] = new lpf;
-        command_LPF[k]->setA(0.90);
-        error_per_joint_LPF[k] = new lpf;
-        error_per_joint_LPF[k]->setA(0.996);
-    }
-    error_LPF = new lpf;
-    error_LPF->setA(0.996);
-    /* DELAY LINE + DIL*/
 
     // Set up arrays
     positions.resize(22);
@@ -112,7 +93,6 @@ neutronController::neutronController(int argc,char* argv[]) {
             policyWeightsSensor.push_back(readParameterSet("narrow"));
             policyWeightsSensor.push_back(readParameterSet("pipe"));
             policyWeightsSensor.push_back(readParameterSet("wall"));
-            // policyWeightsSensor.push_back(readParameterSet("walknomed"));
         } else if(policySelector == 2 and rollout == -1){
             policyWeightsSensor.push_back(readParameterSet(behaviour));
         } else
@@ -123,17 +103,11 @@ neutronController::neutronController(int argc,char* argv[]) {
         policyWeightsSensor = {};
     }
 
-    // Select between CPG or CPG-RBF network
-    if(CPGLearning) {
-        CPG = new modularController(1, true);
-        CPG->setPhii(startPhi);
-    } else {
-        CPG_RBFN = new cpg_rbfn(policyWeights, encoding, 20, behaviour, policyWeightsSensor);
-        CPG_RBFN->setPhii(startPhi); // FOR THE PAPER THIS IS: 0.015 * M_PI
-        CPGPeriodPostprocessor = new postProcessing();
-    }
+    CPG_RBFN = new cpg_rbfn(policyWeights, encoding, 20, behaviour, policyWeightsSensor);
+    CPG_RBFN->setPhii(startPhi); // FOR THE PAPER THIS IS: 0.015 * M_PI
+    CPGPeriodPostprocessor = new postProcessing();
 
-    // Calculate init period and fill all delay line's
+    // Calculate init period
     // We use random number to let the CPG start at different time = improved robustness
     int randomNumber = rand() % tau + 1; // Random number between 1 and tau // was = 1
     for (int i = 0; i < tau+randomNumber; ++i) {
@@ -197,21 +171,17 @@ int neutronController::runController() {
                         postProcessedSensoryFeedback[behaviour_index][j] = abs(postProcessedSensoryFeedback[behaviour_index][j]);
                 }
 
-                // Threshold for max learned turn
                 if(postProcessedSensoryFeedback[behaviour_index][j] > 0.5)
                     postProcessedSensoryFeedback[behaviour_index][j] = 0.5;
 
                 if(postProcessedSensoryFeedback[behaviour_index][j] < -0.5)
                     postProcessedSensoryFeedback[behaviour_index][j] = -0.5;
-
-//                postProcessedSensoryFeedback[behaviour_index][j] = 0; // TODO
             }
 
             /* Obstacle behaviour */
             // Act based on jointTorques. These are currently binary only reacting with the obstacle.
             if(behaviour == "obstacle" || behaviour == "multiple") {
                 // Order in 2D array
-
                 if(behaviour == "multiple")
                     behaviour_index = 1;
 
@@ -227,7 +197,7 @@ int neutronController::runController() {
                 postProcessedSensoryFeedback[behaviour_index][j] = LPF_4[j]->step(postProcessedSensoryFeedback[behaviour_index][j]);
                 postProcessedSensoryFeedback[behaviour_index][j] = LPF_5[j]->step(postProcessedSensoryFeedback[behaviour_index][j]);
 
-                if(rosHandle->behaviorSignal[0]!=1 && !primitive)
+                if(behaviour != "obstacle" && (rosHandle->behaviorSignal[0]!=1 && !primitive))
                     postProcessedSensoryFeedback[behaviour_index][j] = 0; // Inhibit if high is not active
             }
 
@@ -251,24 +221,8 @@ int neutronController::runController() {
                         postProcessedSensoryFeedback[behaviour_index][j] = abs(postProcessedSensoryFeedback[behaviour_index][j]);
                 }
 
-                if(rosHandle->behaviorSignal[0]==1 && !primitive)
+                if(behaviour != "tilt" && (rosHandle->behaviorSignal[0]==1 && !primitive))
                     postProcessedSensoryFeedback[behaviour_index][j] = 0; // Inhibit if high is active
-            }
-            /* Minimize roll */
-            // Roll is projected to the front or middle legs based on the sign of roll (middle legs are kept static)
-            if(behaviour == "roll") {
-                sensoryFeedback[behaviour_index][j] = rosHandle->IMU_euler[0] * 7.5;
-                postProcessedSensoryFeedback[behaviour_index][j] = LPF_4[j]->step(sensoryFeedback[behaviour_index][j]);
-
-                if(postProcessedSensoryFeedback[behaviour_index][j] > 0) { // Rolling to the front
-                    if (j != 0 && j != 3)
-                        postProcessedSensoryFeedback[behaviour_index][j] = 0;
-                } else if(postProcessedSensoryFeedback[behaviour_index][j] < 0) { // Rolling to the hind
-                    if (j != 2 && j != 5)
-                        postProcessedSensoryFeedback[behaviour_index][j] = 0;
-                    else
-                        postProcessedSensoryFeedback[behaviour_index][j] = abs(postProcessedSensoryFeedback[behaviour_index][j]);
-                }
             }
             if(behaviour == "high" || behaviour == "multiple") {
                 if(behaviour == "multiple")
@@ -303,29 +257,23 @@ int neutronController::runController() {
         }
 
         if(useLogData) {
-//            logBehaviorData(rosHandle->simTime, postProcessedSensoryFeedback, "write");
             logBehaviorData(rosHandle->simTime, CPG_RBFN->getContribution(), "write");
         }
 
         // If only using the CPG and NOT the RBFN
-        if(CPGLearning) {
-            CPG->step();
-            tripodGaitRangeOfMotion(policyWeights, encoding);
-        } else { // If using the CPG-RBF network
-            // Calculate period of the CPG
-            CPGPeriodPostprocessor->calculateAmplitude(CPG_RBFN->getCpgOutput(0), CPG_RBFN->getCpgOutput(1));
-            CPGPeriod = CPGPeriodPostprocessor->getPeriod();
-            CPG_RBFN->setCPGPeriod(CPGPeriod);
+        // Calculate period of the CPG
+        CPGPeriodPostprocessor->calculateAmplitude(CPG_RBFN->getCpgOutput(0), CPG_RBFN->getCpgOutput(1));
+        CPGPeriod = CPGPeriodPostprocessor->getPeriod();
+        CPG_RBFN->setCPGPeriod(CPGPeriod);
 
-            // Step CPG-RBFN (with (-1/1) or without sensory feedback (2))
-            if(abs(policySelector) == 1)
-                CPG_RBFN->step();
-            else
-                CPG_RBFN->step(postProcessedSensoryFeedback);
+        // Step CPG-RBFN (with (-1/1) or without sensory feedback (2))
+        if(abs(policySelector) == 1)
+            CPG_RBFN->step();
+        else
+            CPG_RBFN->step(postProcessedSensoryFeedback);
 
-            // Run the controller and organize for the different joints in 'positions'
-            tripodGaitRBFN();
-        }
+        // Run the controller and organize for the different joints in 'positions'
+        tripodGaitRBFN();
 
         // Send new controller output positions to the joints
         rosHandle->setLegMotorPosition(positions);
@@ -458,18 +406,6 @@ void neutronController::tripodGaitRangeOfMotion(vector<vector<float>> policyWeig
 }
 
 void neutronController::fitnessLogger() {
-    // Average power:  P = T·ω
-    // Calculated at each time step
-    float avgPower          = rosHandle->avgPower;
-    // Average Energy: E = P·t
-    // Calculated at each time step
-    float avgEnergy         = 0;//avgPower*env->getSimulationTime(); // TODO
-    // Minimum distance between colliding parts of the robot
-    // Includes intra & inter leg collision and body floor
-    float robotColl         = rosHandle->robotCollision;
-    // Velocity of the robot body
-    // Only for the y-direction/heading direction
-    float bodyVelocity      = rosHandle->avgBodyVel;
     // Distance moved
     // In the negative world y-axis/heading direction
     float distance          = rosHandle->distance;
@@ -503,47 +439,21 @@ void neutronController::fitnessLogger() {
     // Mean bounding box dimensions
     // Mean for entire run
     vector<float> meanBbox  = rosHandle->bboxDim;
-    // Rolling feedback used for flip
-    // On the back = 0, standing = 3.14
-    float flipRoll          = rosHandle->flipRoll;
-
-    float MORF_weight       = 4.2;  // KG
-    float gravity           = 9.82; // m/s^2
-
-    float CoT               = avgEnergy / (MORF_weight * gravity * distance);
-    float avgEnergyMeter    = avgEnergy / distance;
-
-    if (isinf(avgEnergyMeter))
-        avgEnergyMeter = 0;
-    if (isinf(avgEnergy))
-        avgEnergy = 0;
-
-    // Weights mean
-//        double sumWS = std::accumulate(policyWeightsSensor.begin(), policyWeightsSensor.end(), 0.0);
-//        double meanWS = sumWS / policyWeightsSensor.size();
 
     /* Fitness Sub-Objectives */
     float stability     = 0;
     float collision     = 0;
-    float heightError   = 0;
     float headingError  = 0;
 
     float desiredBodyHeight = 0.025;
 
     if(behaviour == "walk") {
-        // Stay above some height
         if (bodyHeightMean < desiredBodyHeight)
             collision = 1 - (bodyHeightMean / (desiredBodyHeight));
         stability = bodyHeightVar * 120 + headingDirection * 3 + tilt * 4 + roll * 4;
         slipping = slipping * 0.75;
         distance = distance * 3;
         stability = stability * 1;
-        collision = collision * 3;
-    }else if(behaviour == "walknomed") {
-        stability = bodyHeightVar * 2 + headingDirection * 10 + tilt * 1 + roll * 1;
-        slipping = slipping * 0.5;
-        distance = distance * 3;
-        stability = stability * 0.7;
         collision = collision * 3;
     }else if(behaviour == "wall") {
         stability = tilt * 4 + roll * 4;
@@ -562,56 +472,33 @@ void neutronController::fitnessLogger() {
         stability   = (stability*10);
         collision   = -meanBbox[2]*15-(meanBbox[1]-0.37)*2;
     }else if(behaviour == "low") {
-        // This is for height behaviour
         stability = bodyHeightVar*10 + headingDirection*3 + tilt*4+ roll*4;
         slipping    = slipping * 1;
         distance    = distance * 3;
         stability   = (stability*10);
         collision   = (rosHandle->maxBboxDim[2]-0.16)*60;
-    }else if(behaviour == "narrow") { // TODO Cant walk when high or narrow
+    }else if(behaviour == "narrow") {
         stability = bodyHeightVar*10 + headingDirection*3 + tilt*4 + roll*4;
         slipping    = slipping * 1;
         distance    = distance * 3;
         stability   = (stability*10);
-//        collision   = -meanBbox[2]*60;
         collision   = (rosHandle->maxBboxDim[1]-0.37)*60;// - (meanBbox[2]-0.16)*70;
-    }else if(behaviour == "flip") {
-        if(flipRoll > flipRollMax)
-            flipRollMax = flipRoll;
-
-        slipping    = 0;
-        distance    = flipRollMax;
-        stability   = 0;
-        collision   = 0;
     }else if(behaviour == "obstacle") {
         stability = bodyHeightVar * 1 + headingDirection * 1 + tilt * 1 + roll * 1;
         slipping = slipping * 0.5;
         distance = distance * 0.5;
         stability = stability * 1;
         collision = legTouch;
-    }else if(behaviour == "obstacle_direct") {
-        stability = bodyHeightVar*1 + headingDirection*1 + tilt*1 + roll*1;
-        slipping    = slipping  * 0.5;
-        distance    = distance  * 3;
-        stability   = stability * 1;
-        collision   = 0;//legTouch;
     }else if(behaviour == "tilt") {
         stability = bodyHeightVar*1 + headingDirection*8 + roll*1;
         slipping    = slipping  * 0.5;
         distance    = distance  * 2;
         stability   = stability * 1;
         collision   = (tilt * 40) + (tiltVariance * 10); // Straight
-    }else if(behaviour == "roll") {
-        stability = headingDirection*2 + tilt*2;
-        collision = pow(robotColl,20);
-        slipping    = slipping  * 1;
-        distance    = distance  * 4;
-        stability   = stability * 1 + collision * 2.5;
-        collision   = (roll * 20);// + (tiltVariance * 1); // Straight
     }else if(behaviour == "direction") {
         headingError = (rosHandle->IMU_euler[2] - rosHandle->walkingDirection);
         slipping = slipping * 1;
-        distance = distance * 0.1; // a bit high
+        distance = distance * 0.1;
         stability = bodyHeightVar * 30 + roll * 10 + tilt * 10;
         collision = abs(headingError) * 6;
         // Stay above some height
@@ -619,15 +506,14 @@ void neutronController::fitnessLogger() {
             collision += (1 - (bodyHeightMean / (desiredBodyHeight))) * 3;
     }
 
-    // Todo Make individual
     if (stability > 8)
         stability = 8;
 
     /* Fitness Function */
     float fitnessValue = (distance) - (stability + collision + slipping);
 
-    // Power implementation not working yet
-    float power = 0; //meanWS * 5;
+    // Power not implemented yet
+    float power = 0;
 
     // Write json file with fitness
     rapidjson::Document document;
@@ -707,10 +593,6 @@ vector<float> neutronController::readParameterSet(string parametertype) {
         job_path = prefix+"/RL_job_tilt.json";
         parameter_name = "SensorParameterSet";
         noise_name = "noise_sensor_";
-    } else if(parametertype == "roll") {
-        job_path = prefix+"/RL_job_roll.json";
-        parameter_name = "SensorParameterSet";
-        noise_name = "noise_sensor_";
     } else if(parametertype == "high") {
         job_path = prefix+"/RL_job_high.json";
         parameter_name = "SensorParameterSet";
@@ -727,20 +609,8 @@ vector<float> neutronController::readParameterSet(string parametertype) {
         job_path = prefix+"/RL_job_wall.json";
         parameter_name = "SensorParameterSet";
         noise_name = "noise_sensor_";
-    } else if(parametertype == "walknomed") {
-        job_path = prefix+"/RL_job_walknomed.json";
-        parameter_name = "SensorParameterSet";
-        noise_name = "noise_sensor_";
     } else if(parametertype == "narrow") {
         job_path = prefix+"/RL_job_narrow.json";
-        parameter_name = "SensorParameterSet";
-        noise_name = "noise_sensor_";
-    } else if(parametertype == "flip") {
-        job_path = prefix+"/RL_job_flip.json";
-        parameter_name = "SensorParameterSet";
-        noise_name = "noise_sensor_";
-    } else if(parametertype == "obstacle_direct") {
-        job_path = prefix+"/RL_job_obstacle_direct.json";
         parameter_name = "SensorParameterSet";
         noise_name = "noise_sensor_";
     }
@@ -821,7 +691,6 @@ void neutronController::logBehaviorData(double sim_time, vector<vector<float>> p
         string path = "./../data/Behavior_data_"+s+".txt";
         myFile.open(path);
 
-        // DIL data
         myFile << "sim_time" << "\t";
 
         for (int i = 0; i < 9; ++i)
@@ -900,10 +769,7 @@ neutronController::~neutronController() {
     // ----------
     //  CLEAN UP
     // ----------
-    if(CPGLearning)
-        delete CPG;
-    else
-        delete CPG_RBFN;
+    delete CPG_RBFN;
     delete CPGPeriodPostprocessor;
     if(simulation) {
         env->stop();

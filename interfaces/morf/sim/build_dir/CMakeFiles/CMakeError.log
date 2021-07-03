@@ -306,3 +306,203 @@ Makefile:126: recipe for target 'cmTC_24e00/fast' failed
 make: *** [cmTC_24e00/fast] Error 2
 
 
+Performing C SOURCE FILE Test CMAKE_HAVE_LIBC_PTHREAD failed with the following output:
+Change Dir: /home/mat/workspace/CPG-RBFN-framework/interfaces/morf/sim/build_dir/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_4b181/fast && /usr/bin/make  -f CMakeFiles/cmTC_4b181.dir/build.make CMakeFiles/cmTC_4b181.dir/build
+make[1]: Entering directory '/home/mat/workspace/CPG-RBFN-framework/interfaces/morf/sim/build_dir/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_4b181.dir/src.c.o
+/usr/bin/cc -DCMAKE_HAVE_LIBC_PTHREAD   -o CMakeFiles/cmTC_4b181.dir/src.c.o -c /home/mat/workspace/CPG-RBFN-framework/interfaces/morf/sim/build_dir/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_4b181
+/snap/clion/152/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4b181.dir/link.txt --verbose=1
+/usr/bin/cc -rdynamic CMakeFiles/cmTC_4b181.dir/src.c.o -o cmTC_4b181 
+CMakeFiles/cmTC_4b181.dir/src.c.o: In function `main':
+src.c:(.text+0x3e): undefined reference to `pthread_create'
+src.c:(.text+0x4a): undefined reference to `pthread_detach'
+src.c:(.text+0x56): undefined reference to `pthread_cancel'
+src.c:(.text+0x67): undefined reference to `pthread_join'
+src.c:(.text+0x7b): undefined reference to `pthread_atfork'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_4b181.dir/build.make:105: recipe for target 'cmTC_4b181' failed
+make[1]: *** [cmTC_4b181] Error 1
+make[1]: Leaving directory '/home/mat/workspace/CPG-RBFN-framework/interfaces/morf/sim/build_dir/CMakeFiles/CMakeTmp'
+Makefile:140: recipe for target 'cmTC_4b181/fast' failed
+make: *** [cmTC_4b181/fast] Error 2
+
+
+Source file was:
+#include <pthread.h>
+
+static void* test_func(void* data)
+{
+  return data;
+}
+
+int main(void)
+{
+  pthread_t thread;
+  pthread_create(&thread, NULL, test_func, NULL);
+  pthread_detach(thread);
+  pthread_cancel(thread);
+  pthread_join(thread, NULL);
+  pthread_atfork(NULL, NULL, NULL);
+  pthread_exit(NULL);
+
+  return 0;
+}
+
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /home/mat/workspace/CPG-RBFN-framework/interfaces/morf/sim/build_dir/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_f2348/fast"
+/usr/bin/make -f CMakeFiles/cmTC_f2348.dir/build.make CMakeFiles/cmTC_f2348.dir/build
+make[1]: Entering directory '/home/mat/workspace/CPG-RBFN-framework/interfaces/morf/sim/build_dir/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_f2348.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_f2348.dir/CheckSymbolExists.c.o   -c /home/mat/workspace/CPG-RBFN-framework/interfaces/morf/sim/build_dir/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_f2348
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f2348.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_f2348.dir/CheckSymbolExists.c.o  -o cmTC_f2348 
+CMakeFiles/cmTC_f2348.dir/CheckSymbolExists.c.o: In function `main':
+CheckSymbolExists.c:(.text+0x1b): undefined reference to `pthread_create'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_f2348.dir/build.make:97: recipe for target 'cmTC_f2348' failed
+make[1]: *** [cmTC_f2348] Error 1
+make[1]: Leaving directory '/home/mat/workspace/CPG-RBFN-framework/interfaces/morf/sim/build_dir/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_f2348/fast' failed
+make: *** [cmTC_f2348/fast] Error 2
+
+File /home/mat/workspace/CPG-RBFN-framework/interfaces/morf/sim/build_dir/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/mat/workspace/CPG-RBFN-framework/interfaces/morf/sim/build_dir/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_62003/fast"
+/usr/bin/make -f CMakeFiles/cmTC_62003.dir/build.make CMakeFiles/cmTC_62003.dir/build
+make[1]: Entering directory '/home/mat/workspace/CPG-RBFN-framework/interfaces/morf/sim/build_dir/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_62003.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_62003.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_62003
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_62003.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_62003.dir/CheckFunctionExists.c.o  -o cmTC_62003 -lpthreads 
+/usr/bin/ld: cannot find -lpthreads
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_62003.dir/build.make:97: recipe for target 'cmTC_62003' failed
+make[1]: *** [cmTC_62003] Error 1
+make[1]: Leaving directory '/home/mat/workspace/CPG-RBFN-framework/interfaces/morf/sim/build_dir/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_62003/fast' failed
+make: *** [cmTC_62003/fast] Error 2
+
+
+Performing C SOURCE FILE Test CMAKE_HAVE_LIBC_PTHREAD failed with the following output:
+Change Dir: /home/mat/workspace/CPG-RBFN-framework/interfaces/morf/sim/build_dir/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_8d1fb/fast && /usr/bin/make  -f CMakeFiles/cmTC_8d1fb.dir/build.make CMakeFiles/cmTC_8d1fb.dir/build
+make[1]: Entering directory '/home/mat/workspace/CPG-RBFN-framework/interfaces/morf/sim/build_dir/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_8d1fb.dir/src.c.o
+/usr/bin/cc -DCMAKE_HAVE_LIBC_PTHREAD   -o CMakeFiles/cmTC_8d1fb.dir/src.c.o -c /home/mat/workspace/CPG-RBFN-framework/interfaces/morf/sim/build_dir/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_8d1fb
+/snap/clion/152/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8d1fb.dir/link.txt --verbose=1
+/usr/bin/cc -rdynamic CMakeFiles/cmTC_8d1fb.dir/src.c.o -o cmTC_8d1fb 
+CMakeFiles/cmTC_8d1fb.dir/src.c.o: In function `main':
+src.c:(.text+0x3e): undefined reference to `pthread_create'
+src.c:(.text+0x4a): undefined reference to `pthread_detach'
+src.c:(.text+0x56): undefined reference to `pthread_cancel'
+src.c:(.text+0x67): undefined reference to `pthread_join'
+src.c:(.text+0x7b): undefined reference to `pthread_atfork'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_8d1fb.dir/build.make:105: recipe for target 'cmTC_8d1fb' failed
+make[1]: *** [cmTC_8d1fb] Error 1
+make[1]: Leaving directory '/home/mat/workspace/CPG-RBFN-framework/interfaces/morf/sim/build_dir/CMakeFiles/CMakeTmp'
+Makefile:140: recipe for target 'cmTC_8d1fb/fast' failed
+make: *** [cmTC_8d1fb/fast] Error 2
+
+
+Source file was:
+#include <pthread.h>
+
+static void* test_func(void* data)
+{
+  return data;
+}
+
+int main(void)
+{
+  pthread_t thread;
+  pthread_create(&thread, NULL, test_func, NULL);
+  pthread_detach(thread);
+  pthread_cancel(thread);
+  pthread_join(thread, NULL);
+  pthread_atfork(NULL, NULL, NULL);
+  pthread_exit(NULL);
+
+  return 0;
+}
+
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /home/mat/workspace/CPG-RBFN-framework/interfaces/morf/sim/build_dir/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_c8d39/fast"
+/usr/bin/make -f CMakeFiles/cmTC_c8d39.dir/build.make CMakeFiles/cmTC_c8d39.dir/build
+make[1]: Entering directory '/home/mat/workspace/CPG-RBFN-framework/interfaces/morf/sim/build_dir/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_c8d39.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_c8d39.dir/CheckSymbolExists.c.o   -c /home/mat/workspace/CPG-RBFN-framework/interfaces/morf/sim/build_dir/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_c8d39
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c8d39.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_c8d39.dir/CheckSymbolExists.c.o  -o cmTC_c8d39 
+CMakeFiles/cmTC_c8d39.dir/CheckSymbolExists.c.o: In function `main':
+CheckSymbolExists.c:(.text+0x1b): undefined reference to `pthread_create'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_c8d39.dir/build.make:97: recipe for target 'cmTC_c8d39' failed
+make[1]: *** [cmTC_c8d39] Error 1
+make[1]: Leaving directory '/home/mat/workspace/CPG-RBFN-framework/interfaces/morf/sim/build_dir/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_c8d39/fast' failed
+make: *** [cmTC_c8d39/fast] Error 2
+
+File /home/mat/workspace/CPG-RBFN-framework/interfaces/morf/sim/build_dir/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/mat/workspace/CPG-RBFN-framework/interfaces/morf/sim/build_dir/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_2f411/fast"
+/usr/bin/make -f CMakeFiles/cmTC_2f411.dir/build.make CMakeFiles/cmTC_2f411.dir/build
+make[1]: Entering directory '/home/mat/workspace/CPG-RBFN-framework/interfaces/morf/sim/build_dir/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_2f411.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_2f411.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_2f411
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2f411.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_2f411.dir/CheckFunctionExists.c.o  -o cmTC_2f411 -lpthreads 
+/usr/bin/ld: cannot find -lpthreads
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_2f411.dir/build.make:97: recipe for target 'cmTC_2f411' failed
+make[1]: *** [cmTC_2f411] Error 1
+make[1]: Leaving directory '/home/mat/workspace/CPG-RBFN-framework/interfaces/morf/sim/build_dir/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_2f411/fast' failed
+make: *** [cmTC_2f411/fast] Error 2
+
+

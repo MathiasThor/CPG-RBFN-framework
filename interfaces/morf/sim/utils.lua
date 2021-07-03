@@ -3,18 +3,6 @@ local function roundToNthDecimal(num, n)
     return math.floor(num * mult + 0.5) / mult
 end
 
---function mean( t )
---    local sum = 0
---    local count= 0
---    for k,v in pairs(t) do
---        if type(v) == 'number' then
---            sum = sum + v
---            count = count + 1
---        end
---    end
---    return (sum / count)
---end
-
 function mean (t)
     local sum = 0
     for k, v in pairs(t) do
@@ -31,24 +19,6 @@ function standardDeviation (t)
     local variance = squares / #t
     return math.sqrt(variance)
 end
-
---function standardDeviation( t )
---    local m
---    local vm
---    local sum = 0
---    local count = 0
---    local result
---    m = mean( t )
---    for k,v in pairs(t) do
---        if type(v) == 'number' then
---            vm = v - m
---            sum = sum + (vm * vm)
---            count = count + 1
---        end
---    end
---    result = math.sqrt(sum / (count-1))
---    return result
---end
 
 function gaussian (mean, variance)
     return  math.sqrt(-2 * variance * math.log(math.random())) * math.cos(2 * math.pi * math.random()) + mean

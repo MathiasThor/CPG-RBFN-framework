@@ -24,9 +24,9 @@ class PLOTTER(object):
         self.maxdst = list()
         self.avgdst = list()
         self.mindst = list()
-        self.maxpow = list()  # NOW IT IS JUST FITNESS
-        self.avgpow = list()  # NOW IT IS JUST FITNESS
-        self.minpow = list()  # NOW IT IS JUST FITNESS
+        self.maxpow = list()
+        self.avgpow = list()
+        self.minpow = list()
         self.plottings = 0
         self.xsize  = 100
         plt.rcParams.update({'font.size': 16})

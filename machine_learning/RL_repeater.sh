@@ -1,11 +1,3 @@
-# ----------------------------------------------------------------------------
-# "THE BEER-WARE LICENSE" (Revision 44):
-# This software was written by Mathias Thor <mathias@mmmi.sdu.dk> in 2018
-# As long as you retain this notice you can do whatever you want with it.
-# If we meet some day, and you think this stuff is worth it, you can
-# buy me a beer in return.
-# ----------------------------------------------------------------------------
-
 #!/bin/bash
 set -e
 

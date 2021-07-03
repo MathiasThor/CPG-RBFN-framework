@@ -35,7 +35,7 @@ def main(argv):
     init_var_boost  = 2      # This num is multiplied with the var in iteration 1
     iteration       = 0      # Number of iterations
     sim_length      = 6      # Length of one roll out in s.
-    workers         = 1      # Workers available
+    workers         = 4      # Workers available
     h               = 10     # Exploration constant
     decay           = 0.995  # Exploration decay constant
     best_max_fitness= -1000  # Maximum fitness for the run
@@ -44,7 +44,7 @@ def main(argv):
     max_iterations  = 100    # Infinity = -1
     rbfneurons      = 20     # default 20
     policy_selector = 2      # 1="only parameters", 2="only feedback", 3="both"
-    behaviour_selector = "walk"  # "walk", "tilt", "direction", "obstacle", "roll", "all"
+    behaviour_selector = "obstacle"  # "walk", "tilt", "direction", "obstacle", "roll", "all"
 
     if behaviour_selector == "walk":
         policy_selector = 1
@@ -210,14 +210,12 @@ def main(argv):
         if policy_selector == 2 or policy_selector == 3:
             sensor_parameter_arr = pibb.step(fitness_arr, sensor_parameter_arr, noise_arr_sensor)
 
-        # parameter_arr = pibb.step_multi(fitness_arr_stab, fitness_arr_coll, fitness_arr_powr, fitness_arr_dist, parameter_arr, noise_arr)
         print(" (var: " + str(round(variance,4)) + ", dt: " + str(round(time.time()-dt_start,2)) + ", t: " + str(round(time.time()-start,2)) + ")", end="", flush=True)
 
         # Update exploration variance
         variance = decay * variance
 
         # Plot and save fitness info
-        # if iteration != 0:
         log_progress(False, file_dir, iteration, fitness_arr, fitness_arr_stab, fitness_arr_coll, fitness_arr_powr, fitness_arr_dist, fitness_arr_slip)
         plotter.plot(fitness_arr_stab, fitness_arr_coll, fitness_arr, fitness_arr_dist)
 
