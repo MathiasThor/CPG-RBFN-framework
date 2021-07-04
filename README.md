@@ -48,7 +48,7 @@ git clone https://github.com/MathiasThor/CPG-RBFN-framework.git
 ```
 3. Extract the downloaded .zip file into a directory as many times as you need "simulation workers" _(i.e., the number of simulations running in parallel. We used four workers in all our experiments)_.
 4. Rename the extracted coppeliaSim directories as: `VREP1`, `VREP2`, `VREP3`, `VREP4`, etc. _(optional: set `$VREP_WORKER_PATH` to the path for the directory containing the workers)_.
-5. In `remoteApiConnections.txt` in each of the `VREP#` directories, change `portIndex1_port` so that `VREP1` has `19997`, `VREP2` has `19996`, `VREP3` has `19995`, `VREP4` has `19994`, and `VREP#` has `19997-#`.
+5. In `remoteApiConnections.txt` in each of the `VREP#` directories, change `portIndex1_port` so that `VREP1` has `19997`, `VREP2` has `19996`, `VREP3` has `19995`, `VREP4` has `19994`, etc.
 6. Copy `libv_repExtRosInterface.so` into each of the worker directories from the utils directory.
 ```bash
 cp $FRAMEWORK_PATH/CPG-RBFN-framework/utils/libv_repExtRosInterface.so $VREP_WORKER_PATH/VREP1/
@@ -62,6 +62,10 @@ sudo apt install python3-pip
 ```
 ```bash
 pip3 install -r requirements.txt
+```
+8. Install LIB GSL.
+```bash
+sudo apt-get install libgsl-dev
 ```
 
 The neural controllers use ROS to communicate with coppeliaSim. Therefore, make sure that `ros-xxx-desktop-full` _(tested on melodic)_ is installed ([ROS install guide](http://wiki.ros.org/ROS/Installation))
