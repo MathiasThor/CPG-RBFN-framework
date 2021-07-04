@@ -162,7 +162,7 @@ behaviour_selector = "walk"
 ```
 6. The program will now be running MORF (-r MORF) for 100 iterations one time (-t 1) using an indirect (-e indirect) encoding. Every 5th iteration will be shown visually in coppeliaSim, while all others will be blacked out for performance boost. It is expected that MORF will learn to walk within 20 iterations.
 
-_Note that learning the advanced modules requires the user to set the behavior active (i.e., = 1) in `neutronController.cpp` line 276, 281, 286, 291, or 296._
+_Note that learning the advanced modules requires the user to set the behavior active (i.e., = 1) in `neutronController.cpp` line 230, 235, 240, 245, or 250._
 
 ## License
 All software is available under the [GPL-3](http://www.gnu.org/licenses/gpl.html) license.
