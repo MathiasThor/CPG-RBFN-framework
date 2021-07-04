@@ -108,7 +108,8 @@ cd $FRAMEWORK_PATH/CPG-RBFN-framework/machine_learning
 6. It is expected that MORF will be able to traverse all the waypoints in the advanced environment _(tested with the Vortex physics engine. See [System Requirements](#system-requirements)<sup>1</sup>)_.
 
 ## Run learning algorithm
-The following will show how to start learning the base controller.
+The following will show how to start learning the base controller. It is in this way possible to reproduce the quantitative results in the manuscript.
+
 1. Start a ROS core.
 ```bash
 roscore
