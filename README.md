@@ -9,7 +9,7 @@ _Drawing inspiration from animal locomotion, we propose a simple yet versatile m
 - [System Requirements](#system-requirements)
 - [Code overview](#code-overview)
 - [Install](#install)
-- [Run the controller](#run-the-controller)
+- [Run the controller with learned weights](#run-the-controller-with-learned-weights)
 - [Run learning algorithm](#run-learning-algorithm)
 - [License](#license)
 
@@ -27,7 +27,7 @@ This code has been tested with the following hardware and software:
 
 ## Code overview
 The following explains the content of the six main directories:
-- **data**: Contains data from running the simulation and PI^BB algorithm _(both data used in the result section (in the storage directory) as well as job files used during learning)_. Additionally, it contains the learned weight sets (as `.json` files) for the base controller and eight behavior-specific modules presented in the paper.
+- **data**: Contains data from running the simulation and PI^BB algorithm _(both data used in the result section (in the storage directory) as well as job files used during learning)_. Additionally, it contains the learned weight sets (as `.json` files) for the base controller and eight behavior-specific modules presented in the paper. For a more detailed explaination see the README.md file in the data directory.
 - **interfaces**:
 Contains `.lua` files for interfacing with and setting up the simulation. It also contains the `build_dir` for `cmake`.
 - **machine_learning**:
@@ -72,7 +72,7 @@ sudo apt-get install libgsl-dev
 
 The neural controllers use ROS to communicate with coppeliaSim. Therefore, make sure that `ros-xxx-desktop-full` _(tested on melodic)_ is installed ([ROS install guide](http://wiki.ros.org/ROS/Installation))
 
-## Run the controller
+## Run the controller with learned weights
 1. Start an ROS core.
 ```bash
 roscore
@@ -105,7 +105,7 @@ cd $FRAMEWORK_PATH/CPG-RBFN-framework/machine_learning
 ./run_sim.sh -t 400
 ```
 5. Select option **2** then **9** and finally **0**.
-6. It is expected that MORF will be able to traverse all the waypoints in the advanced environment _(tested with the Vortex physics engine - see [System Requirements](#system-requirements)<sup>1</sup>)_.
+6. It is expected that MORF will be able to traverse all the waypoints in the advanced environment _(tested with the Vortex physics engine. See [System Requirements](#system-requirements)<sup>1</sup>)_.
 
 ## Run learning algorithm
 The following will show how to start learning the base controller.
