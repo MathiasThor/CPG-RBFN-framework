@@ -19,11 +19,11 @@ This code has been tested with the following hardware and software:
 - GeForce RTX 2080
 - Ubuntu 18.04.4 LTS
 - coppeliaSim V4.1.0
-- Vortex physics engine
+- Vortex physics engine<sup>1</sup>
 - Python 3.7.7
 - ROS melodic
 
-_Note: **The Vortex physics engine** requires a license (which is free for researchers). Alternatively, you can use the **Newton physics engine**, but for that, we cannot guarantee successful behaviors. Especially, the wall climbing behavior does not work well with the **Newton physics engine**._
+<sup>1</sup> _**The Vortex physics engine** requires a license (which is free for researchers). Alternatively, you can use the Newton physics engine, but for that, we cannot guarantee successful behaviors. Especially, the wall and pipe climbing behaviors does not work well with the Newton physics engine. We hypothesize that this is because the behavior was learned with the Vortex physics engine and because the behavior requires the higher complexity of that engine. To test the remaining behaviors an modified version of the advanced environment called_ `Advanced_newton_env.ttt` _has been made._
 
 ## Code overview
 The following explains the content of the six main directories:
@@ -105,7 +105,7 @@ cd $FRAMEWORK_PATH/CPG-RBFN-framework/machine_learning
 ./run_sim.sh -t 400
 ```
 5. Select option **2** then **9** and finally **0**.
-6. It is expected that MORF will be able to traverse all the waypoints in the advanced environment _(tested with the Vortex physics engine)_.
+6. It is expected that MORF will be able to traverse all the waypoints in the advanced environment _(tested with the Vortex physics engine - see [System Requirements](#system-requirements)<sup>1</sup>)_.
 
 ## Run learning algorithm
 The following will show how to start learning the base controller.
@@ -162,7 +162,7 @@ behaviour_selector = "walk"
 ```
 6. The program will now be running MORF (-r MORF) for 100 iterations one time (-t 1) using an indirect (-e indirect) encoding. Every 5th iteration will be shown visually in coppeliaSim, while all others will be blacked out for performance boost. It is expected that MORF will learn to walk within 20 iterations.
 
-_Note that learning the advanced modules requires the user to set the behavior active (i.e., = 1) in `neutronController.cpp` line 230, 235, 240, 245, or 250._
+_Note that learning the advanced modules requires the user to set the behavior active (i.e., = 1) in `neutronController.cpp` line 276, 281, 286, 291, or 296._
 
 ## License
 All software is available under the [GPL-3](http://www.gnu.org/licenses/gpl.html) license.
