@@ -23,6 +23,8 @@ This code has been tested with the following hardware and software:
 - Python 3.7.7
 - ROS melodic
 
+_Note: **The Vortex physics engine** requires a license (which is free for researchers). Alternatively, you can use the **Newton physics engine**, but for that, we cannot guarantee successful behaviors. Especially, the wall climbing behavior does not work well with the **Newton physics engine**._
+
 ## Code overview
 The following explains the content of the six main directories:
 - **data**: Contains data from running the simulation and PI^BB algorithm _(both data used in the result section (in the storage directory) as well as job files used during learning)_. Additionally, it contains the learned weight sets (as `.json` files) for the base controller and eight behavior-specific modules presented in the paper.
@@ -103,7 +105,7 @@ cd $FRAMEWORK_PATH/CPG-RBFN-framework/machine_learning
 ./run_sim.sh -t 400
 ```
 5. Select option **2** then **9** and finally **0**.
-6. It is expected that MORF will be able to traverse all the waypoints in the advanced environment.
+6. It is expected that MORF will be able to traverse all the waypoints in the advanced environment _(tested with the Vortex physics engine)_.
 
 ## Run learning algorithm
 The following will show how to start learning the base controller.
@@ -163,4 +165,6 @@ behaviour_selector = "walk"
 _Note that learning the advanced modules requires the user to set the behavior active (i.e., = 1) in `neutronController.cpp` line 276, 281, 286, 291, or 296._
 
 ## License
+All software is available under the [GPL-3](http://www.gnu.org/licenses/gpl.html) license.
+
 [![License: GPL v3](https://img.shields.io/badge/License-GPL%20v3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
