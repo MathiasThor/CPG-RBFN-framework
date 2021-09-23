@@ -169,3 +169,7 @@ _Note that learning the advanced modules requires the user to set the behavior a
 All software is available under the [GPL-3](http://www.gnu.org/licenses/gpl.html) license.
 
 [![License: GPL v3](https://img.shields.io/badge/License-GPL%20v3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
+
+## Digital Object Identifier (DOI)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.5524494.svg)](https://doi.org/10.5281/zenodo.5524494)
+
